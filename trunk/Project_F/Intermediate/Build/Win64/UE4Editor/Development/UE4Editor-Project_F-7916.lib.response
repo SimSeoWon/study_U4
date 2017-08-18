@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Project_F-7916.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\user\Documents\test\trunk\Project_F\Intermediate\Build\Win64\UE4Editor\Development\Project_F\Project_F.cpp.obj"
+"C:\Users\user\Documents\test\trunk\Project_F\Intermediate\Build\Win64\UE4Editor\Development\Project_F\Project_FGameModeBase.cpp.obj"
+"C:\Users\user\Documents\test\trunk\Project_F\Intermediate\Build\Win64\UE4Editor\Development\Project_F\Project_F.generated.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\Project_F\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Users\user\Documents\test\trunk\Project_F\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Project_F-7916.lib"

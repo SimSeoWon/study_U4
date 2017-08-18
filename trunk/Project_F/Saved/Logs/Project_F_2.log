@@ -1,0 +1,1473 @@
+﻿Log file open, 08/18/17 21:17:52
+LogInit:Display: Running engine for game: Project_F
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-763481947) SRandInit(-763481947).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.084208
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.18-12.17.53:005][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.18-12.17.53:005][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.18-12.17.53:014][  0]LogInit: Computer: DESKTOP-90CD943
+[2017.08.18-12.17.53:014][  0]LogInit: User: user
+[2017.08.18-12.17.53:014][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.18-12.17.53:014][  0]LogInit: High frequency timer resolution =3.515633 MHz
+[2017.08.18-12.17.53:014][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.18-12.17.53:014][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.18-12.17.53:014][  0]LogMemory: Process Physical Memory: 273.71 MB used, 273.71 MB peak
+[2017.08.18-12.17.53:014][  0]LogMemory: Process Virtual Memory: 260.77 MB used, 260.77 MB peak
+[2017.08.18-12.17.53:014][  0]LogMemory: Physical Memory: 5544.91 MB used,  10775.41 MB free, 16320.32 MB total
+[2017.08.18-12.17.53:014][  0]LogMemory: Virtual Memory: 638.16 MB used,  10775.41 MB free, 134217728.00 MB total
+[2017.08.18-12.17.53:092][  0]LogInit: Using OS detected language (ko-KR).
+[2017.08.18-12.17.53:092][  0]LogInit: Using OS detected locale (ko-KR).
+[2017.08.18-12.17.53:095][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2017.08.18-12.17.53:748][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.18-12.17.53:794][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.08.18-12.17.53:794][  0]LogD3D11RHI:       8119/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.18-12.17.53:795][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.18-12.17.53:795][  0]LogD3D11RHI:       0/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.18-12.17.53:795][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.18-12.17.53:802][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.18-12.17.53:802][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.18-12.17.53:802][  0]LogWindows: EnumDisplayDevices:
+[2017.08.18-12.17.53:802][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.08.18-12.17.53:803][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.18-12.17.53:803][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.18-12.17.53:803][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.18-12.17.53:804][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.18-12.17.53:804][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.08.18-12.17.53:804][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.08.18-12.17.53:804][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.08.18-12.17.53:804][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.18-12.17.53:830][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.18-12.17.53:840][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.18-12.17.53:889][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/user/Documents/test/trunk/Project_F/Intermediate/Shaders/WorkingDirectory/44740/).
+[2017.08.18-12.17.53:889][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/user/AppData/Local/Temp/UnrealShaderWorkingDir/C487019A47432B0D2E0A44A934B646B5/'.
+[2017.08.18-12.17.53:889][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.18-12.17.54:798][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.18-12.17.54:854][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.18-12.17.54:912][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.18-12.17.54:970][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.18-12.17.55:026][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.18-12.17.55:081][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.18-12.17.55:138][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.18-12.17.55:193][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.18-12.17.55:242][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.18-12.17.55:295][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.18-12.17.55:347][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.18-12.17.55:399][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.18-12.17.55:451][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.18-12.17.55:502][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.18-12.17.55:552][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.18-12.17.55:658][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.18-12.17.55:658][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.18-12.17.55:703][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.18-12.17.55:805][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.18-12.17.55:836][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.18-12.17.55:889][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.18-12.17.55:941][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.18-12.17.55:994][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.18-12.17.56:047][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.18-12.17.56:047][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.18-12.17.56:616][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.18-12.17.56:690][  0]LogDerivedDataCache: Loaded boot cache 0.07s 90MB C:/Users/user/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.18-12.17.56:690][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/user/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.18-12.17.56:691][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/user/Documents/test/trunk/Project_F/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.18-12.17.56:691][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.18-12.17.56:691][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/user/Documents/test/trunk/Project_F/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.18-12.17.56:691][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.18-12.17.56:702][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.18-12.17.56:714][  0]LogDerivedDataCache: Using Local data cache path C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.18-12.17.56:722][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.18-12.17.56:722][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.18-12.17.56:722][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.18-12.17.56:722][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.18-12.17.56:978][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.18-12.17.57:034][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.18-12.17.57:180][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.18-12.17.57:232][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.18-12.17.57:289][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.18-12.17.57:289][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.18-12.17.57:289][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.18-12.17.57:788][  0]LogNetVersion: Project_F , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3309458147)
+[2017.08.18-12.17.57:850][  0]LogAssetRegistry: FAssetRegistry took 0.0243 seconds to start up
+[2017.08.18-12.17.57:914][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.034233 seconds
+[2017.08.18-12.17.57:918][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.18-12.17.57:918][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.18-12.17.57:918][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.18-12.17.57:999][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.18-12.18.00:453][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.18-12.18.00:501][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.18-12.18.01:145][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.18-12.18.01:589][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.18-12.18.01:628][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.18-12.18.01:687][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.18-12.18.01:742][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.18-12.18.02:549][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.18-12.18.03:235][  0]LogEngine: Initializing Engine...
+[2017.08.18-12.18.03:236][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.18-12.18.03:410][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.18-12.18.03:410][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.18-12.18.03:575][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.18-12.18.03:594][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.18-12.18.03:619][  0]LogInit: FAudioDevice initialized.
+[2017.08.18-12.18.03:659][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/user/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.18-12.18.03:672][  0]LogInit: Texture streaming: Enabled
+[2017.08.18-12.18.03:794][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.18-12.18.04:055][  0]LogInit: Transaction tracking system initialized
+[2017.08.18-12.18.04:433][  0]BlueprintLog: New page: 에디터 로드
+[2017.08.18-12.18.05:553][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2017.08.18-12.18.06:369][  0]LogConsoleResponse:Display: 
+[2017.08.18-12.18.06:526][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.18-12.18.06:526][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.18-12.18.06:715][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/test/trunk/Project_F/Content/' took 0.01s
+[2017.08.18-12.18.07:779][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.18-12.18.07:832][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.08.18-12.18.07:861][  0]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.18-12.18.07:863][  0]LogSlate: Took 0.002130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.08.18-12.18.15:118][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.08.18-12.18.15:121][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.08.18-12.18.15:126][  0]Cmd: MAP LOAD FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.18-12.18.15:127][  0]LightingResults: New page: 라이팅 빌드
+[2017.08.18-12.18.15:177][  0]MapCheck: New page: 맵 체크
+[2017.08.18-12.18.15:177][  0]LightingResults: New page: 라이팅 빌드
+[2017.08.18-12.18.15:392][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.08.18-12.18.15:398][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.18-12.18.15:408][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.18-12.18.15:460][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 51.531ms.
+[2017.08.18-12.18.15:460][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.334
+[2017.08.18-12.18.15:542][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_b59c_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_b73c_0///####STATCAT_Advanced####
+[2017.08.18-12.18.15:542][  0]LogCollectionManager: Loaded 0 collections in 0.001648 seconds
+[2017.08.18-12.18.15:627][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/test/trunk/Project_F/Saved/Collections/' took 0.01s
+[2017.08.18-12.18.15:627][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/test/trunk/Project_F/Content/Developers/user/Collections/' took 0.01s
+[2017.08.18-12.18.15:627][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/test/trunk/Project_F/Content/Collections/' took 0.01s
+[2017.08.18-12.18.15:627][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.18-12.18.15:636][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2330 classes and 493 folders.
+[2017.08.18-12.18.15:714][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2017.08.18-12.18.15:754][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2017.08.18-12.18.15:806][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2017.08.18-12.18.15:846][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.18-12.18.15:853][  0]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.18-12.18.15:856][  0]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.18-12.18.15:941][  0]LogRenderer: Reallocating scene render targets to support 1616x576 NumSamples 1 (Frame:1).
+[2017.08.18-12.18.15:975][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.18-12.18.16:046][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2017.08.18-12.18.16:118][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2017.08.18-12.18.16:118][  0]LogLoad: (Engine Initialization) Total time: 24.91 seconds
+[2017.08.18-12.18.16:118][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.08 seconds
+[2017.08.18-12.18.16:118][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.18-12.18.16:118][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.18-12.18.16:130][  0]LogOcInput: OculusInput pre-init called
+[2017.08.18-12.18.16:130][  0]LogHMD: Starting GearVRController plugin
+[2017.08.18-12.18.16:150][  0]LogAssetRegistry: Asset discovery search completed in 18.3212 seconds
+[2017.08.18-12.18.16:151][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.08.18-12.18.16:151][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
+[2017.08.18-12.18.16:153][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.18-12.18.17:145][ 98]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.18-12.18.19:942][433]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.08.18-12.18.20:876][535]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.18-12.18.21:399][596]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.08.18-12.18.36:451][352]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Hydralisk)
+[2017.08.18-12.18.37:572][481]Cmd: DELETE
+[2017.08.18-12.18.37:572][481]Cmd: ACTOR DELETE
+[2017.08.18-12.18.37:575][481]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2017.08.18-12.18.37:582][481]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.08.18-12.18.43:270][160]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.18-12.18.43:332][160]LogContentBrowser: Native class hierarchy updated for 'PhAT' in 0.0014 seconds. Added 2 classes and 3 folders.
+[2017.08.18-12.18.47:792][645]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.08.18-12.18.48:591][733]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.18-12.18.49:065][788]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.08.18-12.18.49:144][793]LogEditorViewport: Clicking on Component (LMB): CapsuleComponent (CollisionCapsule)
+[2017.08.18-12.18.49:937][884]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.18-12.19.10:536][344]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.08.18-12.20.08:616][139]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.08.18-12.20.08:704][145]LogEditorViewport: Clicking on Component (LMB): CapsuleComponent (CollisionCapsule)
+[2017.08.18-12.20.10:562][364]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.08.18-12.20.14:393][819]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.08.18-12.20.28:249][464]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.08.18-12.20.28:993][549]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.08.18-12.20.42:888][199]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.08.18-12.20.48:681][865]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.18-12.20.51:098][138]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.18-12.20.52:802][341]Cmd: DELETE
+[2017.08.18-12.20.52:802][341]Cmd: ACTOR DELETE
+[2017.08.18-12.20.52:803][341]LogEditorActor: Deleted Actor: PlayerStart
+[2017.08.18-12.20.52:810][341]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.08.18-12.20.53:601][436]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.08.18-12.20.54:600][552]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.18-12.20.55:026][601]LogEditorViewport: Clicking on Actor (context menu): PlayerStart (Player Start)
+[2017.08.18-12.20.56:914][824]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.08.18-12.20.58:907][ 61]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.08.18-12.20.59:449][124]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.08.18-12.20.59:541][133]LogEditorViewport: Clicking on Component (LMB): CapsuleComponent (CollisionCapsule)
+[2017.08.18-12.27.41:665][387]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.18-12.27.42:262][457]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.08.18-12.27.42:990][540]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.08.18-12.27.43:974][650]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.08.18-12.27.46:411][938]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.18-12.27.46:446][938]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.18-12.27.46:446][938]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.18-12.27.46:446][938]PIE: New page: PIE 세션: Minimal_Default (2017. 8. 19. 오전 6:27:46)
+[2017.08.18-12.27.46:446][938]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.08.18-12.27.46:448][938]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001967s)
+[2017.08.18-12.27.46:449][938]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.08.18-12.27.46:449][938]LogPlayLevel: PIE: World Init took: (0.000783s)
+[2017.08.18-12.27.46:449][938]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002949s)
+[2017.08.18-12.27.46:473][938]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.18-12.27.46:491][938]LogInit: FAudioDevice initialized.
+[2017.08.18-12.27.46:532][938]LogUObjectGlobals:Warning: 'Class /Script/Project_F.Project_FGameMode' 오브젝트를 찾는 데 실패했습니다.
+[2017.08.18-12.27.46:532][938]LogLoad: Game class is 'GameModeBase'
+[2017.08.18-12.27.46:534][938]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.08.18-21.27.46
+[2017.08.18-12.27.46:534][938]LogWorld: Bringing up level for play took: 0.000694
+[2017.08.18-12.27.46:585][938]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0015 seconds. Added 11 classes and 0 folders.
+[2017.08.18-12.27.46:586][938]PIE: 정보 /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 에 대한 에디터에서 플레이 시작 시간: 0.383
+[2017.08.18-12.27.46:586][938]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.18-12.27.52:170][606]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.18-12.27.52:213][606]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.18-12.27.53:804][792]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.18-12.27.54:535][874]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.18-12.27.55:150][946]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.18-12.27.55:456][981]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.08.18-12.27.55:599][994]LogEditorViewport: Clicking on Component (LMB): CapsuleComponent (CollisionCapsule)
+[2017.08.18-12.27.57:107][171]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.18-12.27.57:921][267]Cmd: TRANSACTION UNDO
+[2017.08.18-12.27.57:921][267]LogEditorTransaction: Undo 컴포넌트 이동
+[2017.08.18-12.27.59:310][431]Cmd: TRANSACTION UNDO
+[2017.08.18-12.27.59:310][431]LogEditorTransaction: Undo 컴포넌트에 클릭
+[2017.08.18-12.28.02:898][853]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.18-12.28.03:458][917]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.08.18-12.28.03:551][924]LogEditorViewport: Clicking on Actor (double click): PlayerStart (Player Start)
+[2017.08.18-12.28.05:491][154]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.18-12.28.30:361][106]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.18-12.28.30:374][106]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.18-12.28.30:374][106]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.18-12.28.30:375][106]PIE: New page: PIE 세션: Minimal_Default (2017. 8. 19. 오전 6:28:30)
+[2017.08.18-12.28.30:375][106]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.08.18-12.28.30:376][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001711s)
+[2017.08.18-12.28.30:377][106]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.08.18-12.28.30:377][106]LogPlayLevel: PIE: World Init took: (0.000698s)
+[2017.08.18-12.28.30:377][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002616s)
+[2017.08.18-12.28.30:397][106]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.18-12.28.30:411][106]LogInit: FAudioDevice initialized.
+[2017.08.18-12.28.30:440][106]LogLoad: Game class is 'GameModeBase'
+[2017.08.18-12.28.30:442][106]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.08.18-21.28.30
+[2017.08.18-12.28.30:445][106]LogWorld: Bringing up level for play took: 0.003334
+[2017.08.18-12.28.30:445][106]PIE: 정보 /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 에 대한 에디터에서 플레이 시작 시간: 0.243
+[2017.08.18-12.28.30:446][106]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.18-12.28.42:414][541]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.18-12.28.42:487][541]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.18-12.28.44:358][757]LogEditorViewport: Clicking on Actor (LMB): Character (Character)
+[2017.08.18-12.29.11:186][953]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2017.08.18-12.29.11:288][953]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.18-12.29.11:322][953]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.08.18-12.29.11:804][953]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0016 seconds. Added 1 classes and 0 folders.
+[2017.08.18-12.30.17:632][867]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2017.08.18-12.30.17:658][867]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2017.08.18-12.30.18:469][867]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.18-12.30.18:624][867]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.18-12.33.46:874][371]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.18-12.33.46:888][371]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.18-12.33.46:888][371]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.18-12.33.46:888][371]PIE: New page: PIE 세션: Minimal_Default (2017. 8. 19. 오전 6:33:46)
+[2017.08.18-12.33.46:888][371]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.08.18-12.33.46:891][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002524s)
+[2017.08.18-12.33.46:891][371]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.08.18-12.33.46:892][371]LogPlayLevel: PIE: World Init took: (0.000641s)
+[2017.08.18-12.33.46:892][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003339s)
+[2017.08.18-12.33.46:915][371]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.18-12.33.46:932][371]LogInit: FAudioDevice initialized.
+[2017.08.18-12.33.46:963][371]LogLoad: Game class is 'GameModeBase'
+[2017.08.18-12.33.46:966][371]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.08.18-21.33.46
+[2017.08.18-12.33.46:966][371]LogWorld: Bringing up level for play took: 0.002186
+[2017.08.18-12.33.46:968][371]PIE: 정보 /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 에 대한 에디터에서 플레이 시작 시간: 0.766
+[2017.08.18-12.33.46:968][371]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.18-12.33.56:663][533]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.18-12.33.56:755][533]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.18-12.34.25:838][994]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.18-12.34.27:078][130]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.18-12.34.28:153][256]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.18-12.34.29:093][364]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.18-12.35.06:886][866]LogSavePackage: Save=61.51ms
+[2017.08.18-12.35.06:886][866]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Minimal_Default_Auto18ABF0A8141A4D8133716C3A39FB37339.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2017.08.18-12.35.06:888][866]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap
+[2017.08.18-12.35.06:893][866]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.089
+[2017.08.18-12.35.06:893][866]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.089
+[2017.08.18-12.35.06:894][866]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Hydralisk_Anim] ([1] browsable assets)...
+[2017.08.18-12.35.06:904][866]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Hydralisk_Anim.Hydralisk_Anim]
+[2017.08.18-12.35.06:904][866]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hydralisk_Anim]
+[2017.08.18-12.35.06:904][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hydralisk_Anim" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Hydralisk_Anim_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.08.18-12.35.06:948][866]LogSavePackage: Save=33.33ms
+[2017.08.18-12.35.06:948][866]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Hydralisk_Anim_Auto1C7846AF84468AEF738F8CB824C76B0C5.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Hydralisk_Anim_Auto1.uasset'
+[2017.08.18-12.35.06:949][866]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Hydralisk_Anim_Auto1.uasset
+[2017.08.18-12.35.06:949][866]LogFileHelpers: Auto-saving content packages took 0.055
+[2017.08.18-12.47.46:560][454]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2017.08.18-12.47.55:396][454]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2017.08.18-12.48.36:407][502]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.08.18-12.48.36:771][502]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0018 seconds. Added 112 classes and 0 folders.
+[2017.08.18-12.48.37:209][502]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_11:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2017.08.18-12.48.38:225][502]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.18-12.50.04:548][200]LogRenderer: Reallocating scene render targets to support 1616x888 NumSamples 1 (Frame:7570).
+[2017.08.18-12.50.05:192][259]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_3.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2017.08.18-12.50.05:225][259]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.Actor_3.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2017.08.18-12.50.10:164][581]LogEditorViewport: Clicking on Actor (LMB): Character (Character)
+[2017.08.18-12.50.10:993][677]LogEditorViewport: Clicking on Actor (LMB): Character (Character)
+[2017.08.18-12.50.11:102][688]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2017.08.18-12.50.18:104][470]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.18-12.50.18:118][470]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.18-12.50.18:118][470]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2017.08.18-12.50.18:118][470]LogPlayLevel: [PlayLevel] Compiling hydralisk_ani before play...
+[2017.08.18-12.50.18:199][470]LogPlayLevel: PlayLevel: Blueprint regeneration took 81 ms (1 blueprints)
+[2017.08.18-12.50.18:200][470]PIE: New page: PIE 세션: Minimal_Default (2017. 8. 19. 오전 6:50:18)
+[2017.08.18-12.50.18:200][470]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.08.18-12.50.18:202][470]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002074s)
+[2017.08.18-12.50.18:203][470]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.08.18-12.50.18:203][470]LogPlayLevel: PIE: World Init took: (0.000988s)
+[2017.08.18-12.50.18:203][470]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003230s)
+[2017.08.18-12.50.18:227][470]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.18-12.50.18:242][470]LogInit: FAudioDevice initialized.
+[2017.08.18-12.50.18:276][470]LogLoad: Game class is 'GameModeBase'
+[2017.08.18-12.50.18:278][470]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.08.18-21.50.18
+[2017.08.18-12.50.18:278][470]LogWorld: Bringing up level for play took: 0.001327
+[2017.08.18-12.50.18:279][470]PIE: 정보 /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 에 대한 에디터에서 플레이 시작 시간: 0.076
+[2017.08.18-12.50.18:279][470]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.18-12.50.23:473][ 15]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.18-12.50.23:599][ 15]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.18-12.53.55:613][316]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.Actor_4.DebugSkelMeshComponent_7) Already registered. Aborting.
+[2017.08.18-12.53.55:634][316]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_14:PersistentLevel.Actor_4.DebugSkelMeshComponent_7) - call TermArticulated first.
+[2017.08.18-12.53.56:119][316]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.18-12.54.42:554][754]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.Actor_5.DebugSkelMeshComponent_9) Already registered. Aborting.
+[2017.08.18-12.54.42:586][754]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.Actor_5.DebugSkelMeshComponent_9) - call TermArticulated first.
+[2017.08.18-12.54.43:067][754]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.18-12.55.40:928][886]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_4' or package '/Engine/Transient'.
+[2017.08.18-12.55.40:928][886]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SkeletalMeshComponent0' or package '/Engine/Transient'.
+[2017.08.18-12.55.40:928][886]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_hydralisk_ani_C_0' or package '/Engine/Transient'.
+[2017.08.18-12.55.40:928][886]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_hydralisk_ani' or package '/Game/hydralisk_ani'.
+[2017.08.18-12.55.40:928][886]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_hydralisk_ani_C_1' or package '/Engine/Transient'.
+[2017.08.18-12.55.40:928][886]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_10' or package '/Engine/Transient'.
+[2017.08.18-12.55.40:928][886]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_8' or package '/Engine/Transient'.
+[2017.08.18-12.55.40:928][886]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_SequencePlayer_A7838D9C4F1512B803C20CB28ACB9E3E' or package '/Engine/Transient'.
+[2017.08.18-12.55.40:928][886]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_Root_C624B67344F05595F727DBBF926CF1F8' or package '/Engine/Transient'.
+[2017.08.18-12.55.40:928][886]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_hydralisk_ani' or package '/Engine/Transient'.
+[2017.08.18-12.55.40:928][886]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.08.18-12.55.40:929][886]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_hydralisk_ani_C_9' or package '/Engine/Transient'.
+[2017.08.18-12.55.40:929][886]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_hydralisk_ani_C_8' or package '/Engine/Transient'.
+[2017.08.18-12.55.57:336][721]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_6.DebugSkelMeshComponent_12) Already registered. Aborting.
+[2017.08.18-12.55.57:369][721]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_19:PersistentLevel.Actor_6.DebugSkelMeshComponent_12) - call TermArticulated first.
+[2017.08.18-12.55.57:883][721]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.18-12.56.08:596][598]LogWindows: LaunchURL http://docs.unrealengine.com/latest/KOR/Engine/Animation/Sequences/index.html?utm_source=editor&utm_medium=docs&utm_campaign=doc_anchors
+[2017.08.18-12.58.16:708][987]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.014
+[2017.08.18-12.58.16:710][987]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Hydralisk_Anim1] ([1] browsable assets)...
+[2017.08.18-12.58.16:725][987]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Hydralisk_Anim1.Hydralisk_Anim1]
+[2017.08.18-12.58.16:725][987]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hydralisk_Anim1]
+[2017.08.18-12.58.16:725][987]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hydralisk_Anim1" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Hydralisk_Anim1_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.18-12.58.16:765][987]LogSavePackage: Save=36.94ms
+[2017.08.18-12.58.16:765][987]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Hydralisk_Anim1_Auto209000C2B447BD794346DF286AA467583.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Hydralisk_Anim1_Auto2.uasset'
+[2017.08.18-12.58.16:766][987]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Hydralisk_Anim1_Auto2.uasset
+[2017.08.18-12.58.16:766][987]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Hydralisk_Anim2] ([1] browsable assets)...
+[2017.08.18-12.58.16:781][987]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Hydralisk_Anim2.Hydralisk_Anim2]
+[2017.08.18-12.58.16:781][987]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hydralisk_Anim2]
+[2017.08.18-12.58.16:781][987]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hydralisk_Anim2" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Hydralisk_Anim2_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.18-12.58.16:816][987]LogSavePackage: Save=33.11ms
+[2017.08.18-12.58.16:816][987]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Hydralisk_Anim2_Auto20E989BDA4CE98DB4628D85A163285629.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Hydralisk_Anim2_Auto2.uasset'
+[2017.08.18-12.58.16:817][987]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Hydralisk_Anim2_Auto2.uasset
+[2017.08.18-12.58.16:817][987]LogFileHelpers: Auto-saving content packages took 0.108
+[2017.08.18-13.24.46:148][508]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_5' or package '/Engine/Transient'.
+[2017.08.18-13.24.46:148][508]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_4' or package '/Engine/Transient'.
+[2017.08.18-13.24.46:148][508]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SkeletalMeshComponent0' or package '/Engine/Transient'.
+[2017.08.18-13.24.46:148][508]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_13' or package '/Engine/Transient'.
+[2017.08.18-13.24.46:148][508]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_12' or package '/Engine/Transient'.
+[2017.08.18-13.24.46:148][508]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_10' or package '/Engine/Transient'.
+[2017.08.18-13.24.46:148][508]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_2' or package '/Engine/Transient'.
+[2017.08.18-13.24.46:148][508]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_1' or package '/Engine/Transient'.
+[2017.08.18-13.24.46:148][508]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_1' or package '/Engine/Transient'.
+[2017.08.18-13.24.46:150][508]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_0' or package '/Engine/Transient'.
+[2017.08.18-13.24.46:150][508]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_0' or package '/Engine/Transient'.
+[2017.08.18-13.24.46:150][508]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimSingleNodeInstance_0' or package '/Engine/Transient'.
+[2017.08.18-13.24.46:150][508]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'PhATEdSkeletalMeshComponent_0' or package '/Engine/Transient'.
+[2017.08.18-13.24.46:152][508]LogMaterial: Missing cached shader map for material Standard_3, compiling. 
+[2017.08.18-13.24.46:152][508]LogMaterial:Warning: Failed to compile Material /Game/Standard_3.Standard_3 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.18-13.24.46:152][508]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.18-13.24.46:156][508]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_9' or package '/Engine/Transient'.
+[2017.08.18-13.24.46:156][508]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_8' or package '/Engine/Transient'.
+[2017.08.18-13.24.46:156][508]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_7' or package '/Engine/Transient'.
+[2017.08.18-13.24.46:156][508]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_6' or package '/Engine/Transient'.
+[2017.08.18-13.24.46:156][508]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_7' or package '/Engine/Transient'.
+[2017.08.18-13.25.00:571][ 64]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/user/Desktop/sc2/hydralisk/Hydralisk.FBX)
+[2017.08.18-13.25.00:592][ 64]LogFbx: ItemName: Model, ItemCount : 47
+[2017.08.18-13.25.00:592][ 64]LogFbx: ItemName: Material, ItemCount : 1
+[2017.08.18-13.25.00:592][ 64]LogFbx: ItemName: SceneInfo, ItemCount : 1
+[2017.08.18-13.25.00:592][ 64]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.08.18-13.25.00:592][ 64]LogFbx: ItemName: Deformer, ItemCount : 2
+[2017.08.18-13.25.00:592][ 64]LogFbx: ItemName: SubDeformer, ItemCount : 27
+[2017.08.18-13.25.00:592][ 64]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.08.18-13.25.00:596][ 64]LogFbx: Loading FBX Scene from ../../../../../../Users/user/Desktop/sc2/hydralisk/Hydralisk.FBX
+[2017.08.18-13.25.00:639][ 64]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.18-13.25.48:161][ 64]LogFbx: Loading FBX Scene from ../../../../../../Users/user/Desktop/sc2/hydralisk/Hydralisk.FBX
+[2017.08.18-13.25.48:205][ 64]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.18-13.25.48:207][ 64]LogFbx: =================================================
+[2017.08.18-13.25.48:207][ 64]LogFbx: Dumping Node START [Mesh 1] 
+[2017.08.18-13.25.48:207][ 64]LogFbx: 	Total Deformer Count -1623949424.
+[2017.08.18-13.25.48:207][ 64]LogFbx: 		[Node 1] Skin Mesh 1 (Type Skin).
+[2017.08.18-13.25.48:207][ 64]LogFbx: =================================================
+[2017.08.18-13.25.48:207][ 64]LogFbx: 	Attribute (Mesh 1) Type (4).
+[2017.08.18-13.25.48:207][ 64]LogFbx: 		[Node Attribute Child 1] Mesh 1 (Type Mesh).
+[2017.08.18-13.25.48:207][ 64]LogFbx: Dumping Node END [Mesh 1]
+[2017.08.18-13.25.48:207][ 64]LogFbx: =================================================
+[2017.08.18-13.25.48:207][ 64]LogFbx: Dumping Node START [Mesh 2] 
+[2017.08.18-13.25.48:207][ 64]LogFbx: 	Total Deformer Count -1623949424.
+[2017.08.18-13.25.48:207][ 64]LogFbx: 		[Node 1] Skin Mesh 2 (Type Skin).
+[2017.08.18-13.25.48:207][ 64]LogFbx: =================================================
+[2017.08.18-13.25.48:207][ 64]LogFbx: 	Attribute (Mesh 2) Type (4).
+[2017.08.18-13.25.48:207][ 64]LogFbx: 		[Node Attribute Child 1] Mesh 2 (Type Mesh).
+[2017.08.18-13.25.48:207][ 64]LogFbx: Dumping Node END [Mesh 2]
+[2017.08.18-13.25.48:207][ 64]LogFbx: =================================================
+[2017.08.18-13.25.48:207][ 64]LogFbx: Dumping Node START [Mesh 1] 
+[2017.08.18-13.25.48:207][ 64]LogFbx: 	Total Deformer Count -1623950600.
+[2017.08.18-13.25.48:207][ 64]LogFbx: 		[Node 1] Skin Mesh 1 (Type Skin).
+[2017.08.18-13.25.48:207][ 64]LogFbx: =================================================
+[2017.08.18-13.25.48:207][ 64]LogFbx: 	Attribute (Mesh 1) Type (4).
+[2017.08.18-13.25.48:207][ 64]LogFbx: 		[Node Attribute Child 1] Mesh 1 (Type Mesh).
+[2017.08.18-13.25.48:207][ 64]LogFbx: Dumping Node END [Mesh 1]
+[2017.08.18-13.25.48:207][ 64]LogFbx: =================================================
+[2017.08.18-13.25.48:207][ 64]LogFbx: Dumping Node START [Mesh 2] 
+[2017.08.18-13.25.48:207][ 64]LogFbx: 	Total Deformer Count -1623950600.
+[2017.08.18-13.25.48:207][ 64]LogFbx: 		[Node 1] Skin Mesh 2 (Type Skin).
+[2017.08.18-13.25.48:207][ 64]LogFbx: =================================================
+[2017.08.18-13.25.48:207][ 64]LogFbx: 	Attribute (Mesh 2) Type (4).
+[2017.08.18-13.25.48:207][ 64]LogFbx: 		[Node Attribute Child 1] Mesh 2 (Type Mesh).
+[2017.08.18-13.25.48:207][ 64]LogFbx: Dumping Node END [Mesh 2]
+[2017.08.18-13.25.48:210][ 64]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node Mesh 1 : Not all the deformers are stored in this BindPose
+[2017.08.18-13.25.48:210][ 64]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node Mesh 2 : Not all the deformers are stored in this BindPose
+[2017.08.18-13.25.48:210][ 64]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.08.18-13.25.48:210][ 64]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Mesh 1
+[2017.08.18-13.25.48:210][ 64]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.08.18-13.25.48:211][ 64]LogLinker: '/Game/StarterContent/Standard_3' 파일을 찾을 수 없습니다.
+[2017.08.18-13.25.48:211][ 64]LogLinker: '/Game/StarterContent/Standard_3' 파일을 찾을 수 없습니다.
+[2017.08.18-13.25.48:212][ 64]LogMaterial:Warning: Material /Game/StarterContent/Standard_3.Standard_3 needed to have new flag set bUsedWithSkeletalMesh !
+[2017.08.18-13.25.48:214][ 64]LogMaterial: Missing cached shader map for material Standard_3, compiling. 
+[2017.08.18-13.25.48:254][ 64]LogMaterial: Missing cached shader map for material Standard_3, compiling. 
+[2017.08.18-13.25.48:284][ 64]LogFbx:Warning: Bones digested - 37  Depth of hierarchy - 10
+[2017.08.18-13.25.48:318][ 64]LogSkeletalMesh: Section 0: 1964 vertices, 27 active bones
+[2017.08.18-13.25.48:320][ 64]LogSkeletalMesh: Section 0: Material=0, 2255 triangles
+[2017.08.18-13.25.48:322][ 64]LogLinker: '/Game/StarterContent/Hydralisk_Skeleton' 파일을 찾을 수 없습니다.
+[2017.08.18-13.25.48:322][ 64]LogLinker: '/Game/StarterContent/Hydralisk_Skeleton' 파일을 찾을 수 없습니다.
+[2017.08.18-13.25.48:326][ 64]LogLinker: '/Game/StarterContent/Hydralisk_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.08.18-13.25.48:326][ 64]LogLinker: '/Game/StarterContent/Hydralisk_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.08.18-13.25.48:333][ 64]LogFbx: =================================================
+[2017.08.18-13.25.48:334][ 64]LogFbx: Dumping Node START [Mesh 1] 
+[2017.08.18-13.25.48:334][ 64]LogFbx: 	Total Deformer Count -637357624.
+[2017.08.18-13.25.48:334][ 64]LogFbx: 		[Node 1] Skin Mesh 1 (Type Skin).
+[2017.08.18-13.25.48:334][ 64]LogFbx: =================================================
+[2017.08.18-13.25.48:334][ 64]LogFbx: 	Attribute (Mesh 1) Type (4).
+[2017.08.18-13.25.48:334][ 64]LogFbx: 		[Node Attribute Child 1] Mesh 1 (Type Mesh).
+[2017.08.18-13.25.48:334][ 64]LogFbx: Dumping Node END [Mesh 1]
+[2017.08.18-13.25.48:334][ 64]LogFbx: =================================================
+[2017.08.18-13.25.48:334][ 64]LogFbx: Dumping Node START [Mesh 2] 
+[2017.08.18-13.25.48:334][ 64]LogFbx: 	Total Deformer Count -637357624.
+[2017.08.18-13.25.48:334][ 64]LogFbx: 		[Node 1] Skin Mesh 2 (Type Skin).
+[2017.08.18-13.25.48:334][ 64]LogFbx: =================================================
+[2017.08.18-13.25.48:334][ 64]LogFbx: 	Attribute (Mesh 2) Type (4).
+[2017.08.18-13.25.48:334][ 64]LogFbx: 		[Node Attribute Child 1] Mesh 2 (Type Mesh).
+[2017.08.18-13.25.48:334][ 64]LogFbx: Dumping Node END [Mesh 2]
+[2017.08.18-13.25.48:334][ 64]LogFbx: =================================================
+[2017.08.18-13.25.48:334][ 64]LogFbx: Dumping Node START [Mesh 1] 
+[2017.08.18-13.25.48:334][ 64]LogFbx: 	Total Deformer Count -637357512.
+[2017.08.18-13.25.48:334][ 64]LogFbx: 		[Node 1] Skin Mesh 1 (Type Skin).
+[2017.08.18-13.25.48:334][ 64]LogFbx: =================================================
+[2017.08.18-13.25.48:334][ 64]LogFbx: 	Attribute (Mesh 1) Type (4).
+[2017.08.18-13.25.48:334][ 64]LogFbx: 		[Node Attribute Child 1] Mesh 1 (Type Mesh).
+[2017.08.18-13.25.48:334][ 64]LogFbx: Dumping Node END [Mesh 1]
+[2017.08.18-13.25.48:334][ 64]LogFbx: =================================================
+[2017.08.18-13.25.48:334][ 64]LogFbx: Dumping Node START [Mesh 2] 
+[2017.08.18-13.25.48:334][ 64]LogFbx: 	Total Deformer Count -637357512.
+[2017.08.18-13.25.48:334][ 64]LogFbx: 		[Node 1] Skin Mesh 2 (Type Skin).
+[2017.08.18-13.25.48:334][ 64]LogFbx: =================================================
+[2017.08.18-13.25.48:334][ 64]LogFbx: 	Attribute (Mesh 2) Type (4).
+[2017.08.18-13.25.48:334][ 64]LogFbx: 		[Node Attribute Child 1] Mesh 2 (Type Mesh).
+[2017.08.18-13.25.48:334][ 64]LogFbx: Dumping Node END [Mesh 2]
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(0) Root
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(1) Tail01
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(2) Tail02
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(3) Tail03
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(4) Tail04
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(5) Tail05
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(6) Tail06
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(7) TailTIP
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(8) Dummy01
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(9) SpineUp01
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(10) SpineUp02
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(11) SpineUp03
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(12) Neck01
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(13) Neck02
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(14) Head
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(15) Jaw
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(16) Unit_Zerg_Hydralisk_Jaw_03
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(17) Karapis_Bone02
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(18) Karapis_Bone01
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(19) Unit_Zerg_Hydralisk_Crest
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(20) Spikes
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(21) Ref_Head
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(22) HitTestFuzzy01
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(23) Ref_Weapon Right
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(24) Ref_Weapon Left
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(25) Ref_Weapon
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(26) Vol_Target
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(27) ShoulderRt
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(28) ArmRT
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(29) ForeArmRt
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(30) HandRt
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(31) HitTestFuzzy02
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(32) ShoulderLft
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(33) ArmLft
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(34) ForeArmLft
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(35) HandLft
+[2017.08.18-13.25.48:335][ 64]LogFbx: SortedLinks :(36) HitTestFuzzy03
+[2017.08.18-13.25.48:343][ 64]LogFbx: Parsing AnimStack Take 001
+[2017.08.18-13.25.48:349][ 64]LogLinker: '/Game/StarterContent/Hydralisk_Anim' 파일을 찾을 수 없습니다.
+[2017.08.18-13.25.48:349][ 64]LogLinker: '/Game/StarterContent/Hydralisk_Anim' 파일을 찾을 수 없습니다.
+[2017.08.18-13.25.56:964][ 64]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/StarterContent/Hydralisk_Anim.Hydralisk_Anim
+[2017.08.18-13.25.57:076][ 64]FBXImport:Warning: 경고 바인드 포즈에서 빠진 본은 다음과 같습니다:
+Unit_Zerg_Hydralisk_Jaw_03  
+Ref_Head  
+HitTestFuzzy01  
+Ref_Weapon Right  
+Ref_Weapon Left  
+Ref_Weapon  
+Vol_Target  
+HitTestFuzzy02  
+HitTestFuzzy03  
+
+버텍스 웨이팅되지 않은 본에 대해 일어날 수 있습니다. 임포트 이후 오리엔테이션이 제대로 되어 있지 않은 경우,
+"Use T0 as ref pose" 옵션을 사용하거나, 바인드 포즈에 추가한 다음 스켈레탈 메시를 다시 임포트해 보세요. 
+[2017.08.18-13.25.57:095][ 64]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/user/Desktop/sc2/hydralisk/hydralisk_diffuse.png)
+[2017.08.18-13.25.57:150][ 64]LogTexture:Display: 텍스처 빌드: hydralisk_diffuse (AutoDXT, 1024X1024)
+[2017.08.18-13.26.00:442][399]LogSavePackage: Save=83.80ms
+[2017.08.18-13.26.00:442][399]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Minimal_Default_Auto338CAF7F74A8DA8F27B61D6B683BF5ED4.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap'
+[2017.08.18-13.26.00:444][399]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap
+[2017.08.18-13.26.00:447][399]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.113
+[2017.08.18-13.26.00:447][399]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.113
+[2017.08.18-13.26.00:449][399]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/hydralisk_diffuse] ([1] browsable assets)...
+[2017.08.18-13.26.00:455][399]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/StarterContent/hydralisk_diffuse.hydralisk_diffuse]
+[2017.08.18-13.26.00:455][399]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/hydralisk_diffuse]
+[2017.08.18-13.26.00:471][399]LogSavePackage: Save=13.42ms
+[2017.08.18-13.26.00:471][399]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/hydralisk_diffuse_Auto3E37D188A43BD8D442720609200154907.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/StarterContent/hydralisk_diffuse_Auto3.uasset'
+[2017.08.18-13.26.00:473][399]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/StarterContent/hydralisk_diffuse_Auto3.uasset
+[2017.08.18-13.26.00:474][399]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Hydralisk_Anim] ([1] browsable assets)...
+[2017.08.18-13.26.00:483][399]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/StarterContent/Hydralisk_Anim.Hydralisk_Anim]
+[2017.08.18-13.26.00:483][399]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Hydralisk_Anim]
+[2017.08.18-13.26.00:516][399]LogSavePackage: Save=30.94ms
+[2017.08.18-13.26.00:516][399]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Hydralisk_Anim_Auto38491F4D64483898B1783D3A8B723BBBD.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/StarterContent/Hydralisk_Anim_Auto3.uasset'
+[2017.08.18-13.26.00:517][399]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/StarterContent/Hydralisk_Anim_Auto3.uasset
+[2017.08.18-13.26.00:518][399]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Hydralisk_PhysicsAsset] ([1] browsable assets)...
+[2017.08.18-13.26.00:518][399]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Hydralisk_PhysicsAsset]
+[2017.08.18-13.26.00:535][399]LogSavePackage: Save=15.89ms
+[2017.08.18-13.26.00:536][399]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Hydralisk_PhysicsAsset_Auto33C55B1F64E6E16233442BF949C797A60.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/StarterContent/Hydralisk_PhysicsAsset_Auto3.uasset'
+[2017.08.18-13.26.00:537][399]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/StarterContent/Hydralisk_PhysicsAsset_Auto3.uasset
+[2017.08.18-13.26.00:537][399]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Hydralisk] ([1] browsable assets)...
+[2017.08.18-13.26.00:546][399]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/StarterContent/Hydralisk.Hydralisk]
+[2017.08.18-13.26.00:546][399]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Hydralisk]
+[2017.08.18-13.26.00:564][399]LogSavePackage: Save=15.84ms
+[2017.08.18-13.26.00:564][399]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Hydralisk_Auto315D367944A6052EC67752B8995ED7C17.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/StarterContent/Hydralisk_Auto3.uasset'
+[2017.08.18-13.26.00:565][399]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/StarterContent/Hydralisk_Auto3.uasset
+[2017.08.18-13.26.00:566][399]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Standard_3] ([1] browsable assets)...
+[2017.08.18-13.26.00:575][399]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Standard_3.Standard_3]
+[2017.08.18-13.26.00:576][399]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Standard_3]
+[2017.08.18-13.26.00:589][399]LogSavePackage: Save=11.54ms
+[2017.08.18-13.26.00:589][399]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Standard_3_Auto32EF45FBA4681E439886472802957B0D6.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/StarterContent/Standard_3_Auto3.uasset'
+[2017.08.18-13.26.00:590][399]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/StarterContent/Standard_3_Auto3.uasset
+[2017.08.18-13.26.00:591][399]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Hydralisk_Skeleton] ([1] browsable assets)...
+[2017.08.18-13.26.00:591][399]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Hydralisk_Skeleton]
+[2017.08.18-13.26.00:597][399]LogSavePackage: Save=4.49ms
+[2017.08.18-13.26.00:597][399]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Hydralisk_Skeleton_Auto316ACC2784369D388C59F5E813F90CCBC.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/StarterContent/Hydralisk_Skeleton_Auto3.uasset'
+[2017.08.18-13.26.00:599][399]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/StarterContent/Hydralisk_Skeleton_Auto3.uasset
+[2017.08.18-13.26.00:599][399]LogFileHelpers: Auto-saving content packages took 0.151
+[2017.08.18-13.26.12:913][864]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_23:PersistentLevel.Actor_7.DebugSkelMeshComponent_15) Already registered. Aborting.
+[2017.08.18-13.26.12:947][864]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_23:PersistentLevel.Actor_7.DebugSkelMeshComponent_15) - call TermArticulated first.
+[2017.08.18-13.26.13:475][864]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.18-13.29.12:596][930]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/user/Desktop/sc2/hydralisk/Hydralisk.FBX)
+[2017.08.18-13.29.12:616][930]LogFbx: ItemName: Model, ItemCount : 47
+[2017.08.18-13.29.12:616][930]LogFbx: ItemName: Material, ItemCount : 1
+[2017.08.18-13.29.12:616][930]LogFbx: ItemName: SceneInfo, ItemCount : 1
+[2017.08.18-13.29.12:616][930]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.08.18-13.29.12:616][930]LogFbx: ItemName: Deformer, ItemCount : 2
+[2017.08.18-13.29.12:616][930]LogFbx: ItemName: SubDeformer, ItemCount : 27
+[2017.08.18-13.29.12:616][930]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.08.18-13.29.12:620][930]LogFbx: Loading FBX Scene from ../../../../../../Users/user/Desktop/sc2/hydralisk/Hydralisk.FBX
+[2017.08.18-13.29.12:665][930]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.18-13.30.05:235][930]LogFbx: Loading FBX Scene from ../../../../../../Users/user/Desktop/sc2/hydralisk/Hydralisk.FBX
+[2017.08.18-13.30.05:281][930]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.18-13.30.05:284][930]LogFbx: =================================================
+[2017.08.18-13.30.05:284][930]LogFbx: Dumping Node START [Mesh 1] 
+[2017.08.18-13.30.05:284][930]LogFbx: 	Total Deformer Count 267618640.
+[2017.08.18-13.30.05:284][930]LogFbx: 		[Node 1] Skin Mesh 1 (Type Skin).
+[2017.08.18-13.30.05:284][930]LogFbx: =================================================
+[2017.08.18-13.30.05:284][930]LogFbx: 	Attribute (Mesh 1) Type (4).
+[2017.08.18-13.30.05:284][930]LogFbx: 		[Node Attribute Child 1] Mesh 1 (Type Mesh).
+[2017.08.18-13.30.05:284][930]LogFbx: Dumping Node END [Mesh 1]
+[2017.08.18-13.30.05:284][930]LogFbx: =================================================
+[2017.08.18-13.30.05:284][930]LogFbx: Dumping Node START [Mesh 2] 
+[2017.08.18-13.30.05:284][930]LogFbx: 	Total Deformer Count 267618640.
+[2017.08.18-13.30.05:284][930]LogFbx: 		[Node 1] Skin Mesh 2 (Type Skin).
+[2017.08.18-13.30.05:284][930]LogFbx: =================================================
+[2017.08.18-13.30.05:284][930]LogFbx: 	Attribute (Mesh 2) Type (4).
+[2017.08.18-13.30.05:284][930]LogFbx: 		[Node Attribute Child 1] Mesh 2 (Type Mesh).
+[2017.08.18-13.30.05:284][930]LogFbx: Dumping Node END [Mesh 2]
+[2017.08.18-13.30.05:284][930]LogFbx: =================================================
+[2017.08.18-13.30.05:284][930]LogFbx: Dumping Node START [Mesh 1] 
+[2017.08.18-13.30.05:284][930]LogFbx: 	Total Deformer Count 267631800.
+[2017.08.18-13.30.05:284][930]LogFbx: 		[Node 1] Skin Mesh 1 (Type Skin).
+[2017.08.18-13.30.05:284][930]LogFbx: =================================================
+[2017.08.18-13.30.05:284][930]LogFbx: 	Attribute (Mesh 1) Type (4).
+[2017.08.18-13.30.05:284][930]LogFbx: 		[Node Attribute Child 1] Mesh 1 (Type Mesh).
+[2017.08.18-13.30.05:284][930]LogFbx: Dumping Node END [Mesh 1]
+[2017.08.18-13.30.05:284][930]LogFbx: =================================================
+[2017.08.18-13.30.05:284][930]LogFbx: Dumping Node START [Mesh 2] 
+[2017.08.18-13.30.05:284][930]LogFbx: 	Total Deformer Count 267631800.
+[2017.08.18-13.30.05:284][930]LogFbx: 		[Node 1] Skin Mesh 2 (Type Skin).
+[2017.08.18-13.30.05:284][930]LogFbx: =================================================
+[2017.08.18-13.30.05:284][930]LogFbx: 	Attribute (Mesh 2) Type (4).
+[2017.08.18-13.30.05:284][930]LogFbx: 		[Node Attribute Child 1] Mesh 2 (Type Mesh).
+[2017.08.18-13.30.05:284][930]LogFbx: Dumping Node END [Mesh 2]
+[2017.08.18-13.30.05:285][930]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node Mesh 1 : Not all the deformers are stored in this BindPose
+[2017.08.18-13.30.05:285][930]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node Mesh 2 : Not all the deformers are stored in this BindPose
+[2017.08.18-13.30.05:285][930]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.08.18-13.30.05:285][930]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Mesh 1
+[2017.08.18-13.30.05:285][930]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.08.18-13.30.05:289][930]LogFbx:Warning: Bones digested - 37  Depth of hierarchy - 10
+[2017.08.18-13.30.05:319][930]LogSkeletalMesh: Section 0: 1964 vertices, 27 active bones
+[2017.08.18-13.30.05:320][930]LogSkeletalMesh: Section 0: Material=0, 2255 triangles
+[2017.08.18-13.30.05:322][930]LogFbx: =================================================
+[2017.08.18-13.30.05:322][930]LogFbx: Dumping Node START [Mesh 1] 
+[2017.08.18-13.30.05:322][930]LogFbx: 	Total Deformer Count 267617688.
+[2017.08.18-13.30.05:322][930]LogFbx: 		[Node 1] Skin Mesh 1 (Type Skin).
+[2017.08.18-13.30.05:322][930]LogFbx: =================================================
+[2017.08.18-13.30.05:322][930]LogFbx: 	Attribute (Mesh 1) Type (4).
+[2017.08.18-13.30.05:322][930]LogFbx: 		[Node Attribute Child 1] Mesh 1 (Type Mesh).
+[2017.08.18-13.30.05:322][930]LogFbx: Dumping Node END [Mesh 1]
+[2017.08.18-13.30.05:322][930]LogFbx: =================================================
+[2017.08.18-13.30.05:322][930]LogFbx: Dumping Node START [Mesh 2] 
+[2017.08.18-13.30.05:322][930]LogFbx: 	Total Deformer Count 267617688.
+[2017.08.18-13.30.05:322][930]LogFbx: 		[Node 1] Skin Mesh 2 (Type Skin).
+[2017.08.18-13.30.05:322][930]LogFbx: =================================================
+[2017.08.18-13.30.05:322][930]LogFbx: 	Attribute (Mesh 2) Type (4).
+[2017.08.18-13.30.05:322][930]LogFbx: 		[Node Attribute Child 1] Mesh 2 (Type Mesh).
+[2017.08.18-13.30.05:322][930]LogFbx: Dumping Node END [Mesh 2]
+[2017.08.18-13.30.05:322][930]LogFbx: =================================================
+[2017.08.18-13.30.05:322][930]LogFbx: Dumping Node START [Mesh 1] 
+[2017.08.18-13.30.05:322][930]LogFbx: 	Total Deformer Count 267618304.
+[2017.08.18-13.30.05:322][930]LogFbx: 		[Node 1] Skin Mesh 1 (Type Skin).
+[2017.08.18-13.30.05:322][930]LogFbx: =================================================
+[2017.08.18-13.30.05:322][930]LogFbx: 	Attribute (Mesh 1) Type (4).
+[2017.08.18-13.30.05:322][930]LogFbx: 		[Node Attribute Child 1] Mesh 1 (Type Mesh).
+[2017.08.18-13.30.05:322][930]LogFbx: Dumping Node END [Mesh 1]
+[2017.08.18-13.30.05:322][930]LogFbx: =================================================
+[2017.08.18-13.30.05:322][930]LogFbx: Dumping Node START [Mesh 2] 
+[2017.08.18-13.30.05:322][930]LogFbx: 	Total Deformer Count 267618304.
+[2017.08.18-13.30.05:322][930]LogFbx: 		[Node 1] Skin Mesh 2 (Type Skin).
+[2017.08.18-13.30.05:322][930]LogFbx: =================================================
+[2017.08.18-13.30.05:322][930]LogFbx: 	Attribute (Mesh 2) Type (4).
+[2017.08.18-13.30.05:322][930]LogFbx: 		[Node Attribute Child 1] Mesh 2 (Type Mesh).
+[2017.08.18-13.30.05:322][930]LogFbx: Dumping Node END [Mesh 2]
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(0) Root
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(1) Tail01
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(2) Tail02
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(3) Tail03
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(4) Tail04
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(5) Tail05
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(6) Tail06
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(7) TailTIP
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(8) Dummy01
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(9) SpineUp01
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(10) SpineUp02
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(11) SpineUp03
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(12) Neck01
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(13) Neck02
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(14) Head
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(15) Jaw
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(16) Unit_Zerg_Hydralisk_Jaw_03
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(17) Karapis_Bone02
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(18) Karapis_Bone01
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(19) Unit_Zerg_Hydralisk_Crest
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(20) Spikes
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(21) Ref_Head
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(22) HitTestFuzzy01
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(23) Ref_Weapon Right
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(24) Ref_Weapon Left
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(25) Ref_Weapon
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(26) Vol_Target
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(27) ShoulderRt
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(28) ArmRT
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(29) ForeArmRt
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(30) HandRt
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(31) HitTestFuzzy02
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(32) ShoulderLft
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(33) ArmLft
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(34) ForeArmLft
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(35) HandLft
+[2017.08.18-13.30.05:322][930]LogFbx: SortedLinks :(36) HitTestFuzzy03
+[2017.08.18-13.30.05:322][930]LogFbx: Parsing AnimStack Take 001
+[2017.08.18-13.30.13:389][930]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/StarterContent/Hydralisk_Anim.Hydralisk_Anim
+[2017.08.18-13.30.13:505][930]FBXImport:Warning: 경고 바인드 포즈에서 빠진 본은 다음과 같습니다:
+Unit_Zerg_Hydralisk_Jaw_03  
+Ref_Head  
+HitTestFuzzy01  
+Ref_Weapon Right  
+Ref_Weapon Left  
+Ref_Weapon  
+Vol_Target  
+HitTestFuzzy02  
+HitTestFuzzy03  
+
+버텍스 웨이팅되지 않은 본에 대해 일어날 수 있습니다. 임포트 이후 오리엔테이션이 제대로 되어 있지 않은 경우,
+"Use T0 as ref pose" 옵션을 사용하거나, 바인드 포즈에 추가한 다음 스켈레탈 메시를 다시 임포트해 보세요. 
+[2017.08.18-13.30.40:731][132]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_8.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.08.18-13.30.40:763][132]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_26:PersistentLevel.Actor_8.DebugSkelMeshComponent_18) - call TermArticulated first.
+[2017.08.18-13.30.41:290][132]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.18-13.30.44:584][413]LogWindows: LaunchURL http://docs.unrealengine.com/latest/KOR/Engine/Animation/Sequences/index.html?utm_source=editor&utm_medium=docs&utm_campaign=doc_anchors
+[2017.08.18-13.31.43:077][914]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.Actor_9.DebugSkelMeshComponent_21) Already registered. Aborting.
+[2017.08.18-13.31.43:110][914]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_29:PersistentLevel.Actor_9.DebugSkelMeshComponent_21) - call TermArticulated first.
+[2017.08.18-13.32.30:925][915]LogContentBrowser:Verbose: The majority of assets in the view are of type: Skeleton
+[2017.08.18-13.32.41:340][550]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_32:PersistentLevel.Actor_10.DebugSkelMeshComponent_22) Already registered. Aborting.
+[2017.08.18-13.32.41:491][550]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_32:PersistentLevel.Actor_10.DebugSkelMeshComponent_22) - call TermArticulated first.
+[2017.08.18-13.33.48:971][309]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.Actor_11.DebugSkelMeshComponent_24) Already registered. Aborting.
+[2017.08.18-13.33.49:001][309]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_34:PersistentLevel.Actor_11.DebugSkelMeshComponent_24) - call TermArticulated first.
+[2017.08.18-13.34.08:239][960]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.18-13.34.08:253][960]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.18-13.34.08:253][960]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2017.08.18-13.34.08:253][960]LogPlayLevel: [PlayLevel] Compiling test before play...
+[2017.08.18-13.34.08:328][960]LogPlayLevel: PlayLevel: Blueprint regeneration took 75 ms (1 blueprints)
+[2017.08.18-13.34.08:329][960]PIE: New page: PIE 세션: Minimal_Default (2017. 8. 19. 오전 7:34:08)
+[2017.08.18-13.34.08:329][960]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.08.18-13.34.08:331][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001949s)
+[2017.08.18-13.34.08:331][960]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.08.18-13.34.08:332][960]LogPlayLevel: PIE: World Init took: (0.001132s)
+[2017.08.18-13.34.08:332][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003314s)
+[2017.08.18-13.34.08:356][960]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.18-13.34.08:373][960]LogInit: FAudioDevice initialized.
+[2017.08.18-13.34.08:405][960]LogLoad: Game class is 'GameModeBase'
+[2017.08.18-13.34.08:406][960]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.08.18-22.34.08
+[2017.08.18-13.34.08:406][960]LogWorld: Bringing up level for play took: 0.001118
+[2017.08.18-13.34.08:407][960]PIE: 정보 /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 에 대한 에디터에서 플레이 시작 시간: 0.205
+[2017.08.18-13.34.08:408][960]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.18-13.34.16:876][896]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.18-13.34.17:010][896]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.18-13.36.04:140][807]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.18-13.36.04:157][807]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.18-13.36.04:157][807]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2017.08.18-13.36.04:157][807]LogPlayLevel: [PlayLevel] Compiling test before play...
+[2017.08.18-13.36.04:236][807]LogPlayLevel: PlayLevel: Blueprint regeneration took 79 ms (1 blueprints)
+[2017.08.18-13.36.04:236][807]PIE: New page: PIE 세션: Minimal_Default (2017. 8. 19. 오전 7:36:04)
+[2017.08.18-13.36.04:236][807]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.08.18-13.36.04:238][807]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001664s)
+[2017.08.18-13.36.04:239][807]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.08.18-13.36.04:239][807]LogPlayLevel: PIE: World Init took: (0.000780s)
+[2017.08.18-13.36.04:239][807]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002677s)
+[2017.08.18-13.36.04:263][807]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.18-13.36.04:277][807]LogInit: FAudioDevice initialized.
+[2017.08.18-13.36.04:314][807]LogLoad: Game class is 'GameModeBase'
+[2017.08.18-13.36.04:316][807]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.08.18-22.36.04
+[2017.08.18-13.36.04:316][807]LogWorld: Bringing up level for play took: 0.000969
+[2017.08.18-13.36.04:317][807]PIE: 정보 /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 에 대한 에디터에서 플레이 시작 시간: 0.115
+[2017.08.18-13.36.04:317][807]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.18-13.36.07:155][ 99]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.18-13.36.07:266][ 99]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.18-13.36.08:061][173]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.18-13.36.08:077][173]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.18-13.36.08:077][173]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.18-13.36.08:077][173]PIE: New page: PIE 세션: Minimal_Default (2017. 8. 19. 오전 7:36:08)
+[2017.08.18-13.36.08:077][173]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.08.18-13.36.08:079][173]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001806s)
+[2017.08.18-13.36.08:079][173]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.08.18-13.36.08:079][173]LogPlayLevel: PIE: World Init took: (0.000567s)
+[2017.08.18-13.36.08:079][173]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002529s)
+[2017.08.18-13.36.08:110][173]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.18-13.36.08:125][173]LogInit: FAudioDevice initialized.
+[2017.08.18-13.36.08:161][173]LogLoad: Game class is 'GameModeBase'
+[2017.08.18-13.36.08:162][173]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.08.18-22.36.08
+[2017.08.18-13.36.08:162][173]LogWorld: Bringing up level for play took: 0.000804
+[2017.08.18-13.36.08:163][173]PIE: 정보 /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 에 대한 에디터에서 플레이 시작 시간: -0.039
+[2017.08.18-13.36.08:163][173]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.18-13.36.10:828][458]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.18-13.36.10:957][458]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.18-13.39.10:663][734]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.015
+[2017.08.18-13.39.10:664][734]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/test] ([1] browsable assets)...
+[2017.08.18-13.39.10:680][734]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/StarterContent/test.test]
+[2017.08.18-13.39.10:680][734]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/test]
+[2017.08.18-13.39.10:703][734]LogSavePackage: Save=20.49ms
+[2017.08.18-13.39.10:703][734]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/test_Auto4F7D4112547E2238DE6A1AD9A4B939F1F.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/StarterContent/test_Auto4.uasset'
+[2017.08.18-13.39.10:704][734]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/StarterContent/test_Auto4.uasset
+[2017.08.18-13.39.10:704][734]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Hydralisk_Anim] ([1] browsable assets)...
+[2017.08.18-13.39.10:719][734]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/StarterContent/Hydralisk_Anim.Hydralisk_Anim]
+[2017.08.18-13.39.10:719][734]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Hydralisk_Anim]
+[2017.08.18-13.39.10:755][734]LogSavePackage: Save=33.96ms
+[2017.08.18-13.39.10:755][734]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Hydralisk_Anim_Auto4A99091834C817236CFBD83A4CD26D0C3.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/StarterContent/Hydralisk_Anim_Auto4.uasset'
+[2017.08.18-13.39.10:758][734]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/StarterContent/Hydralisk_Anim_Auto4.uasset
+[2017.08.18-13.39.10:759][734]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Hydralisk] ([1] browsable assets)...
+[2017.08.18-13.39.10:775][734]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/StarterContent/Hydralisk.Hydralisk]
+[2017.08.18-13.39.10:775][734]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Hydralisk]
+[2017.08.18-13.39.10:795][734]LogSavePackage: Save=16.82ms
+[2017.08.18-13.39.10:795][734]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Hydralisk_Auto4304836E84A681930569B75B979B11D44.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/StarterContent/Hydralisk_Auto4.uasset'
+[2017.08.18-13.39.10:797][734]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/StarterContent/Hydralisk_Auto4.uasset
+[2017.08.18-13.39.10:797][734]LogFileHelpers: Auto-saving content packages took 0.134
+[2017.08.18-13.40.23:969][543]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SkeletalMeshComponent0' or package '/Engine/Transient'.
+[2017.08.18-13.40.23:969][543]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_test_C_2' or package '/Engine/Transient'.
+[2017.08.18-13.40.23:969][543]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_test' or package '/Game/StarterContent/test'.
+[2017.08.18-13.40.23:969][543]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_test_C_3' or package '/Engine/Transient'.
+[2017.08.18-13.40.23:969][543]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_22' or package '/Engine/Transient'.
+[2017.08.18-13.40.23:969][543]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_test_C_39' or package '/Engine/Transient'.
+[2017.08.18-13.40.23:969][543]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.08.18-13.40.23:969][543]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_test' or package '/Engine/Transient'.
+[2017.08.18-13.40.23:969][543]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_Root_2E6E62A34CF11D791EEEAE841A0A3A38' or package '/Engine/Transient'.
+[2017.08.18-13.40.23:969][543]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_SequencePlayer_06436EEA418DFB954E415EA22CA67A2F' or package '/Engine/Transient'.
+[2017.08.18-13.40.23:969][543]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_test_C_38' or package '/Engine/Transient'.
+[2017.08.18-13.41.20:985][637]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.Actor_12.DebugSkelMeshComponent_27) Already registered. Aborting.
+[2017.08.18-13.41.21:018][637]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_37:PersistentLevel.Actor_12.DebugSkelMeshComponent_27) - call TermArticulated first.
+[2017.08.18-13.41.57:931][898]LogRenderer: Reallocating scene render targets to support 1616x924 NumSamples 1 (Frame:3363).
+[2017.08.18-13.42.41:431][970]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.18-13.42.57:711][365]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/StarterContent/Hydralisk_Anim.Hydralisk_Anim
+[2017.08.18-13.43.00:346][577]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/StarterContent/Hydralisk_Anim.Hydralisk_Anim
+[2017.08.18-13.43.03:933][865]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/StarterContent/Hydralisk_Anim.Hydralisk_Anim
+[2017.08.18-13.43.09:280][305]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/StarterContent/Hydralisk_Anim.Hydralisk_Anim
+[2017.08.18-13.43.13:270][640]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/StarterContent/Hydralisk_Anim.Hydralisk_Anim
+[2017.08.18-13.43.24:178][572]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/StarterContent/Hydralisk_Anim.Hydralisk_Anim
+[2017.08.18-13.43.26:035][725]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/StarterContent/Hydralisk_Anim.Hydralisk_Anim
+[2017.08.18-13.43.29:819][ 48]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/StarterContent/Hydralisk_Anim.Hydralisk_Anim
+[2017.08.18-13.43.32:650][289]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/StarterContent/Hydralisk_Anim.Hydralisk_Anim
+[2017.08.18-13.43.34:733][466]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/StarterContent/Hydralisk_Anim.Hydralisk_Anim
+[2017.08.18-13.43.50:675][810]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_40:PersistentLevel.Actor_13.DebugSkelMeshComponent_30) Already registered. Aborting.
+[2017.08.18-13.43.50:709][810]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_40:PersistentLevel.Actor_13.DebugSkelMeshComponent_30) - call TermArticulated first.
+[2017.08.18-13.43.51:312][810]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.18-13.43.57:595][363]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.Actor_14.DebugSkelMeshComponent_33) Already registered. Aborting.
+[2017.08.18-13.43.57:628][363]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_43:PersistentLevel.Actor_14.DebugSkelMeshComponent_33) - call TermArticulated first.
+[2017.08.18-13.43.58:236][363]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.18-13.44.30:169][976]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SkeletalMeshComponent0' or package '/Engine/Transient'.
+[2017.08.18-13.44.30:169][976]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_1' or package '/Engine/Transient'.
+[2017.08.18-13.44.30:169][976]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_16' or package '/Engine/Transient'.
+[2017.08.18-13.44.30:169][976]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_15' or package '/Engine/Transient'.
+[2017.08.18-13.44.30:169][976]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_22' or package '/Engine/Transient'.
+[2017.08.18-13.44.30:169][976]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_21' or package '/Engine/Transient'.
+[2017.08.18-13.44.30:169][976]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_28' or package '/Engine/Transient'.
+[2017.08.18-13.44.30:169][976]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_31' or package '/Engine/Transient'.
+[2017.08.18-13.44.30:169][976]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_30' or package '/Engine/Transient'.
+[2017.08.18-13.44.30:169][976]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_34' or package '/Engine/Transient'.
+[2017.08.18-13.44.30:169][976]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_33' or package '/Engine/Transient'.
+[2017.08.18-13.44.30:169][976]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_25' or package '/Engine/Transient'.
+[2017.08.18-13.44.30:169][976]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_24' or package '/Engine/Transient'.
+[2017.08.18-13.44.30:169][976]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_27' or package '/Engine/Transient'.
+[2017.08.18-13.44.30:170][976]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_23' or package '/Engine/Transient'.
+[2017.08.18-13.44.30:170][976]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_22' or package '/Engine/Transient'.
+[2017.08.18-13.44.30:170][976]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_19' or package '/Engine/Transient'.
+[2017.08.18-13.44.30:170][976]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_18' or package '/Engine/Transient'.
+[2017.08.18-13.44.49:200][640]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/user/Desktop/sc2/hydralisk/hydralisk_diffuse.png)
+[2017.08.18-13.44.49:254][640]LogTexture:Display: 텍스처 빌드: hydralisk_diffuse (AutoDXT, 1024X1024)
+[2017.08.18-13.45.09:247][499]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/user/Desktop/sc2/hydralisk/Hydralisk.FBX)
+[2017.08.18-13.45.09:267][499]LogFbx: ItemName: Model, ItemCount : 47
+[2017.08.18-13.45.09:267][499]LogFbx: ItemName: Material, ItemCount : 1
+[2017.08.18-13.45.09:267][499]LogFbx: ItemName: SceneInfo, ItemCount : 1
+[2017.08.18-13.45.09:267][499]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.08.18-13.45.09:267][499]LogFbx: ItemName: Deformer, ItemCount : 2
+[2017.08.18-13.45.09:267][499]LogFbx: ItemName: SubDeformer, ItemCount : 27
+[2017.08.18-13.45.09:267][499]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.08.18-13.45.09:271][499]LogFbx: Loading FBX Scene from ../../../../../../Users/user/Desktop/sc2/hydralisk/Hydralisk.FBX
+[2017.08.18-13.45.09:316][499]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.18-13.46.19:965][499]LogWindows: LaunchURL http://docs.unrealengine.com/latest/KOR/Engine/Content/FBX/ImportOptions/index.html?utm_source=editor&utm_medium=docs&utm_campaign=doc_anchors
+[2017.08.18-13.47.38:930][499]LogFbx: Loading FBX Scene from ../../../../../../Users/user/Desktop/sc2/hydralisk/Hydralisk.FBX
+[2017.08.18-13.47.38:978][499]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.18-13.47.38:980][499]LogFbx: =================================================
+[2017.08.18-13.47.38:980][499]LogFbx: Dumping Node START [Mesh 1] 
+[2017.08.18-13.47.38:980][499]LogFbx: 	Total Deformer Count 1982059136.
+[2017.08.18-13.47.38:980][499]LogFbx: 		[Node 1] Skin Mesh 1 (Type Skin).
+[2017.08.18-13.47.38:980][499]LogFbx: =================================================
+[2017.08.18-13.47.38:980][499]LogFbx: 	Attribute (Mesh 1) Type (4).
+[2017.08.18-13.47.38:981][499]LogFbx: 		[Node Attribute Child 1] Mesh 1 (Type Mesh).
+[2017.08.18-13.47.38:981][499]LogFbx: Dumping Node END [Mesh 1]
+[2017.08.18-13.47.38:981][499]LogFbx: =================================================
+[2017.08.18-13.47.38:981][499]LogFbx: Dumping Node START [Mesh 2] 
+[2017.08.18-13.47.38:981][499]LogFbx: 	Total Deformer Count 1982059136.
+[2017.08.18-13.47.38:981][499]LogFbx: 		[Node 1] Skin Mesh 2 (Type Skin).
+[2017.08.18-13.47.38:981][499]LogFbx: =================================================
+[2017.08.18-13.47.38:981][499]LogFbx: 	Attribute (Mesh 2) Type (4).
+[2017.08.18-13.47.38:981][499]LogFbx: 		[Node Attribute Child 1] Mesh 2 (Type Mesh).
+[2017.08.18-13.47.38:981][499]LogFbx: Dumping Node END [Mesh 2]
+[2017.08.18-13.47.38:981][499]LogFbx: =================================================
+[2017.08.18-13.47.38:981][499]LogFbx: Dumping Node START [Mesh 1] 
+[2017.08.18-13.47.38:981][499]LogFbx: 	Total Deformer Count 1982068936.
+[2017.08.18-13.47.38:981][499]LogFbx: 		[Node 1] Skin Mesh 1 (Type Skin).
+[2017.08.18-13.47.38:981][499]LogFbx: =================================================
+[2017.08.18-13.47.38:981][499]LogFbx: 	Attribute (Mesh 1) Type (4).
+[2017.08.18-13.47.38:981][499]LogFbx: 		[Node Attribute Child 1] Mesh 1 (Type Mesh).
+[2017.08.18-13.47.38:981][499]LogFbx: Dumping Node END [Mesh 1]
+[2017.08.18-13.47.38:981][499]LogFbx: =================================================
+[2017.08.18-13.47.38:981][499]LogFbx: Dumping Node START [Mesh 2] 
+[2017.08.18-13.47.38:981][499]LogFbx: 	Total Deformer Count 1982068936.
+[2017.08.18-13.47.38:981][499]LogFbx: 		[Node 1] Skin Mesh 2 (Type Skin).
+[2017.08.18-13.47.38:981][499]LogFbx: =================================================
+[2017.08.18-13.47.38:981][499]LogFbx: 	Attribute (Mesh 2) Type (4).
+[2017.08.18-13.47.38:981][499]LogFbx: 		[Node Attribute Child 1] Mesh 2 (Type Mesh).
+[2017.08.18-13.47.38:981][499]LogFbx: Dumping Node END [Mesh 2]
+[2017.08.18-13.47.38:981][499]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node Mesh 1 : Not all the deformers are stored in this BindPose
+[2017.08.18-13.47.38:982][499]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node Mesh 2 : Not all the deformers are stored in this BindPose
+[2017.08.18-13.47.38:982][499]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.08.18-13.47.38:982][499]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Mesh 1
+[2017.08.18-13.47.38:982][499]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.08.18-13.47.38:983][499]LogLinker: '/Game/Standard_3' 파일을 찾을 수 없습니다.
+[2017.08.18-13.47.38:983][499]LogLinker: '/Game/Standard_3' 파일을 찾을 수 없습니다.
+[2017.08.18-13.47.38:984][499]LogMaterial:Warning: Material /Game/Standard_3.Standard_3 needed to have new flag set bUsedWithSkeletalMesh !
+[2017.08.18-13.47.38:986][499]LogMaterial: Missing cached shader map for material Standard_3, compiling. 
+[2017.08.18-13.47.39:012][499]LogMaterial: Missing cached shader map for material Standard_3, compiling. 
+[2017.08.18-13.47.39:044][499]LogFbx:Warning: Bones digested - 37  Depth of hierarchy - 10
+[2017.08.18-13.47.39:091][499]LogSkeletalMesh: Section 0: 1964 vertices, 27 active bones
+[2017.08.18-13.47.39:092][499]LogSkeletalMesh: Section 0: Material=0, 2255 triangles
+[2017.08.18-13.47.39:093][499]LogLinker: '/Game/Hydralisk_Skeleton' 파일을 찾을 수 없습니다.
+[2017.08.18-13.47.39:093][499]LogLinker: '/Game/Hydralisk_Skeleton' 파일을 찾을 수 없습니다.
+[2017.08.18-13.47.39:094][499]LogLinker: '/Game/Hydralisk_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.08.18-13.47.39:094][499]LogLinker: '/Game/Hydralisk_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.08.18-13.47.39:099][499]LogFbx: =================================================
+[2017.08.18-13.47.39:099][499]LogFbx: Dumping Node START [Mesh 1] 
+[2017.08.18-13.47.39:099][499]LogFbx: 	Total Deformer Count -1858493440.
+[2017.08.18-13.47.39:099][499]LogFbx: 		[Node 1] Skin Mesh 1 (Type Skin).
+[2017.08.18-13.47.39:099][499]LogFbx: =================================================
+[2017.08.18-13.47.39:099][499]LogFbx: 	Attribute (Mesh 1) Type (4).
+[2017.08.18-13.47.39:099][499]LogFbx: 		[Node Attribute Child 1] Mesh 1 (Type Mesh).
+[2017.08.18-13.47.39:099][499]LogFbx: Dumping Node END [Mesh 1]
+[2017.08.18-13.47.39:099][499]LogFbx: =================================================
+[2017.08.18-13.47.39:099][499]LogFbx: Dumping Node START [Mesh 2] 
+[2017.08.18-13.47.39:099][499]LogFbx: 	Total Deformer Count -1858493440.
+[2017.08.18-13.47.39:099][499]LogFbx: 		[Node 1] Skin Mesh 2 (Type Skin).
+[2017.08.18-13.47.39:099][499]LogFbx: =================================================
+[2017.08.18-13.47.39:099][499]LogFbx: 	Attribute (Mesh 2) Type (4).
+[2017.08.18-13.47.39:099][499]LogFbx: 		[Node Attribute Child 1] Mesh 2 (Type Mesh).
+[2017.08.18-13.47.39:099][499]LogFbx: Dumping Node END [Mesh 2]
+[2017.08.18-13.47.39:099][499]LogFbx: =================================================
+[2017.08.18-13.47.39:099][499]LogFbx: Dumping Node START [Mesh 1] 
+[2017.08.18-13.47.39:099][499]LogFbx: 	Total Deformer Count -1858495400.
+[2017.08.18-13.47.39:099][499]LogFbx: 		[Node 1] Skin Mesh 1 (Type Skin).
+[2017.08.18-13.47.39:099][499]LogFbx: =================================================
+[2017.08.18-13.47.39:099][499]LogFbx: 	Attribute (Mesh 1) Type (4).
+[2017.08.18-13.47.39:099][499]LogFbx: 		[Node Attribute Child 1] Mesh 1 (Type Mesh).
+[2017.08.18-13.47.39:099][499]LogFbx: Dumping Node END [Mesh 1]
+[2017.08.18-13.47.39:099][499]LogFbx: =================================================
+[2017.08.18-13.47.39:099][499]LogFbx: Dumping Node START [Mesh 2] 
+[2017.08.18-13.47.39:099][499]LogFbx: 	Total Deformer Count -1858495400.
+[2017.08.18-13.47.39:099][499]LogFbx: 		[Node 1] Skin Mesh 2 (Type Skin).
+[2017.08.18-13.47.39:099][499]LogFbx: =================================================
+[2017.08.18-13.47.39:099][499]LogFbx: 	Attribute (Mesh 2) Type (4).
+[2017.08.18-13.47.39:099][499]LogFbx: 		[Node Attribute Child 1] Mesh 2 (Type Mesh).
+[2017.08.18-13.47.39:099][499]LogFbx: Dumping Node END [Mesh 2]
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(0) Root
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(1) Tail01
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(2) Tail02
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(3) Tail03
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(4) Tail04
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(5) Tail05
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(6) Tail06
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(7) TailTIP
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(8) Dummy01
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(9) SpineUp01
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(10) SpineUp02
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(11) SpineUp03
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(12) Neck01
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(13) Neck02
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(14) Head
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(15) Jaw
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(16) Unit_Zerg_Hydralisk_Jaw_03
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(17) Karapis_Bone02
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(18) Karapis_Bone01
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(19) Unit_Zerg_Hydralisk_Crest
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(20) Spikes
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(21) Ref_Head
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(22) HitTestFuzzy01
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(23) Ref_Weapon Right
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(24) Ref_Weapon Left
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(25) Ref_Weapon
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(26) Vol_Target
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(27) ShoulderRt
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(28) ArmRT
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(29) ForeArmRt
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(30) HandRt
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(31) HitTestFuzzy02
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(32) ShoulderLft
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(33) ArmLft
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(34) ForeArmLft
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(35) HandLft
+[2017.08.18-13.47.39:100][499]LogFbx: SortedLinks :(36) HitTestFuzzy03
+[2017.08.18-13.47.39:100][499]LogFbx: Parsing AnimStack Take 001
+[2017.08.18-13.47.39:105][499]LogLinker: '/Game/Hydralisk_Anim' 파일을 찾을 수 없습니다.
+[2017.08.18-13.47.39:106][499]LogLinker: '/Game/Hydralisk_Anim' 파일을 찾을 수 없습니다.
+[2017.08.18-13.47.48:320][499]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Hydralisk_Anim.Hydralisk_Anim
+[2017.08.18-13.47.48:442][499]FBXImport:Warning: 경고 바인드 포즈에서 빠진 본은 다음과 같습니다:
+Unit_Zerg_Hydralisk_Jaw_03  
+Ref_Head  
+HitTestFuzzy01  
+Ref_Weapon Right  
+Ref_Weapon Left  
+Ref_Weapon  
+Vol_Target  
+HitTestFuzzy02  
+HitTestFuzzy03  
+
+버텍스 웨이팅되지 않은 본에 대해 일어날 수 있습니다. 임포트 이후 오리엔테이션이 제대로 되어 있지 않은 경우,
+"Use T0 as ref pose" 옵션을 사용하거나, 바인드 포즈에 추가한 다음 스켈레탈 메시를 다시 임포트해 보세요. 
+[2017.08.18-13.47.48:458][499]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/user/Desktop/sc2/hydralisk/hydralisk_diffuse.png)
+[2017.08.18-13.47.48:510][499]LogTexture:Display: 텍스처 빌드: hydralisk_diffuse (AutoDXT, 1024X1024)
+[2017.08.18-13.49.11:609][893]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.014
+[2017.08.18-13.49.11:611][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/hydralisk_diffuse] ([1] browsable assets)...
+[2017.08.18-13.49.11:617][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/hydralisk_diffuse.hydralisk_diffuse]
+[2017.08.18-13.49.11:617][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/hydralisk_diffuse]
+[2017.08.18-13.49.11:617][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/hydralisk_diffuse" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/hydralisk_diffuse_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.08.18-13.49.11:634][893]LogSavePackage: Save=14.48ms
+[2017.08.18-13.49.11:634][893]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/hydralisk_diffuse_Auto53DC6C59B4863C380B5E89187DAD06B3A.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/hydralisk_diffuse_Auto5.uasset'
+[2017.08.18-13.49.11:636][893]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/hydralisk_diffuse_Auto5.uasset
+[2017.08.18-13.49.11:637][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Textures/hydralisk_diffuse] ([1] browsable assets)...
+[2017.08.18-13.49.11:644][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/StarterContent/Textures/hydralisk_diffuse.hydralisk_diffuse]
+[2017.08.18-13.49.11:644][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Textures/hydralisk_diffuse]
+[2017.08.18-13.49.11:660][893]LogSavePackage: Save=14.00ms
+[2017.08.18-13.49.11:660][893]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/hydralisk_diffuse_Auto533E112804A8A53E5A517A18C5E0A588C.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/StarterContent/Textures/hydralisk_diffuse_Auto5.uasset'
+[2017.08.18-13.49.11:661][893]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/StarterContent/Textures/hydralisk_diffuse_Auto5.uasset
+[2017.08.18-13.49.11:662][893]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Hydralisk_Skeleton] ([1] browsable assets)...
+[2017.08.18-13.49.11:662][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hydralisk_Skeleton]
+[2017.08.18-13.49.11:662][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hydralisk_Skeleton" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Hydralisk_Skeleton_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.08.18-13.49.11:669][893]LogSavePackage: Save=5.31ms
+[2017.08.18-13.49.11:669][893]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Hydralisk_Skeleton_Auto5BA156174489F97F8AF9C3B8BDD77F4BE.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Hydralisk_Skeleton_Auto5.uasset'
+[2017.08.18-13.49.11:670][893]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Hydralisk_Skeleton_Auto5.uasset
+[2017.08.18-13.49.11:671][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Hydralisk_Anim] ([1] browsable assets)...
+[2017.08.18-13.49.11:687][893]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Hydralisk_Anim.Hydralisk_Anim]
+[2017.08.18-13.49.11:687][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hydralisk_Anim]
+[2017.08.18-13.49.11:687][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hydralisk_Anim" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Hydralisk_Anim_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.08.18-13.49.11:720][893]LogSavePackage: Save=31.47ms
+[2017.08.18-13.49.11:720][893]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Hydralisk_Anim_Auto55BE57A3044D1431F24AD7782FC9D49BC.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Hydralisk_Anim_Auto5.uasset'
+[2017.08.18-13.49.11:724][893]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Hydralisk_Anim_Auto5.uasset
+[2017.08.18-13.49.11:724][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Hydralisk] ([1] browsable assets)...
+[2017.08.18-13.49.11:739][893]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Hydralisk.Hydralisk]
+[2017.08.18-13.49.11:739][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hydralisk]
+[2017.08.18-13.49.11:739][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hydralisk" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Hydralisk_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.08.18-13.49.11:756][893]LogSavePackage: Save=15.65ms
+[2017.08.18-13.49.11:756][893]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Hydralisk_Auto54037756F4265DC16678E5389F9CE4AE1.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Hydralisk_Auto5.uasset'
+[2017.08.18-13.49.11:757][893]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Hydralisk_Auto5.uasset
+[2017.08.18-13.49.11:758][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Standard_3] ([1] browsable assets)...
+[2017.08.18-13.49.11:771][893]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Standard_3.Standard_3]
+[2017.08.18-13.49.11:771][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Standard_3]
+[2017.08.18-13.49.11:771][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Standard_3" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Standard_3_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.08.18-13.49.11:785][893]LogSavePackage: Save=11.97ms
+[2017.08.18-13.49.11:785][893]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Standard_3_Auto5BDC12210454AC346A4E51FAAAA63E1D6.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Standard_3_Auto5.uasset'
+[2017.08.18-13.49.11:787][893]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Standard_3_Auto5.uasset
+[2017.08.18-13.49.11:787][893]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Hydralisk_PhysicsAsset] ([1] browsable assets)...
+[2017.08.18-13.49.11:787][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hydralisk_PhysicsAsset]
+[2017.08.18-13.49.11:804][893]LogSavePackage: Save=15.26ms
+[2017.08.18-13.49.11:804][893]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Hydralisk_PhysicsAsset_Auto5C649E01E4D589BC79809FE83700594D1.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Hydralisk_PhysicsAsset_Auto5.uasset'
+[2017.08.18-13.49.11:805][893]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Hydralisk_PhysicsAsset_Auto5.uasset
+[2017.08.18-13.49.11:805][893]LogFileHelpers: Auto-saving content packages took 0.195
+[2017.08.18-14.15.48:425][527]LogMaterial: Missing cached shader map for material Standard_3, compiling. 
+[2017.08.18-14.15.48:528][527]LogMaterial: Missing cached shader map for material Standard_3, compiling. 
+[2017.08.18-14.15.48:551][527]LogMaterial: Missing cached shader map for material Standard_3, compiling. 
+[2017.08.18-14.15.48:596][527]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.18-14.15.50:892][694]MaterialEditorStats: 정보 Base pass shader: 80 instructions
+[2017.08.18-14.15.50:892][694]MaterialEditorStats: 정보 Vertex shader: 29 instructions
+[2017.08.18-14.15.50:892][694]MaterialEditorStats: 정보 Texture samplers: 1/16
+[2017.08.18-14.16.20:409][590]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.08.18-14.16.20:465][590]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.18-14.16.20:469][590]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.08.18-14.16.29:652][455]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.08.18-14.16.59:712][520]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.08.18-14.17.02:473][796]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.08.18-14.17.17:788][371]LogMaterialEditor: Applying material Standard_3
+[2017.08.18-14.17.18:351][371]LogMaterial: Missing cached shader map for material Standard_3, compiling. 
+[2017.08.18-14.17.18:396][371]LogMaterial: Missing cached shader map for material Standard_3, compiling. 
+[2017.08.18-14.17.18:432][371]LogMaterial: Missing cached shader map for material Standard_3, compiling. 
+[2017.08.18-14.17.18:479][371]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Standard_3, compiling. 
+[2017.08.18-14.17.20:173][371]TextureStreamingBuild:Display: Compiling optional shaders took 1.699 seconds.
+[2017.08.18-14.17.23:268][637]MaterialEditorStats: 정보 Base pass shader: 81 instructions
+[2017.08.18-14.17.23:268][637]MaterialEditorStats: 정보 Vertex shader: 31 instructions
+[2017.08.18-14.17.23:268][637]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.08.18-14.17.23:268][637]MaterialEditorStats: 정보 User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.18-14.17.25:899][923]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Standard_3" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Standard_3.uasset" SILENT=true
+[2017.08.18-14.17.25:915][923]LogSavePackage: Save=13.40ms
+[2017.08.18-14.17.25:915][923]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Standard_393A78B2F4EAAAC9953C33A884FF5BCE4.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Standard_3.uasset'
+[2017.08.18-14.17.25:921][923]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Standard_3.uasset
+[2017.08.18-14.17.30:096][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Standard_3" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Standard_3.uasset" SILENT=true
+[2017.08.18-14.17.30:109][377]LogSavePackage: Save=6.28ms
+[2017.08.18-14.17.30:109][377]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Standard_39AA3F8884A74EDB99D515AB468DED0F3.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Standard_3.uasset'
+[2017.08.18-14.17.30:110][377]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Standard_3.uasset
+[2017.08.18-14.17.30:965][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Standard_3" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Standard_3.uasset" SILENT=true
+[2017.08.18-14.17.30:973][471]LogSavePackage: Save=5.01ms
+[2017.08.18-14.17.30:973][471]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Standard_3775541DA4E2C6ED425DD0DA0A1B129F3.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Standard_3.uasset'
+[2017.08.18-14.17.30:975][471]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Standard_3.uasset
+[2017.08.18-14.17.31:194][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Standard_3" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Standard_3.uasset" SILENT=true
+[2017.08.18-14.17.31:202][489]LogSavePackage: Save=5.48ms
+[2017.08.18-14.17.31:202][489]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Standard_3EF7A5D1D45E14B7708D28A9B1E186A1E.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Standard_3.uasset'
+[2017.08.18-14.17.31:204][489]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Standard_3.uasset
+[2017.08.18-14.17.31:388][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Standard_3" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Standard_3.uasset" SILENT=true
+[2017.08.18-14.17.31:396][503]LogSavePackage: Save=4.87ms
+[2017.08.18-14.17.31:396][503]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Standard_332A1E674450CB638BA8D239EFF9104F6.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Standard_3.uasset'
+[2017.08.18-14.17.31:397][503]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Standard_3.uasset
+[2017.08.18-14.17.31:609][520]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Standard_3" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Standard_3.uasset" SILENT=true
+[2017.08.18-14.17.31:617][520]LogSavePackage: Save=5.07ms
+[2017.08.18-14.17.31:617][520]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Standard_33B75D2434206730A3C6467B849D3C51D.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Standard_3.uasset'
+[2017.08.18-14.17.31:619][520]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Standard_3.uasset
+[2017.08.18-14.17.37:772][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hydralisk" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Hydralisk.uasset" SILENT=true
+[2017.08.18-14.17.37:790][826]LogSavePackage: Save=15.89ms
+[2017.08.18-14.17.37:790][826]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/HydraliskFEA8AE6B4E9DA63BEF22C59A9A7A142F.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Hydralisk.uasset'
+[2017.08.18-14.17.37:797][826]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Hydralisk.uasset
+[2017.08.18-14.17.37:816][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hydralisk_Anim" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Hydralisk_Anim.uasset" SILENT=true
+[2017.08.18-14.17.37:849][826]LogSavePackage: Save=31.07ms
+[2017.08.18-14.17.37:849][826]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Hydralisk_Anim731DA73C402C8E321AB8A3AB9BB97FAD.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Hydralisk_Anim.uasset'
+[2017.08.18-14.17.37:858][826]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Hydralisk_Anim.uasset
+[2017.08.18-14.17.37:870][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/hydralisk_diffuse" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Content/hydralisk_diffuse.uasset" SILENT=true
+[2017.08.18-14.17.38:033][826]LogSavePackage: Save=161.24ms
+[2017.08.18-14.17.38:033][826]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/hydralisk_diffuse253D306A4A30283BA348028BACF3F4FA.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Content/hydralisk_diffuse.uasset'
+[2017.08.18-14.17.38:040][826]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Content/hydralisk_diffuse.uasset
+[2017.08.18-14.17.38:043][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hydralisk_PhysicsAsset" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Hydralisk_PhysicsAsset.uasset" SILENT=true
+[2017.08.18-14.17.38:060][826]LogSavePackage: Save=15.52ms
+[2017.08.18-14.17.38:060][826]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Hydralisk_PhysicsAssetA10D8E46422AF6444CA290902A9C1DCD.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Hydralisk_PhysicsAsset.uasset'
+[2017.08.18-14.17.38:067][826]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Hydralisk_PhysicsAsset.uasset
+[2017.08.18-14.17.38:070][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hydralisk_Skeleton" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Hydralisk_Skeleton.uasset" SILENT=true
+[2017.08.18-14.17.38:077][826]LogSavePackage: Save=5.21ms
+[2017.08.18-14.17.38:077][826]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Hydralisk_Skeleton1DB89ADD478B845D510CFDAA2E030209.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Hydralisk_Skeleton.uasset'
+[2017.08.18-14.17.38:082][826]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Hydralisk_Skeleton.uasset
+[2017.08.18-14.17.38:252][826]LogSavePackage: Save=87.10ms
+[2017.08.18-14.17.38:252][826]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Minimal_Default08A811DA45407E904B37A7946BB6C005.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.08.18-14.17.38:258][826]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.08.18-14.17.38:282][826]LogFileHelpers: Saving map 'Minimal_Default' took 0.197
+[2017.08.18-14.17.38:454][826]LogSavePackage: Save=157.19ms
+[2017.08.18-14.17.38:454][826]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/hydralisk_diffuse32900E0D42249185DF51A4A9BCB75726.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Content/StarterContent/Textures/hydralisk_diffuse.uasset'
+[2017.08.18-14.17.38:456][826]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Content/StarterContent/Textures/hydralisk_diffuse.uasset
+[2017.08.18-14.17.38:735][827]Cmd: QUIT_EDITOR
+[2017.08.18-14.17.39:322][827]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.08.18-14.17.39:354][827]LogExit: Preparing to exit.
+[2017.08.18-14.17.40:522][827]LogDirectoryWatcher: A directory notification for 'C:/Users/user/Documents/test/trunk/Project_F/Content/' was aborted.
+[2017.08.18-14.17.40:602][827]LogExit: Editor shut down
+[2017.08.18-14.17.40:628][827]LogExit: Transaction tracking system shut down
+[2017.08.18-14.17.40:942][827]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.18-14.17.40:943][827]LogExit: Object subsystem successfully closed.
+[2017.08.18-14.17.40:965][827]LogD3D11RHI: Shutdown
+[2017.08.18-14.17.40:965][827]LogD3D11RHI: CleanupD3DDevice
+[2017.08.18-14.17.41:124][827]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.18-14.17.41:143][827]LogModuleManager: Shutting down and abandoning module MaterialEditor (546)
+[2017.08.18-14.17.41:143][827]LogModuleManager: Shutting down and abandoning module BlueprintGraph (544)
+[2017.08.18-14.17.41:143][827]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (542)
+[2017.08.18-14.17.41:144][827]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (540)
+[2017.08.18-14.17.41:144][827]LogModuleManager: Shutting down and abandoning module AnimationEditor (538)
+[2017.08.18-14.17.41:144][827]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (536)
+[2017.08.18-14.17.41:144][827]LogModuleManager: Shutting down and abandoning module SkeletonEditor (534)
+[2017.08.18-14.17.41:144][827]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (532)
+[2017.08.18-14.17.41:144][827]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (530)
+[2017.08.18-14.17.41:144][827]LogModuleManager: Shutting down and abandoning module PhAT (528)
+[2017.08.18-14.17.41:144][827]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
+[2017.08.18-14.17.41:144][827]LogModuleManager: Shutting down and abandoning module CrashTracker (524)
+[2017.08.18-14.17.41:144][827]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
+[2017.08.18-14.17.41:144][827]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
+[2017.08.18-14.17.41:144][827]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.08.18-14.17.41:148][827]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
+[2017.08.18-14.17.41:148][827]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
+[2017.08.18-14.17.41:148][827]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
+[2017.08.18-14.17.41:148][827]LogDirectoryWatcher: A directory notification for 'C:/Users/user/Documents/test/trunk/Project_F/Content/Collections/' was aborted.
+[2017.08.18-14.17.41:148][827]LogDirectoryWatcher: A directory notification for 'C:/Users/user/Documents/test/trunk/Project_F/Content/Developers/user/Collections/' was aborted.
+[2017.08.18-14.17.41:148][827]LogDirectoryWatcher: A directory notification for 'C:/Users/user/Documents/test/trunk/Project_F/Saved/Collections/' was aborted.
+[2017.08.18-14.17.41:148][827]LogModuleManager: Shutting down and abandoning module StatsViewer (512)
+[2017.08.18-14.17.41:148][827]LogModuleManager: Shutting down and abandoning module FoliageEdit (510)
+[2017.08.18-14.17.41:148][827]LogModuleManager: Shutting down and abandoning module LandscapeEditor (508)
+[2017.08.18-14.17.41:148][827]LogModuleManager: Shutting down and abandoning module MeshPaintMode (506)
+[2017.08.18-14.17.41:148][827]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (504)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module ActorPickerMode (502)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module GeometryMode (500)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module TextureAlignMode (498)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module BspMode (496)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module HardwareSurvey (494)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (492)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module AutomationWorker (490)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (488)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (486)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module PlacementMode (485)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (482)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (480)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (478)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (476)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (474)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module Media (473)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (470)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module CharacterAI (468)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module AudioCapture (466)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module SequenceRecorder (465)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module SmartSnapping (462)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module SessionServices (460)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module ViewportSnapping (458)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module ViewportInteraction (456)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module ClothPainter (454)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module LogVisualizer (452)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module IntroTutorials (450)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (449)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (446)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (444)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (442)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (440)
+[2017.08.18-14.17.41:149][827]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (439)
+[2017.08.18-14.17.42:006][827]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (436)
+[2017.08.18-14.17.42:006][827]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (434)
+[2017.08.18-14.17.42:006][827]LogModuleManager: Shutting down and abandoning module InputBindingEditor (432)
+[2017.08.18-14.17.42:006][827]LogModuleManager: Shutting down and abandoning module MergeActors (430)
+[2017.08.18-14.17.42:006][827]LogModuleManager: Shutting down and abandoning module SizeMap (428)
+[2017.08.18-14.17.42:006][827]LogModuleManager: Shutting down and abandoning module TreeMap (426)
+[2017.08.18-14.17.42:006][827]LogModuleManager: Shutting down and abandoning module ReferenceViewer (424)
+[2017.08.18-14.17.42:006][827]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (422)
+[2017.08.18-14.17.42:006][827]LogModuleManager: Shutting down and abandoning module LocalizationService (421)
+[2017.08.18-14.17.42:006][827]LogModuleManager: Shutting down and abandoning module HardwareTargeting (418)
+[2017.08.18-14.17.42:006][827]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (416)
+[2017.08.18-14.17.42:006][827]LogModuleManager: Shutting down and abandoning module UndoHistory (414)
+[2017.08.18-14.17.42:006][827]LogModuleManager: Shutting down and abandoning module UserFeedback (412)
+[2017.08.18-14.17.42:006][827]LogModuleManager: Shutting down and abandoning module XmlParser (410)
+[2017.08.18-14.17.42:006][827]LogModuleManager: Shutting down and abandoning module Blutility (408)
+[2017.08.18-14.17.42:006][827]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (406)
+[2017.08.18-14.17.42:006][827]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (405)
+[2017.08.18-14.17.42:006][827]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (402)
+[2017.08.18-14.17.42:006][827]LogModuleManager: Shutting down and abandoning module SettingsEditor (400)
+[2017.08.18-14.17.42:006][827]LogModuleManager: Shutting down and abandoning module ProjectLauncher (398)
+[2017.08.18-14.17.42:006][827]LogModuleManager: Shutting down and abandoning module SessionFrontend (396)
+[2017.08.18-14.17.42:006][827]LogModuleManager: Shutting down and abandoning module ProfilerClient (394)
+[2017.08.18-14.17.42:006][827]LogModuleManager: Shutting down and abandoning module DeviceManager (392)
+[2017.08.18-14.17.42:006][827]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (391)
+[2017.08.18-14.17.42:059][827]LogModuleManager: Shutting down and abandoning module AutomationController (388)
+[2017.08.18-14.17.42:059][827]LogModuleManager: Shutting down and abandoning module AutomationWindow (386)
+[2017.08.18-14.17.42:059][827]LogModuleManager: Shutting down and abandoning module Layers (384)
+[2017.08.18-14.17.42:059][827]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (382)
+[2017.08.18-14.17.42:059][827]LogModuleManager: Shutting down and abandoning module DetailCustomizations (380)
+[2017.08.18-14.17.42:059][827]LogModuleManager: Shutting down and abandoning module PackagesDialog (378)
+[2017.08.18-14.17.42:059][827]LogModuleManager: Shutting down and abandoning module Persona (376)
+[2017.08.18-14.17.42:059][827]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (375)
+[2017.08.18-14.17.42:059][827]LogModuleManager: Shutting down and abandoning module AnimGraph (373)
+[2017.08.18-14.17.42:059][827]LogModuleManager: Shutting down and abandoning module Kismet (370)
+[2017.08.18-14.17.42:065][827]LogModuleManager: Shutting down and abandoning module ClassViewer (368)
+[2017.08.18-14.17.42:066][827]LogModuleManager: Shutting down and abandoning module Toolbox (366)
+[2017.08.18-14.17.42:066][827]LogModuleManager: Shutting down and abandoning module ModuleUI (364)
+[2017.08.18-14.17.42:066][827]LogModuleManager: Shutting down and abandoning module MovieSceneTools (362)
+[2017.08.18-14.17.42:066][827]LogModuleManager: Shutting down and abandoning module OutputLog (360)
+[2017.08.18-14.17.42:066][827]LogModuleManager: Shutting down and abandoning module GammaUI (358)
+[2017.08.18-14.17.42:066][827]LogModuleManager: Shutting down and abandoning module Documentation (356)
+[2017.08.18-14.17.42:066][827]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (354)
+[2017.08.18-14.17.42:066][827]LogModuleManager: Shutting down and abandoning module MovieScene (352)
+[2017.08.18-14.17.42:066][827]LogModuleManager: Shutting down and abandoning module Niagara (350)
+[2017.08.18-14.17.42:066][827]LogModuleManager: Shutting down and abandoning module NiagaraEditor (349)
+[2017.08.18-14.17.42:066][827]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (346)
+[2017.08.18-14.17.42:066][827]LogModuleManager: Shutting down and abandoning module AnalyticsET (344)
+[2017.08.18-14.17.42:066][827]LogModuleManager: Shutting down and abandoning module PortalServices (342)
+[2017.08.18-14.17.42:066][827]LogModuleManager: Shutting down and abandoning module PortalRpc (340)
+[2017.08.18-14.17.42:066][827]LogModuleManager: Shutting down and abandoning module MessagingRpc (338)
+[2017.08.18-14.17.42:066][827]LogModuleManager: Shutting down and abandoning module AIModule (336)
+[2017.08.18-14.17.42:066][827]LogModuleManager: Shutting down and abandoning module GameplayDebugger (335)
+[2017.08.18-14.17.42:066][827]LogModuleManager: Shutting down and abandoning module AITestSuite (333)
+[2017.08.18-14.17.42:066][827]LogModuleManager: Shutting down and abandoning module ProfilerService (330)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module TaskGraph (328)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module SteamVR (324)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module OculusInput (316)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module CableComponent (310)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module DesktopPlatform (279)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module GitSourceControl (270)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module SourceControl (269)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (264)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (262)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module Paper2DEditor (260)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module MeshPaint (259)
+[2017.08.18-14.17.42:267][827]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
+[2017.08.18-14.17.42:268][827]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
+[2017.08.18-14.17.42:268][827]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2017.08.18-14.17.42:268][827]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2017.08.18-14.17.42:268][827]LogDirectoryWatcher: A directory notification for 'C:/Users/user/Documents/test/trunk/Project_F/Binaries/Win64' was aborted.
+[2017.08.18-14.17.42:269][827]LogModuleManager: Shutting down and abandoning module Project_F (248)
+[2017.08.18-14.17.42:269][827]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.08.18-14.17.42:269][827]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.08.18-14.17.42:269][827]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.08.18-14.17.42:269][827]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.08.18-14.17.42:269][827]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.08.18-14.17.42:269][827]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.08.18-14.17.42:369][827]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.08.18-14.17.42:470][827]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.08.18-14.17.42:470][827]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.08.18-14.17.42:470][827]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.08.18-14.17.42:470][827]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.08.18-14.17.42:470][827]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.08.18-14.17.42:470][827]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.08.18-14.17.42:471][827]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.08.18-14.17.42:471][827]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.08.18-14.17.42:471][827]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.08.18-14.17.42:471][827]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.08.18-14.17.42:471][827]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.08.18-14.17.42:471][827]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.08.18-14.17.42:471][827]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.08.18-14.17.42:471][827]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.08.18-14.17.42:471][827]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.08.18-14.17.42:471][827]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.08.18-14.17.42:471][827]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.08.18-14.17.42:471][827]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.08.18-14.17.42:471][827]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.08.18-14.17.42:471][827]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.08.18-14.17.42:471][827]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.08.18-14.17.42:471][827]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.08.18-14.17.42:471][827]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.08.18-14.17.42:471][827]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.08.18-14.17.42:471][827]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.08.18-14.17.42:471][827]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.08.18-14.17.42:471][827]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.08.18-14.17.42:471][827]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.08.18-14.17.42:471][827]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.08.18-14.17.42:474][827]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.08.18-14.17.42:474][827]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.08.18-14.17.42:474][827]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.08.18-14.17.42:474][827]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.08.18-14.17.42:474][827]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.08.18-14.17.42:474][827]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.08.18-14.17.42:667][827]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.18-14.17.42:667][827]LogDirectoryWatcher: A directory notification for '../../../../../../Users/user/Documents/test/trunk/Project_F/Content/' was aborted.
+[2017.08.18-14.17.42:667][827]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.18-14.17.42:667][827]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.08.18-14.17.42:671][827]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.08.18-14.17.42:675][827]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.08.18-14.17.42:675][827]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.08.18-14.17.42:675][827]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.08.18-14.17.42:675][827]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.08.18-14.17.42:675][827]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.08.18-14.17.42:675][827]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.08.18-14.17.42:675][827]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.08.18-14.17.42:675][827]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.18-14.17.42:706][827]LogDerivedDataCache: Shutdown
+[2017.08.18-14.17.42:706][827]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.18-14.17.42:706][827]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.18-14.17.42:706][827]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.18-14.17.42:706][827]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.18-14.17.42:706][827]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.18-14.17.42:707][827]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.18-14.17.42:707][827]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.18-14.17.42:707][827]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.18-14.17.42:707][827]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B74BAB9BE-4499-43B8-6AB5-AEBDB369280A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=49cd7e2e4248701ef0a9cda2152fb122%7C6258b944f305450dab7634ff4e7cf87d%7Ceda2b18e-34b5-4952-9665-a50559ff9dd5&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.18-14.17.42:728][827]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.18-14.17.42:730][827]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.08.18-14.17.42:730][827]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.08.18-14.17.42:730][827]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.08.18-14.17.42:730][827]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.18-14.17.42:730][827]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.18-14.17.42:730][827]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.18-14.17.42:730][827]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.18-14.17.42:730][827]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.18-14.17.42:738][827]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.18-14.17.42:738][827]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.18-14.17.42:738][827]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.18-14.17.42:738][827]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.18-14.17.42:739][827]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.18-14.17.42:739][827]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.18-14.17.42:739][827]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.18-14.17.42:739][827]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.18-14.17.42:739][827]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.18-14.17.42:739][827]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.18-14.17.42:740][827]LogExit: Exiting.
+[2017.08.18-14.17.42:755][827]Log file closed, 08/18/17 23:17:42

@@ -1,0 +1,1482 @@
+﻿Log file open, 08/13/17 18:55:29
+LogInit:Display: Running engine for game: Project_F
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(923151346) SRandInit(923151346).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.083738
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.13-09.55.30:150][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.13-09.55.30:150][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.13-09.55.30:158][  0]LogInit: Computer: DESKTOP-90CD943
+[2017.08.13-09.55.30:158][  0]LogInit: User: user
+[2017.08.13-09.55.30:158][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.13-09.55.30:158][  0]LogInit: High frequency timer resolution =3.515633 MHz
+[2017.08.13-09.55.30:159][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.13-09.55.30:159][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.13-09.55.30:159][  0]LogMemory: Process Physical Memory: 274.01 MB used, 274.01 MB peak
+[2017.08.13-09.55.30:159][  0]LogMemory: Process Virtual Memory: 260.98 MB used, 260.98 MB peak
+[2017.08.13-09.55.30:159][  0]LogMemory: Physical Memory: 5478.64 MB used,  10841.68 MB free, 16320.32 MB total
+[2017.08.13-09.55.30:159][  0]LogMemory: Virtual Memory: 638.16 MB used,  10841.68 MB free, 134217728.00 MB total
+[2017.08.13-09.55.30:238][  0]LogInit: Using OS detected language (ko-KR).
+[2017.08.13-09.55.30:238][  0]LogInit: Using OS detected locale (ko-KR).
+[2017.08.13-09.55.30:240][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2017.08.13-09.55.30:870][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.13-09.55.30:915][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.08.13-09.55.30:915][  0]LogD3D11RHI:       8119/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.13-09.55.30:917][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.13-09.55.30:917][  0]LogD3D11RHI:       0/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.13-09.55.30:917][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.13-09.55.30:923][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.13-09.55.30:923][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.13-09.55.30:923][  0]LogWindows: EnumDisplayDevices:
+[2017.08.13-09.55.30:924][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.08.13-09.55.30:924][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.13-09.55.30:924][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.13-09.55.30:924][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.13-09.55.30:925][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.13-09.55.30:925][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.08.13-09.55.30:925][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.08.13-09.55.30:925][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.08.13-09.55.30:925][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.13-09.55.30:951][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.13-09.55.30:961][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.13-09.55.31:010][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/user/Documents/test/trunk/Project_F/Intermediate/Shaders/WorkingDirectory/32500/).
+[2017.08.13-09.55.31:010][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/user/AppData/Local/Temp/UnrealShaderWorkingDir/28888A2B428CFEB970EE08A3E162D6F6/'.
+[2017.08.13-09.55.31:010][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.13-09.55.31:870][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.13-09.55.31:923][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.13-09.55.31:974][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.13-09.55.32:026][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.13-09.55.32:078][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.13-09.55.32:129][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.13-09.55.32:179][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.13-09.55.32:231][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.13-09.55.32:279][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.13-09.55.32:328][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.13-09.55.32:377][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.13-09.55.32:428][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.13-09.55.32:477][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.13-09.55.32:528][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.13-09.55.32:578][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.13-09.55.32:679][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.13-09.55.32:679][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.13-09.55.32:724][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.13-09.55.32:820][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.13-09.55.32:850][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.13-09.55.32:899][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.13-09.55.32:951][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.13-09.55.33:001][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.13-09.55.33:054][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.13-09.55.33:054][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.13-09.55.33:598][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.13-09.55.33:671][  0]LogDerivedDataCache: Loaded boot cache 0.07s 90MB C:/Users/user/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.13-09.55.33:671][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/user/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.13-09.55.33:671][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/user/Documents/test/trunk/Project_F/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.13-09.55.33:671][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.13-09.55.33:671][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/user/Documents/test/trunk/Project_F/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.13-09.55.33:671][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.13-09.55.33:683][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.13-09.55.33:695][  0]LogDerivedDataCache: Using Local data cache path C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.13-09.55.33:703][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.13-09.55.33:703][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.13-09.55.33:703][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.13-09.55.33:703][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.13-09.55.33:957][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.13-09.55.34:011][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.13-09.55.34:157][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.13-09.55.34:206][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.13-09.55.34:257][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.13-09.55.34:257][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.13-09.55.34:257][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.13-09.55.34:754][  0]LogNetVersion: Project_F , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3309458147)
+[2017.08.13-09.55.34:815][  0]LogAssetRegistry: FAssetRegistry took 0.0256 seconds to start up
+[2017.08.13-09.55.34:873][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.030402 seconds
+[2017.08.13-09.55.34:877][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.13-09.55.34:877][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.13-09.55.34:877][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.13-09.55.34:953][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.13-09.55.37:235][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.13-09.55.37:280][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.13-09.55.37:899][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.13-09.55.38:318][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.13-09.55.38:356][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.13-09.55.38:409][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.13-09.55.38:461][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.13-09.55.39:201][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.13-09.55.39:837][  0]LogEngine: Initializing Engine...
+[2017.08.13-09.55.39:838][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.13-09.55.39:993][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.13-09.55.39:993][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.13-09.55.40:135][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.13-09.55.40:151][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-09.55.40:186][  0]LogInit: FAudioDevice initialized.
+[2017.08.13-09.55.40:223][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/user/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.13-09.55.40:235][  0]LogInit: Texture streaming: Enabled
+[2017.08.13-09.55.40:345][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.13-09.55.40:587][  0]LogInit: Transaction tracking system initialized
+[2017.08.13-09.55.40:944][  0]BlueprintLog: New page: 에디터 로드
+[2017.08.13-09.55.41:995][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2017.08.13-09.55.42:761][  0]LogConsoleResponse:Display: 
+[2017.08.13-09.55.42:893][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.13-09.55.42:893][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.13-09.55.44:000][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/test/trunk/Project_F/Content/' took 0.01s
+[2017.08.13-09.55.44:052][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.13-09.55.44:052][  0]Cmd: MAP LOAD FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.13-09.55.44:052][  0]LightingResults: New page: 라이팅 빌드
+[2017.08.13-09.55.44:098][  0]MapCheck: New page: 맵 체크
+[2017.08.13-09.55.44:098][  0]LightingResults: New page: 라이팅 빌드
+[2017.08.13-09.55.44:356][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.08.13-09.55.44:362][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.13-09.55.44:373][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.13-09.55.44:424][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 50.637ms.
+[2017.08.13-09.55.44:424][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.373
+[2017.08.13-09.55.44:480][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.08.13-09.55.44:554][  0]LogCollectionManager: Loaded 0 collections in 0.001362 seconds
+[2017.08.13-09.55.44:638][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/test/trunk/Project_F/Saved/Collections/' took 0.01s
+[2017.08.13-09.55.44:638][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/test/trunk/Project_F/Content/Developers/user/Collections/' took 0.01s
+[2017.08.13-09.55.44:638][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/test/trunk/Project_F/Content/Collections/' took 0.01s
+[2017.08.13-09.55.44:638][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.13-09.55.44:646][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2330 classes and 493 folders.
+[2017.08.13-09.55.44:722][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2017.08.13-09.55.44:759][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2017.08.13-09.55.44:808][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.08.13-09.55.44:850][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.13-09.55.44:855][  0]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.13-09.55.44:858][  0]LogSlate: Took 0.002012 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.08.13-09.55.44:858][  0]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.13-09.55.44:861][  0]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.13-09.55.44:936][  0]LogRenderer: Reallocating scene render targets to support 1616x576 NumSamples 1 (Frame:1).
+[2017.08.13-09.55.45:036][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2017.08.13-09.55.45:109][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2017.08.13-09.55.45:109][  0]LogLoad: (Engine Initialization) Total time: 16.76 seconds
+[2017.08.13-09.55.45:109][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.08 seconds
+[2017.08.13-09.55.45:109][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.13-09.55.45:109][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.13-09.55.45:122][  0]LogOcInput: OculusInput pre-init called
+[2017.08.13-09.55.45:122][  0]LogHMD: Starting GearVRController plugin
+[2017.08.13-09.55.45:133][  0]LogAssetRegistry: Asset discovery search completed in 10.3399 seconds
+[2017.08.13-09.55.45:134][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.13-09.55.45:134][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2017.08.13-09.55.45:136][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.13-09.55.45:168][  0]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.13-09.55.59:721][ 24]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.13-09.55.59:739][ 24]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/user/Desktop/sc2/MercCommander.FBX)
+[2017.08.13-09.55.59:757][ 24]LogFbx: ItemName: Model, ItemCount : 73
+[2017.08.13-09.55.59:757][ 24]LogFbx: ItemName: Material, ItemCount : 1
+[2017.08.13-09.55.59:757][ 24]LogFbx: ItemName: SceneInfo, ItemCount : 1
+[2017.08.13-09.55.59:757][ 24]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.08.13-09.55.59:757][ 24]LogFbx: ItemName: Deformer, ItemCount : 2
+[2017.08.13-09.55.59:757][ 24]LogFbx: ItemName: SubDeformer, ItemCount : 30
+[2017.08.13-09.55.59:757][ 24]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.08.13-09.55.59:761][ 24]LogFbx: Loading FBX Scene from ../../../../../../Users/user/Desktop/sc2/MercCommander.FBX
+[2017.08.13-09.55.59:809][ 24]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.13-09.56.06:336][ 24]LogFbx: Loading FBX Scene from ../../../../../../Users/user/Desktop/sc2/MercCommander.FBX
+[2017.08.13-09.56.06:383][ 24]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.13-09.56.06:387][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node START [Mesh 1] 
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Total Deformer Count 1563947408.
+[2017.08.13-09.56.06:387][ 24]LogFbx: 		[Node 1] Skin Mesh 1 (Type Skin).
+[2017.08.13-09.56.06:387][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Attribute (Mesh 1) Type (4).
+[2017.08.13-09.56.06:387][ 24]LogFbx: 		[Node Attribute Child 1] Mesh 1 (Type Mesh).
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node END [Mesh 1]
+[2017.08.13-09.56.06:387][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node START [Mesh 2] 
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Total Deformer Count 1563947408.
+[2017.08.13-09.56.06:387][ 24]LogFbx: 		[Node 1] Skin Mesh 2 (Type Skin).
+[2017.08.13-09.56.06:387][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Attribute (Mesh 2) Type (4).
+[2017.08.13-09.56.06:387][ 24]LogFbx: 		[Node Attribute Child 1] Mesh 2 (Type Mesh).
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node END [Mesh 2]
+[2017.08.13-09.56.06:387][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node START [Ref_Target 07] 
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Total Deformer Count 512834464.
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Attribute (Ref_Target 07) Type (4).
+[2017.08.13-09.56.06:387][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target 07 (Type Mesh).
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node END [Ref_Target 07]
+[2017.08.13-09.56.06:387][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node START [Ref_Target 06] 
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Total Deformer Count 512834464.
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Attribute (Ref_Target 06) Type (4).
+[2017.08.13-09.56.06:387][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target 06 (Type Mesh).
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node END [Ref_Target 06]
+[2017.08.13-09.56.06:387][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node START [Ref_Target 05] 
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Total Deformer Count 512834464.
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Attribute (Ref_Target 05) Type (4).
+[2017.08.13-09.56.06:387][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target 05 (Type Mesh).
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node END [Ref_Target 05]
+[2017.08.13-09.56.06:387][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node START [Ref_Weapon 01] 
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Total Deformer Count 512834464.
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Attribute (Ref_Weapon 01) Type (4).
+[2017.08.13-09.56.06:387][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Weapon 01 (Type Mesh).
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node END [Ref_Weapon 01]
+[2017.08.13-09.56.06:387][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node START [Ref_Weapon 02] 
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Total Deformer Count 512834464.
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Attribute (Ref_Weapon 02) Type (4).
+[2017.08.13-09.56.06:387][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Weapon 02 (Type Mesh).
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node END [Ref_Weapon 02]
+[2017.08.13-09.56.06:387][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node START [Ref_Weapon 03] 
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Total Deformer Count 512834464.
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Attribute (Ref_Weapon 03) Type (4).
+[2017.08.13-09.56.06:387][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Weapon 03 (Type Mesh).
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node END [Ref_Weapon 03]
+[2017.08.13-09.56.06:387][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node START [Ref_Target] 
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Total Deformer Count 1561856320.
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Attribute (Ref_Target) Type (4).
+[2017.08.13-09.56.06:387][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target (Type Mesh).
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node END [Ref_Target]
+[2017.08.13-09.56.06:387][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node START [Ref_Center] 
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Total Deformer Count 1561856320.
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Attribute (Ref_Center) Type (4).
+[2017.08.13-09.56.06:387][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Center (Type Mesh).
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node END [Ref_Center]
+[2017.08.13-09.56.06:387][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node START [Ref_Origin] 
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Total Deformer Count 1561856320.
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Attribute (Ref_Origin) Type (4).
+[2017.08.13-09.56.06:387][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Origin (Type Mesh).
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node END [Ref_Origin]
+[2017.08.13-09.56.06:387][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node START [Ref_Overhead] 
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Total Deformer Count 512831104.
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Attribute (Ref_Overhead) Type (4).
+[2017.08.13-09.56.06:387][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Overhead (Type Mesh).
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node END [Ref_Overhead]
+[2017.08.13-09.56.06:387][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node START [Ref_Weapon] 
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Total Deformer Count 1561856320.
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Attribute (Ref_Weapon) Type (4).
+[2017.08.13-09.56.06:387][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Weapon (Type Mesh).
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node END [Ref_Weapon]
+[2017.08.13-09.56.06:387][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node START [Mesh 1] 
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Total Deformer Count 1563943600.
+[2017.08.13-09.56.06:387][ 24]LogFbx: 		[Node 1] Skin Mesh 1 (Type Skin).
+[2017.08.13-09.56.06:387][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Attribute (Mesh 1) Type (4).
+[2017.08.13-09.56.06:387][ 24]LogFbx: 		[Node Attribute Child 1] Mesh 1 (Type Mesh).
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node END [Mesh 1]
+[2017.08.13-09.56.06:387][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node START [Mesh 2] 
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Total Deformer Count 1563943600.
+[2017.08.13-09.56.06:387][ 24]LogFbx: 		[Node 1] Skin Mesh 2 (Type Skin).
+[2017.08.13-09.56.06:387][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Attribute (Mesh 2) Type (4).
+[2017.08.13-09.56.06:387][ 24]LogFbx: 		[Node Attribute Child 1] Mesh 2 (Type Mesh).
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node END [Mesh 2]
+[2017.08.13-09.56.06:387][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node START [Ref_Origin] 
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Total Deformer Count 1561856320.
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Attribute (Ref_Origin) Type (4).
+[2017.08.13-09.56.06:387][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Origin (Type Mesh).
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node END [Ref_Origin]
+[2017.08.13-09.56.06:387][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node START [Ref_Origin] 
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Total Deformer Count 1561856320.
+[2017.08.13-09.56.06:387][ 24]LogFbx: 	Attribute (Ref_Origin) Type (4).
+[2017.08.13-09.56.06:387][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Origin (Type Mesh).
+[2017.08.13-09.56.06:387][ 24]LogFbx: Dumping Node END [Ref_Origin]
+[2017.08.13-09.56.06:388][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node START [Ref_Overhead] 
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Total Deformer Count 512831984.
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Attribute (Ref_Overhead) Type (4).
+[2017.08.13-09.56.06:388][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Overhead (Type Mesh).
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node END [Ref_Overhead]
+[2017.08.13-09.56.06:388][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node START [Ref_Overhead] 
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Total Deformer Count 512831984.
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Attribute (Ref_Overhead) Type (4).
+[2017.08.13-09.56.06:388][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Overhead (Type Mesh).
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node END [Ref_Overhead]
+[2017.08.13-09.56.06:388][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node START [Ref_Target 07] 
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Total Deformer Count 512831984.
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Attribute (Ref_Target 07) Type (4).
+[2017.08.13-09.56.06:388][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target 07 (Type Mesh).
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node END [Ref_Target 07]
+[2017.08.13-09.56.06:388][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node START [Ref_Target 06] 
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Total Deformer Count 512831984.
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Attribute (Ref_Target 06) Type (4).
+[2017.08.13-09.56.06:388][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target 06 (Type Mesh).
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node END [Ref_Target 06]
+[2017.08.13-09.56.06:388][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node START [Ref_Target 05] 
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Total Deformer Count 512831984.
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Attribute (Ref_Target 05) Type (4).
+[2017.08.13-09.56.06:388][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target 05 (Type Mesh).
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node END [Ref_Target 05]
+[2017.08.13-09.56.06:388][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node START [Ref_Weapon 01] 
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Total Deformer Count 512831984.
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Attribute (Ref_Weapon 01) Type (4).
+[2017.08.13-09.56.06:388][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Weapon 01 (Type Mesh).
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node END [Ref_Weapon 01]
+[2017.08.13-09.56.06:388][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node START [Ref_Weapon 02] 
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Total Deformer Count 512831984.
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Attribute (Ref_Weapon 02) Type (4).
+[2017.08.13-09.56.06:388][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Weapon 02 (Type Mesh).
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node END [Ref_Weapon 02]
+[2017.08.13-09.56.06:388][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node START [Ref_Weapon 03] 
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Total Deformer Count 512831984.
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Attribute (Ref_Weapon 03) Type (4).
+[2017.08.13-09.56.06:388][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Weapon 03 (Type Mesh).
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node END [Ref_Weapon 03]
+[2017.08.13-09.56.06:388][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node START [Ref_Target] 
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Total Deformer Count 1561856320.
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Attribute (Ref_Target) Type (4).
+[2017.08.13-09.56.06:388][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target (Type Mesh).
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node END [Ref_Target]
+[2017.08.13-09.56.06:388][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node START [Ref_Center] 
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Total Deformer Count 1561856320.
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Attribute (Ref_Center) Type (4).
+[2017.08.13-09.56.06:388][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Center (Type Mesh).
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node END [Ref_Center]
+[2017.08.13-09.56.06:388][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node START [Ref_Target 07] 
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Total Deformer Count 512833584.
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Attribute (Ref_Target 07) Type (4).
+[2017.08.13-09.56.06:388][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target 07 (Type Mesh).
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node END [Ref_Target 07]
+[2017.08.13-09.56.06:388][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node START [Ref_Target 06] 
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Total Deformer Count 512833584.
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Attribute (Ref_Target 06) Type (4).
+[2017.08.13-09.56.06:388][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target 06 (Type Mesh).
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node END [Ref_Target 06]
+[2017.08.13-09.56.06:388][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node START [Ref_Target 05] 
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Total Deformer Count 512833584.
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Attribute (Ref_Target 05) Type (4).
+[2017.08.13-09.56.06:388][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target 05 (Type Mesh).
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node END [Ref_Target 05]
+[2017.08.13-09.56.06:388][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node START [Ref_Weapon 01] 
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Total Deformer Count 512833584.
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Attribute (Ref_Weapon 01) Type (4).
+[2017.08.13-09.56.06:388][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Weapon 01 (Type Mesh).
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node END [Ref_Weapon 01]
+[2017.08.13-09.56.06:388][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node START [Ref_Weapon 02] 
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Total Deformer Count 512833584.
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Attribute (Ref_Weapon 02) Type (4).
+[2017.08.13-09.56.06:388][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Weapon 02 (Type Mesh).
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node END [Ref_Weapon 02]
+[2017.08.13-09.56.06:388][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node START [Ref_Weapon 03] 
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Total Deformer Count 512833584.
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Attribute (Ref_Weapon 03) Type (4).
+[2017.08.13-09.56.06:388][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Weapon 03 (Type Mesh).
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node END [Ref_Weapon 03]
+[2017.08.13-09.56.06:388][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node START [Ref_Target] 
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Total Deformer Count 1561856320.
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Attribute (Ref_Target) Type (4).
+[2017.08.13-09.56.06:388][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target (Type Mesh).
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node END [Ref_Target]
+[2017.08.13-09.56.06:388][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node START [Ref_Center] 
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Total Deformer Count 1561856320.
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Attribute (Ref_Center) Type (4).
+[2017.08.13-09.56.06:388][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Center (Type Mesh).
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node END [Ref_Center]
+[2017.08.13-09.56.06:388][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node START [Ref_Target 07] 
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Total Deformer Count 512833904.
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Attribute (Ref_Target 07) Type (4).
+[2017.08.13-09.56.06:388][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target 07 (Type Mesh).
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node END [Ref_Target 07]
+[2017.08.13-09.56.06:388][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node START [Ref_Target 06] 
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Total Deformer Count 512833904.
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Attribute (Ref_Target 06) Type (4).
+[2017.08.13-09.56.06:388][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target 06 (Type Mesh).
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node END [Ref_Target 06]
+[2017.08.13-09.56.06:388][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node START [Ref_Target 05] 
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Total Deformer Count 512833904.
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Attribute (Ref_Target 05) Type (4).
+[2017.08.13-09.56.06:388][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target 05 (Type Mesh).
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node END [Ref_Target 05]
+[2017.08.13-09.56.06:388][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node START [Ref_Weapon 01] 
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Total Deformer Count 512833904.
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Attribute (Ref_Weapon 01) Type (4).
+[2017.08.13-09.56.06:388][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Weapon 01 (Type Mesh).
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node END [Ref_Weapon 01]
+[2017.08.13-09.56.06:388][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node START [Ref_Weapon 02] 
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Total Deformer Count 512833904.
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Attribute (Ref_Weapon 02) Type (4).
+[2017.08.13-09.56.06:388][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Weapon 02 (Type Mesh).
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node END [Ref_Weapon 02]
+[2017.08.13-09.56.06:388][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node START [Ref_Weapon 03] 
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Total Deformer Count 512833904.
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Attribute (Ref_Weapon 03) Type (4).
+[2017.08.13-09.56.06:388][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Weapon 03 (Type Mesh).
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node END [Ref_Weapon 03]
+[2017.08.13-09.56.06:388][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node START [Ref_Target] 
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Total Deformer Count 1561856320.
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Attribute (Ref_Target) Type (4).
+[2017.08.13-09.56.06:388][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target (Type Mesh).
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node END [Ref_Target]
+[2017.08.13-09.56.06:388][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node START [Ref_Target 07] 
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Total Deformer Count 512833824.
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Attribute (Ref_Target 07) Type (4).
+[2017.08.13-09.56.06:388][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target 07 (Type Mesh).
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node END [Ref_Target 07]
+[2017.08.13-09.56.06:388][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:388][ 24]LogFbx: Dumping Node START [Ref_Target 06] 
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Total Deformer Count 512833824.
+[2017.08.13-09.56.06:388][ 24]LogFbx: 	Attribute (Ref_Target 06) Type (4).
+[2017.08.13-09.56.06:388][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target 06 (Type Mesh).
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node END [Ref_Target 06]
+[2017.08.13-09.56.06:389][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node START [Ref_Target 05] 
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Total Deformer Count 512833824.
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Attribute (Ref_Target 05) Type (4).
+[2017.08.13-09.56.06:389][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target 05 (Type Mesh).
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node END [Ref_Target 05]
+[2017.08.13-09.56.06:389][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node START [Ref_Weapon 01] 
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Total Deformer Count 512833824.
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Attribute (Ref_Weapon 01) Type (4).
+[2017.08.13-09.56.06:389][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Weapon 01 (Type Mesh).
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node END [Ref_Weapon 01]
+[2017.08.13-09.56.06:389][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node START [Ref_Weapon 02] 
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Total Deformer Count 512833824.
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Attribute (Ref_Weapon 02) Type (4).
+[2017.08.13-09.56.06:389][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Weapon 02 (Type Mesh).
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node END [Ref_Weapon 02]
+[2017.08.13-09.56.06:389][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node START [Ref_Weapon 03] 
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Total Deformer Count 512833824.
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Attribute (Ref_Weapon 03) Type (4).
+[2017.08.13-09.56.06:389][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Weapon 03 (Type Mesh).
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node END [Ref_Weapon 03]
+[2017.08.13-09.56.06:389][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node START [Ref_Target] 
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Total Deformer Count 1561856320.
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Attribute (Ref_Target) Type (4).
+[2017.08.13-09.56.06:389][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target (Type Mesh).
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node END [Ref_Target]
+[2017.08.13-09.56.06:389][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node START [Ref_Target 07] 
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Total Deformer Count 512834064.
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Attribute (Ref_Target 07) Type (4).
+[2017.08.13-09.56.06:389][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target 07 (Type Mesh).
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node END [Ref_Target 07]
+[2017.08.13-09.56.06:389][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node START [Ref_Target 06] 
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Total Deformer Count 512834064.
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Attribute (Ref_Target 06) Type (4).
+[2017.08.13-09.56.06:389][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target 06 (Type Mesh).
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node END [Ref_Target 06]
+[2017.08.13-09.56.06:389][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node START [Ref_Target 07] 
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Total Deformer Count 512834064.
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Attribute (Ref_Target 07) Type (4).
+[2017.08.13-09.56.06:389][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target 07 (Type Mesh).
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node END [Ref_Target 07]
+[2017.08.13-09.56.06:389][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node START [Ref_Target 06] 
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Total Deformer Count 512834064.
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Attribute (Ref_Target 06) Type (4).
+[2017.08.13-09.56.06:389][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target 06 (Type Mesh).
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node END [Ref_Target 06]
+[2017.08.13-09.56.06:389][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node START [Ref_Target 07] 
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Total Deformer Count 512834064.
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Attribute (Ref_Target 07) Type (4).
+[2017.08.13-09.56.06:389][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target 07 (Type Mesh).
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node END [Ref_Target 07]
+[2017.08.13-09.56.06:389][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node START [Ref_Target 07] 
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Total Deformer Count 512834064.
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Attribute (Ref_Target 07) Type (4).
+[2017.08.13-09.56.06:389][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target 07 (Type Mesh).
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node END [Ref_Target 07]
+[2017.08.13-09.56.06:389][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node START [Ref_Target 07] 
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Total Deformer Count 512834064.
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Attribute (Ref_Target 07) Type (4).
+[2017.08.13-09.56.06:389][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target 07 (Type Mesh).
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node END [Ref_Target 07]
+[2017.08.13-09.56.06:389][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node START [Ref_Target 06] 
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Total Deformer Count 512834064.
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Attribute (Ref_Target 06) Type (4).
+[2017.08.13-09.56.06:389][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target 06 (Type Mesh).
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node END [Ref_Target 06]
+[2017.08.13-09.56.06:389][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node START [Ref_Target 06] 
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Total Deformer Count 512834064.
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Attribute (Ref_Target 06) Type (4).
+[2017.08.13-09.56.06:389][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target 06 (Type Mesh).
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node END [Ref_Target 06]
+[2017.08.13-09.56.06:389][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node START [Ref_Target 06] 
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Total Deformer Count 512834064.
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Attribute (Ref_Target 06) Type (4).
+[2017.08.13-09.56.06:389][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target 06 (Type Mesh).
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node END [Ref_Target 06]
+[2017.08.13-09.56.06:389][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node START [Ref_Target 05] 
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Total Deformer Count 512834064.
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Attribute (Ref_Target 05) Type (4).
+[2017.08.13-09.56.06:389][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target 05 (Type Mesh).
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node END [Ref_Target 05]
+[2017.08.13-09.56.06:389][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node START [Ref_Weapon 01] 
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Total Deformer Count 512834064.
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Attribute (Ref_Weapon 01) Type (4).
+[2017.08.13-09.56.06:389][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Weapon 01 (Type Mesh).
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node END [Ref_Weapon 01]
+[2017.08.13-09.56.06:389][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node START [Ref_Weapon 02] 
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Total Deformer Count 512834064.
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Attribute (Ref_Weapon 02) Type (4).
+[2017.08.13-09.56.06:389][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Weapon 02 (Type Mesh).
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node END [Ref_Weapon 02]
+[2017.08.13-09.56.06:389][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node START [Ref_Weapon 03] 
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Total Deformer Count 512834064.
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Attribute (Ref_Weapon 03) Type (4).
+[2017.08.13-09.56.06:389][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Weapon 03 (Type Mesh).
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node END [Ref_Weapon 03]
+[2017.08.13-09.56.06:389][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node START [Ref_Target 05] 
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Total Deformer Count 512834064.
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Attribute (Ref_Target 05) Type (4).
+[2017.08.13-09.56.06:389][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target 05 (Type Mesh).
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node END [Ref_Target 05]
+[2017.08.13-09.56.06:389][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node START [Ref_Target 05] 
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Total Deformer Count 512834064.
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Attribute (Ref_Target 05) Type (4).
+[2017.08.13-09.56.06:389][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target 05 (Type Mesh).
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node END [Ref_Target 05]
+[2017.08.13-09.56.06:389][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node START [Ref_Target 05] 
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Total Deformer Count 512834064.
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Attribute (Ref_Target 05) Type (4).
+[2017.08.13-09.56.06:389][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target 05 (Type Mesh).
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node END [Ref_Target 05]
+[2017.08.13-09.56.06:389][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node START [Ref_Target 05] 
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Total Deformer Count 512834064.
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Attribute (Ref_Target 05) Type (4).
+[2017.08.13-09.56.06:389][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target 05 (Type Mesh).
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node END [Ref_Target 05]
+[2017.08.13-09.56.06:389][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node START [Ref_Target 05] 
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Total Deformer Count 512834064.
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Attribute (Ref_Target 05) Type (4).
+[2017.08.13-09.56.06:389][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target 05 (Type Mesh).
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node END [Ref_Target 05]
+[2017.08.13-09.56.06:389][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node START [Ref_Weapon 01] 
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Total Deformer Count 512834064.
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Attribute (Ref_Weapon 01) Type (4).
+[2017.08.13-09.56.06:389][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Weapon 01 (Type Mesh).
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node END [Ref_Weapon 01]
+[2017.08.13-09.56.06:389][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node START [Ref_Weapon 02] 
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Total Deformer Count 512834064.
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Attribute (Ref_Weapon 02) Type (4).
+[2017.08.13-09.56.06:389][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Weapon 02 (Type Mesh).
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node END [Ref_Weapon 02]
+[2017.08.13-09.56.06:389][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node START [Ref_Weapon 03] 
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Total Deformer Count 512834064.
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Attribute (Ref_Weapon 03) Type (4).
+[2017.08.13-09.56.06:389][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Weapon 03 (Type Mesh).
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node END [Ref_Weapon 03]
+[2017.08.13-09.56.06:389][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node START [Ref_Weapon 01] 
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Total Deformer Count 512834064.
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Attribute (Ref_Weapon 01) Type (4).
+[2017.08.13-09.56.06:389][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Weapon 01 (Type Mesh).
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node END [Ref_Weapon 01]
+[2017.08.13-09.56.06:389][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node START [Ref_Weapon 01] 
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Total Deformer Count 512834064.
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Attribute (Ref_Weapon 01) Type (4).
+[2017.08.13-09.56.06:389][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Weapon 01 (Type Mesh).
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node END [Ref_Weapon 01]
+[2017.08.13-09.56.06:389][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:389][ 24]LogFbx: Dumping Node START [Ref_Weapon 02] 
+[2017.08.13-09.56.06:389][ 24]LogFbx: 	Total Deformer Count 512834064.
+[2017.08.13-09.56.06:390][ 24]LogFbx: 	Attribute (Ref_Weapon 02) Type (4).
+[2017.08.13-09.56.06:390][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Weapon 02 (Type Mesh).
+[2017.08.13-09.56.06:390][ 24]LogFbx: Dumping Node END [Ref_Weapon 02]
+[2017.08.13-09.56.06:390][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:390][ 24]LogFbx: Dumping Node START [Ref_Weapon 02] 
+[2017.08.13-09.56.06:390][ 24]LogFbx: 	Total Deformer Count 512834064.
+[2017.08.13-09.56.06:390][ 24]LogFbx: 	Attribute (Ref_Weapon 02) Type (4).
+[2017.08.13-09.56.06:390][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Weapon 02 (Type Mesh).
+[2017.08.13-09.56.06:390][ 24]LogFbx: Dumping Node END [Ref_Weapon 02]
+[2017.08.13-09.56.06:390][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:390][ 24]LogFbx: Dumping Node START [Ref_Weapon 03] 
+[2017.08.13-09.56.06:390][ 24]LogFbx: 	Total Deformer Count 512834064.
+[2017.08.13-09.56.06:390][ 24]LogFbx: 	Attribute (Ref_Weapon 03) Type (4).
+[2017.08.13-09.56.06:390][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Weapon 03 (Type Mesh).
+[2017.08.13-09.56.06:390][ 24]LogFbx: Dumping Node END [Ref_Weapon 03]
+[2017.08.13-09.56.06:390][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:390][ 24]LogFbx: Dumping Node START [Ref_Weapon 03] 
+[2017.08.13-09.56.06:390][ 24]LogFbx: 	Total Deformer Count 512834064.
+[2017.08.13-09.56.06:390][ 24]LogFbx: 	Attribute (Ref_Weapon 03) Type (4).
+[2017.08.13-09.56.06:390][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Weapon 03 (Type Mesh).
+[2017.08.13-09.56.06:390][ 24]LogFbx: Dumping Node END [Ref_Weapon 03]
+[2017.08.13-09.56.06:390][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:390][ 24]LogFbx: Dumping Node START [Ref_Target] 
+[2017.08.13-09.56.06:390][ 24]LogFbx: 	Total Deformer Count 1561856320.
+[2017.08.13-09.56.06:390][ 24]LogFbx: 	Attribute (Ref_Target) Type (4).
+[2017.08.13-09.56.06:390][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target (Type Mesh).
+[2017.08.13-09.56.06:390][ 24]LogFbx: Dumping Node END [Ref_Target]
+[2017.08.13-09.56.06:390][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:390][ 24]LogFbx: Dumping Node START [Ref_Target] 
+[2017.08.13-09.56.06:390][ 24]LogFbx: 	Total Deformer Count 1561856320.
+[2017.08.13-09.56.06:390][ 24]LogFbx: 	Attribute (Ref_Target) Type (4).
+[2017.08.13-09.56.06:390][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Target (Type Mesh).
+[2017.08.13-09.56.06:390][ 24]LogFbx: Dumping Node END [Ref_Target]
+[2017.08.13-09.56.06:390][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:390][ 24]LogFbx: Dumping Node START [Ref_Center] 
+[2017.08.13-09.56.06:390][ 24]LogFbx: 	Total Deformer Count 1561856320.
+[2017.08.13-09.56.06:390][ 24]LogFbx: 	Attribute (Ref_Center) Type (4).
+[2017.08.13-09.56.06:390][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Center (Type Mesh).
+[2017.08.13-09.56.06:390][ 24]LogFbx: Dumping Node END [Ref_Center]
+[2017.08.13-09.56.06:390][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:390][ 24]LogFbx: Dumping Node START [Ref_Center] 
+[2017.08.13-09.56.06:390][ 24]LogFbx: 	Total Deformer Count 1561856320.
+[2017.08.13-09.56.06:390][ 24]LogFbx: 	Attribute (Ref_Center) Type (4).
+[2017.08.13-09.56.06:390][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Center (Type Mesh).
+[2017.08.13-09.56.06:390][ 24]LogFbx: Dumping Node END [Ref_Center]
+[2017.08.13-09.56.06:390][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:390][ 24]LogFbx: Dumping Node START [Ref_Weapon] 
+[2017.08.13-09.56.06:390][ 24]LogFbx: 	Total Deformer Count 1561856320.
+[2017.08.13-09.56.06:390][ 24]LogFbx: 	Attribute (Ref_Weapon) Type (4).
+[2017.08.13-09.56.06:390][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Weapon (Type Mesh).
+[2017.08.13-09.56.06:390][ 24]LogFbx: Dumping Node END [Ref_Weapon]
+[2017.08.13-09.56.06:390][ 24]LogFbx: =================================================
+[2017.08.13-09.56.06:390][ 24]LogFbx: Dumping Node START [Ref_Weapon] 
+[2017.08.13-09.56.06:390][ 24]LogFbx: 	Total Deformer Count 1561856320.
+[2017.08.13-09.56.06:390][ 24]LogFbx: 	Attribute (Ref_Weapon) Type (4).
+[2017.08.13-09.56.06:390][ 24]LogFbx: 		[Node Attribute Child 1] Ref_Weapon (Type Mesh).
+[2017.08.13-09.56.06:390][ 24]LogFbx: Dumping Node END [Ref_Weapon]
+[2017.08.13-09.56.06:390][ 24]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node Mesh 1 : Not all the deformers are stored in this BindPose
+[2017.08.13-09.56.06:390][ 24]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node Mesh 2 : Not all the deformers are stored in this BindPose
+[2017.08.13-09.56.06:390][ 24]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node Ref_Target 07 : Not all the deformers are stored in this BindPose
+[2017.08.13-09.56.06:390][ 24]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node Ref_Target 06 : Not all the deformers are stored in this BindPose
+[2017.08.13-09.56.06:390][ 24]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node Ref_Target 05 : Not all the deformers are stored in this BindPose
+[2017.08.13-09.56.06:390][ 24]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node Ref_Weapon 01 : Not all the deformers are stored in this BindPose
+[2017.08.13-09.56.06:391][ 24]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node Ref_Weapon 02 : Not all the deformers are stored in this BindPose
+[2017.08.13-09.56.06:391][ 24]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node Ref_Weapon 03 : Not all the deformers are stored in this BindPose
+[2017.08.13-09.56.06:391][ 24]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node Ref_Target : Not all the deformers are stored in this BindPose
+[2017.08.13-09.56.06:391][ 24]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node Ref_Center : Not all the deformers are stored in this BindPose
+[2017.08.13-09.56.06:391][ 24]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.08.13-09.56.06:391][ 24]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Mesh 1
+[2017.08.13-09.56.06:391][ 24]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.08.13-09.56.06:392][ 24]LogLinker: '/Game/Standard_7' 파일을 찾을 수 없습니다.
+[2017.08.13-09.56.06:392][ 24]LogLinker: '/Game/Standard_7' 파일을 찾을 수 없습니다.
+[2017.08.13-09.56.06:392][ 24]LogMaterial:Warning: Material /Game/Standard_7.Standard_7 needed to have new flag set bUsedWithSkeletalMesh !
+[2017.08.13-09.56.06:394][ 24]LogMaterial: Missing cached shader map for material Standard_7, compiling. 
+[2017.08.13-09.56.06:432][ 24]LogMaterial: Missing cached shader map for material Standard_7, compiling. 
+[2017.08.13-09.56.06:472][ 24]FBXImport:Warning: 경고 바인드 포즈에서 빠진 본은 다음과 같습니다:
+HitTestFuzzy003  
+HitTestFuzzy002  
+HitTestFuzzy001  
+HitTestTight  
+HitTestFuzzy007  
+Vol_Target 07_BoneRef  
+Ref_Target 07  
+HitTestFuzzy006  
+Vol_Target 06_BoneRef  
+Ref_Target 06  
+HitTestFuzzy005  
+Vol_Target 05_BoneRef  
+Ref_Target 05  
+Ref_Weapon 01_BoneRef  
+Ref_Weapon 01  
+Ref_Weapon 02_BoneRef  
+Ref_Weapon 02  
+Ref_Weapon 03_BoneRef  
+Ref_Weapon 03  
+HitTestFuzzy  
+Vol_Target_BoneRef  
+Ref_Target  
+Ref_Center_BoneRef  
+Ref_Center  
+
+버텍스 웨이팅되지 않은 본에 대해 일어날 수 있습니다. 임포트 이후 오리엔테이션이 제대로 되어 있지 않은 경우,
+"Use T0 as ref pose" 옵션을 사용하거나, 바인드 포즈에 추가한 다음 스켈레탈 메시를 다시 임포트해 보세요. 
+[2017.08.13-09.56.06:472][ 24]FBXImport:Warning: 경고 'Ref_Target 07' 메시에 UV 세트가 없습니다. 기본 세트를 만듭니다. 
+[2017.08.13-09.56.06:472][ 24]FBXImport:Warning: 경고 'Ref_Target 06' 메시에 UV 세트가 없습니다. 기본 세트를 만듭니다. 
+[2017.08.13-09.56.06:472][ 24]FBXImport:Warning: 경고 'Ref_Target 05' 메시에 UV 세트가 없습니다. 기본 세트를 만듭니다. 
+[2017.08.13-09.56.06:472][ 24]FBXImport:Warning: 경고 'Ref_Weapon 01' 메시에 UV 세트가 없습니다. 기본 세트를 만듭니다. 
+[2017.08.13-09.56.06:472][ 24]FBXImport:Warning: 경고 'Ref_Weapon 02' 메시에 UV 세트가 없습니다. 기본 세트를 만듭니다. 
+[2017.08.13-09.56.06:472][ 24]FBXImport:Warning: 경고 'Ref_Weapon 03' 메시에 UV 세트가 없습니다. 기본 세트를 만듭니다. 
+[2017.08.13-09.56.06:472][ 24]FBXImport:Warning: 경고 'Ref_Target' 메시에 UV 세트가 없습니다. 기본 세트를 만듭니다. 
+[2017.08.13-09.56.06:472][ 24]FBXImport:Warning: 경고 'Ref_Center' 메시에 UV 세트가 없습니다. 기본 세트를 만듭니다. 
+[2017.08.13-09.56.06:472][ 24]FBXImport:Error: 오류 스켈레톤에 고유하지 않은 본 이름이 있습니다.
+이름이 'Unit_Terran_MercCommander_Waist' 인 본이 두 번 이상 나왔습니다. 
+[2017.08.13-09.56.06:472][ 24]FBXImport:Error: 오류 임포트에 실패했습니다. 
+[2017.08.13-09.56.09:853][ 24]LogAssetTools:Warning: '../../../../../../Users/user/Desktop/sc2/MercCommander.FBX' 임포트에 실패했습니다. '/Game/MercCommander' 애셋 생성에 실패했습니다. 
+자세한 내용은 출력 로그를 참고하세요.
+[2017.08.13-09.56.22:657][293]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/user/Desktop/sc2/Hydralisk.FBX)
+[2017.08.13-09.56.22:675][293]LogFbx: ItemName: Model, ItemCount : 48
+[2017.08.13-09.56.22:675][293]LogFbx: ItemName: Material, ItemCount : 1
+[2017.08.13-09.56.22:675][293]LogFbx: ItemName: SceneInfo, ItemCount : 1
+[2017.08.13-09.56.22:675][293]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.08.13-09.56.22:675][293]LogFbx: ItemName: Deformer, ItemCount : 2
+[2017.08.13-09.56.22:675][293]LogFbx: ItemName: SubDeformer, ItemCount : 27
+[2017.08.13-09.56.22:675][293]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.08.13-09.56.22:679][293]LogFbx: Loading FBX Scene from ../../../../../../Users/user/Desktop/sc2/Hydralisk.FBX
+[2017.08.13-09.56.22:722][293]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.13-09.56.39:691][293]LogFbx: Loading FBX Scene from ../../../../../../Users/user/Desktop/sc2/Hydralisk.FBX
+[2017.08.13-09.56.39:735][293]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.13-09.56.39:738][293]LogFbx: =================================================
+[2017.08.13-09.56.39:738][293]LogFbx: Dumping Node START [Mesh 1] 
+[2017.08.13-09.56.39:738][293]LogFbx: 	Total Deformer Count 866108488.
+[2017.08.13-09.56.39:738][293]LogFbx: 		[Node 1] Skin Mesh 1 (Type Skin).
+[2017.08.13-09.56.39:738][293]LogFbx: =================================================
+[2017.08.13-09.56.39:738][293]LogFbx: 	Attribute (Mesh 1) Type (4).
+[2017.08.13-09.56.39:738][293]LogFbx: 		[Node Attribute Child 1] Mesh 1 (Type Mesh).
+[2017.08.13-09.56.39:738][293]LogFbx: Dumping Node END [Mesh 1]
+[2017.08.13-09.56.39:738][293]LogFbx: =================================================
+[2017.08.13-09.56.39:738][293]LogFbx: Dumping Node START [Mesh 2] 
+[2017.08.13-09.56.39:738][293]LogFbx: 	Total Deformer Count 866108488.
+[2017.08.13-09.56.39:738][293]LogFbx: 		[Node 1] Skin Mesh 2 (Type Skin).
+[2017.08.13-09.56.39:738][293]LogFbx: =================================================
+[2017.08.13-09.56.39:738][293]LogFbx: 	Attribute (Mesh 2) Type (4).
+[2017.08.13-09.56.39:738][293]LogFbx: 		[Node Attribute Child 1] Mesh 2 (Type Mesh).
+[2017.08.13-09.56.39:738][293]LogFbx: Dumping Node END [Mesh 2]
+[2017.08.13-09.56.39:738][293]LogFbx: =================================================
+[2017.08.13-09.56.39:738][293]LogFbx: Dumping Node START [Vol_Target] 
+[2017.08.13-09.56.39:738][293]LogFbx: 	Total Deformer Count 2056461504.
+[2017.08.13-09.56.39:738][293]LogFbx: 	Attribute (Vol_Target) Type (4).
+[2017.08.13-09.56.39:738][293]LogFbx: 		[Node Attribute Child 1] Vol_Target (Type Mesh).
+[2017.08.13-09.56.39:738][293]LogFbx: Dumping Node END [Vol_Target]
+[2017.08.13-09.56.39:738][293]LogFbx: =================================================
+[2017.08.13-09.56.39:738][293]LogFbx: Dumping Node START [Mesh 1] 
+[2017.08.13-09.56.39:738][293]LogFbx: 	Total Deformer Count 866114200.
+[2017.08.13-09.56.39:738][293]LogFbx: 		[Node 1] Skin Mesh 1 (Type Skin).
+[2017.08.13-09.56.39:738][293]LogFbx: =================================================
+[2017.08.13-09.56.39:738][293]LogFbx: 	Attribute (Mesh 1) Type (4).
+[2017.08.13-09.56.39:738][293]LogFbx: 		[Node Attribute Child 1] Mesh 1 (Type Mesh).
+[2017.08.13-09.56.39:738][293]LogFbx: Dumping Node END [Mesh 1]
+[2017.08.13-09.56.39:738][293]LogFbx: =================================================
+[2017.08.13-09.56.39:738][293]LogFbx: Dumping Node START [Mesh 2] 
+[2017.08.13-09.56.39:738][293]LogFbx: 	Total Deformer Count 866114200.
+[2017.08.13-09.56.39:738][293]LogFbx: 		[Node 1] Skin Mesh 2 (Type Skin).
+[2017.08.13-09.56.39:738][293]LogFbx: =================================================
+[2017.08.13-09.56.39:738][293]LogFbx: 	Attribute (Mesh 2) Type (4).
+[2017.08.13-09.56.39:738][293]LogFbx: 		[Node Attribute Child 1] Mesh 2 (Type Mesh).
+[2017.08.13-09.56.39:738][293]LogFbx: Dumping Node END [Mesh 2]
+[2017.08.13-09.56.39:738][293]LogFbx: =================================================
+[2017.08.13-09.56.39:738][293]LogFbx: Dumping Node START [Vol_Target] 
+[2017.08.13-09.56.39:738][293]LogFbx: 	Total Deformer Count 2056461504.
+[2017.08.13-09.56.39:738][293]LogFbx: 	Attribute (Vol_Target) Type (4).
+[2017.08.13-09.56.39:738][293]LogFbx: 		[Node Attribute Child 1] Vol_Target (Type Mesh).
+[2017.08.13-09.56.39:738][293]LogFbx: Dumping Node END [Vol_Target]
+[2017.08.13-09.56.39:738][293]LogFbx: =================================================
+[2017.08.13-09.56.39:738][293]LogFbx: Dumping Node START [Vol_Target] 
+[2017.08.13-09.56.39:738][293]LogFbx: 	Total Deformer Count 2056461504.
+[2017.08.13-09.56.39:738][293]LogFbx: 	Attribute (Vol_Target) Type (4).
+[2017.08.13-09.56.39:738][293]LogFbx: 		[Node Attribute Child 1] Vol_Target (Type Mesh).
+[2017.08.13-09.56.39:738][293]LogFbx: Dumping Node END [Vol_Target]
+[2017.08.13-09.56.39:738][293]LogFbx: =================================================
+[2017.08.13-09.56.39:738][293]LogFbx: Dumping Node START [Vol_Target] 
+[2017.08.13-09.56.39:738][293]LogFbx: 	Total Deformer Count 2056461504.
+[2017.08.13-09.56.39:738][293]LogFbx: 	Attribute (Vol_Target) Type (4).
+[2017.08.13-09.56.39:738][293]LogFbx: 		[Node Attribute Child 1] Vol_Target (Type Mesh).
+[2017.08.13-09.56.39:738][293]LogFbx: Dumping Node END [Vol_Target]
+[2017.08.13-09.56.39:738][293]LogFbx: =================================================
+[2017.08.13-09.56.39:738][293]LogFbx: Dumping Node START [Vol_Target] 
+[2017.08.13-09.56.39:738][293]LogFbx: 	Total Deformer Count 2056464064.
+[2017.08.13-09.56.39:738][293]LogFbx: 	Attribute (Vol_Target) Type (4).
+[2017.08.13-09.56.39:738][293]LogFbx: 		[Node Attribute Child 1] Vol_Target (Type Mesh).
+[2017.08.13-09.56.39:738][293]LogFbx: Dumping Node END [Vol_Target]
+[2017.08.13-09.56.39:738][293]LogFbx: =================================================
+[2017.08.13-09.56.39:738][293]LogFbx: Dumping Node START [Vol_Target] 
+[2017.08.13-09.56.39:738][293]LogFbx: 	Total Deformer Count 2056469312.
+[2017.08.13-09.56.39:738][293]LogFbx: 	Attribute (Vol_Target) Type (4).
+[2017.08.13-09.56.39:738][293]LogFbx: 		[Node Attribute Child 1] Vol_Target (Type Mesh).
+[2017.08.13-09.56.39:738][293]LogFbx: Dumping Node END [Vol_Target]
+[2017.08.13-09.56.39:738][293]LogFbx: =================================================
+[2017.08.13-09.56.39:738][293]LogFbx: Dumping Node START [Vol_Target] 
+[2017.08.13-09.56.39:738][293]LogFbx: 	Total Deformer Count 2056462336.
+[2017.08.13-09.56.39:738][293]LogFbx: 	Attribute (Vol_Target) Type (4).
+[2017.08.13-09.56.39:738][293]LogFbx: 		[Node Attribute Child 1] Vol_Target (Type Mesh).
+[2017.08.13-09.56.39:738][293]LogFbx: Dumping Node END [Vol_Target]
+[2017.08.13-09.56.39:739][293]LogFbx: =================================================
+[2017.08.13-09.56.39:739][293]LogFbx: Dumping Node START [Vol_Target] 
+[2017.08.13-09.56.39:739][293]LogFbx: 	Total Deformer Count 2056462336.
+[2017.08.13-09.56.39:739][293]LogFbx: 	Attribute (Vol_Target) Type (4).
+[2017.08.13-09.56.39:739][293]LogFbx: 		[Node Attribute Child 1] Vol_Target (Type Mesh).
+[2017.08.13-09.56.39:739][293]LogFbx: Dumping Node END [Vol_Target]
+[2017.08.13-09.56.39:739][293]LogFbx: =================================================
+[2017.08.13-09.56.39:739][293]LogFbx: Dumping Node START [Vol_Target] 
+[2017.08.13-09.56.39:739][293]LogFbx: 	Total Deformer Count 2056462336.
+[2017.08.13-09.56.39:739][293]LogFbx: 	Attribute (Vol_Target) Type (4).
+[2017.08.13-09.56.39:739][293]LogFbx: 		[Node Attribute Child 1] Vol_Target (Type Mesh).
+[2017.08.13-09.56.39:739][293]LogFbx: Dumping Node END [Vol_Target]
+[2017.08.13-09.56.39:739][293]LogFbx: =================================================
+[2017.08.13-09.56.39:739][293]LogFbx: Dumping Node START [Vol_Target] 
+[2017.08.13-09.56.39:739][293]LogFbx: 	Total Deformer Count 2056462336.
+[2017.08.13-09.56.39:739][293]LogFbx: 	Attribute (Vol_Target) Type (4).
+[2017.08.13-09.56.39:739][293]LogFbx: 		[Node Attribute Child 1] Vol_Target (Type Mesh).
+[2017.08.13-09.56.39:739][293]LogFbx: Dumping Node END [Vol_Target]
+[2017.08.13-09.56.39:739][293]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node Mesh 1 : Not all the deformers are stored in this BindPose
+[2017.08.13-09.56.39:739][293]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node Mesh 2 : Not all the deformers are stored in this BindPose
+[2017.08.13-09.56.39:739][293]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node Vol_Target : Not all the deformers are stored in this BindPose
+[2017.08.13-09.56.39:739][293]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.08.13-09.56.39:740][293]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Mesh 1
+[2017.08.13-09.56.39:740][293]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.08.13-09.56.39:740][293]LogLinker: '/Game/Standard_3' 파일을 찾을 수 없습니다.
+[2017.08.13-09.56.39:740][293]LogLinker: '/Game/Standard_3' 파일을 찾을 수 없습니다.
+[2017.08.13-09.56.39:740][293]LogMaterial:Warning: Material /Game/Standard_3.Standard_3 needed to have new flag set bUsedWithSkeletalMesh !
+[2017.08.13-09.56.39:742][293]LogMaterial: Missing cached shader map for material Standard_3, compiling. 
+[2017.08.13-09.56.39:769][293]LogMaterial: Missing cached shader map for material Standard_3, compiling. 
+[2017.08.13-09.56.39:797][293]LogFbx:Warning: Bones digested - 38  Depth of hierarchy - 10
+[2017.08.13-09.56.39:843][293]LogSkeletalMesh: Section 0: 2078 vertices, 28 active bones
+[2017.08.13-09.56.39:845][293]LogSkeletalMesh: Section 0: Material=0, 2479 triangles
+[2017.08.13-09.56.39:845][293]LogLinker: '/Game/Hydralisk_Skeleton' 파일을 찾을 수 없습니다.
+[2017.08.13-09.56.39:846][293]LogLinker: '/Game/Hydralisk_Skeleton' 파일을 찾을 수 없습니다.
+[2017.08.13-09.56.39:849][293]LogLinker: '/Game/Hydralisk_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.08.13-09.56.39:849][293]LogLinker: '/Game/Hydralisk_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.08.13-09.56.39:855][293]LogFbx: =================================================
+[2017.08.13-09.56.39:855][293]LogFbx: Dumping Node START [Mesh 1] 
+[2017.08.13-09.56.39:855][293]LogFbx: 	Total Deformer Count 1338399160.
+[2017.08.13-09.56.39:855][293]LogFbx: 		[Node 1] Skin Mesh 1 (Type Skin).
+[2017.08.13-09.56.39:855][293]LogFbx: =================================================
+[2017.08.13-09.56.39:855][293]LogFbx: 	Attribute (Mesh 1) Type (4).
+[2017.08.13-09.56.39:855][293]LogFbx: 		[Node Attribute Child 1] Mesh 1 (Type Mesh).
+[2017.08.13-09.56.39:855][293]LogFbx: Dumping Node END [Mesh 1]
+[2017.08.13-09.56.39:855][293]LogFbx: =================================================
+[2017.08.13-09.56.39:855][293]LogFbx: Dumping Node START [Mesh 2] 
+[2017.08.13-09.56.39:855][293]LogFbx: 	Total Deformer Count 1338399160.
+[2017.08.13-09.56.39:855][293]LogFbx: 		[Node 1] Skin Mesh 2 (Type Skin).
+[2017.08.13-09.56.39:855][293]LogFbx: =================================================
+[2017.08.13-09.56.39:855][293]LogFbx: 	Attribute (Mesh 2) Type (4).
+[2017.08.13-09.56.39:855][293]LogFbx: 		[Node Attribute Child 1] Mesh 2 (Type Mesh).
+[2017.08.13-09.56.39:855][293]LogFbx: Dumping Node END [Mesh 2]
+[2017.08.13-09.56.39:856][293]LogFbx: =================================================
+[2017.08.13-09.56.39:856][293]LogFbx: Dumping Node START [Vol_Target] 
+[2017.08.13-09.56.39:856][293]LogFbx: 	Total Deformer Count 1337440384.
+[2017.08.13-09.56.39:856][293]LogFbx: 	Attribute (Vol_Target) Type (4).
+[2017.08.13-09.56.39:856][293]LogFbx: 		[Node Attribute Child 1] Vol_Target (Type Mesh).
+[2017.08.13-09.56.39:856][293]LogFbx: Dumping Node END [Vol_Target]
+[2017.08.13-09.56.39:856][293]LogFbx: =================================================
+[2017.08.13-09.56.39:856][293]LogFbx: Dumping Node START [Mesh 1] 
+[2017.08.13-09.56.39:856][293]LogFbx: 	Total Deformer Count 1338399048.
+[2017.08.13-09.56.39:856][293]LogFbx: 		[Node 1] Skin Mesh 1 (Type Skin).
+[2017.08.13-09.56.39:856][293]LogFbx: =================================================
+[2017.08.13-09.56.39:856][293]LogFbx: 	Attribute (Mesh 1) Type (4).
+[2017.08.13-09.56.39:856][293]LogFbx: 		[Node Attribute Child 1] Mesh 1 (Type Mesh).
+[2017.08.13-09.56.39:856][293]LogFbx: Dumping Node END [Mesh 1]
+[2017.08.13-09.56.39:856][293]LogFbx: =================================================
+[2017.08.13-09.56.39:856][293]LogFbx: Dumping Node START [Mesh 2] 
+[2017.08.13-09.56.39:856][293]LogFbx: 	Total Deformer Count 1338399048.
+[2017.08.13-09.56.39:856][293]LogFbx: 		[Node 1] Skin Mesh 2 (Type Skin).
+[2017.08.13-09.56.39:856][293]LogFbx: =================================================
+[2017.08.13-09.56.39:856][293]LogFbx: 	Attribute (Mesh 2) Type (4).
+[2017.08.13-09.56.39:856][293]LogFbx: 		[Node Attribute Child 1] Mesh 2 (Type Mesh).
+[2017.08.13-09.56.39:856][293]LogFbx: Dumping Node END [Mesh 2]
+[2017.08.13-09.56.39:856][293]LogFbx: =================================================
+[2017.08.13-09.56.39:856][293]LogFbx: Dumping Node START [Vol_Target] 
+[2017.08.13-09.56.39:856][293]LogFbx: 	Total Deformer Count 1337440384.
+[2017.08.13-09.56.39:856][293]LogFbx: 	Attribute (Vol_Target) Type (4).
+[2017.08.13-09.56.39:856][293]LogFbx: 		[Node Attribute Child 1] Vol_Target (Type Mesh).
+[2017.08.13-09.56.39:856][293]LogFbx: Dumping Node END [Vol_Target]
+[2017.08.13-09.56.39:856][293]LogFbx: =================================================
+[2017.08.13-09.56.39:856][293]LogFbx: Dumping Node START [Vol_Target] 
+[2017.08.13-09.56.39:856][293]LogFbx: 	Total Deformer Count 1337440384.
+[2017.08.13-09.56.39:856][293]LogFbx: 	Attribute (Vol_Target) Type (4).
+[2017.08.13-09.56.39:856][293]LogFbx: 		[Node Attribute Child 1] Vol_Target (Type Mesh).
+[2017.08.13-09.56.39:856][293]LogFbx: Dumping Node END [Vol_Target]
+[2017.08.13-09.56.39:856][293]LogFbx: =================================================
+[2017.08.13-09.56.39:856][293]LogFbx: Dumping Node START [Vol_Target] 
+[2017.08.13-09.56.39:856][293]LogFbx: 	Total Deformer Count 1337440384.
+[2017.08.13-09.56.39:856][293]LogFbx: 	Attribute (Vol_Target) Type (4).
+[2017.08.13-09.56.39:856][293]LogFbx: 		[Node Attribute Child 1] Vol_Target (Type Mesh).
+[2017.08.13-09.56.39:856][293]LogFbx: Dumping Node END [Vol_Target]
+[2017.08.13-09.56.39:856][293]LogFbx: =================================================
+[2017.08.13-09.56.39:856][293]LogFbx: Dumping Node START [Vol_Target] 
+[2017.08.13-09.56.39:856][293]LogFbx: 	Total Deformer Count 1337440256.
+[2017.08.13-09.56.39:856][293]LogFbx: 	Attribute (Vol_Target) Type (4).
+[2017.08.13-09.56.39:856][293]LogFbx: 		[Node Attribute Child 1] Vol_Target (Type Mesh).
+[2017.08.13-09.56.39:856][293]LogFbx: Dumping Node END [Vol_Target]
+[2017.08.13-09.56.39:856][293]LogFbx: =================================================
+[2017.08.13-09.56.39:856][293]LogFbx: Dumping Node START [Vol_Target] 
+[2017.08.13-09.56.39:856][293]LogFbx: 	Total Deformer Count 1337440320.
+[2017.08.13-09.56.39:856][293]LogFbx: 	Attribute (Vol_Target) Type (4).
+[2017.08.13-09.56.39:856][293]LogFbx: 		[Node Attribute Child 1] Vol_Target (Type Mesh).
+[2017.08.13-09.56.39:856][293]LogFbx: Dumping Node END [Vol_Target]
+[2017.08.13-09.56.39:856][293]LogFbx: =================================================
+[2017.08.13-09.56.39:856][293]LogFbx: Dumping Node START [Vol_Target] 
+[2017.08.13-09.56.39:856][293]LogFbx: 	Total Deformer Count 1337441216.
+[2017.08.13-09.56.39:856][293]LogFbx: 	Attribute (Vol_Target) Type (4).
+[2017.08.13-09.56.39:856][293]LogFbx: 		[Node Attribute Child 1] Vol_Target (Type Mesh).
+[2017.08.13-09.56.39:856][293]LogFbx: Dumping Node END [Vol_Target]
+[2017.08.13-09.56.39:856][293]LogFbx: =================================================
+[2017.08.13-09.56.39:856][293]LogFbx: Dumping Node START [Vol_Target] 
+[2017.08.13-09.56.39:856][293]LogFbx: 	Total Deformer Count 1337441216.
+[2017.08.13-09.56.39:856][293]LogFbx: 	Attribute (Vol_Target) Type (4).
+[2017.08.13-09.56.39:856][293]LogFbx: 		[Node Attribute Child 1] Vol_Target (Type Mesh).
+[2017.08.13-09.56.39:856][293]LogFbx: Dumping Node END [Vol_Target]
+[2017.08.13-09.56.39:856][293]LogFbx: =================================================
+[2017.08.13-09.56.39:856][293]LogFbx: Dumping Node START [Vol_Target] 
+[2017.08.13-09.56.39:856][293]LogFbx: 	Total Deformer Count 1337441216.
+[2017.08.13-09.56.39:856][293]LogFbx: 	Attribute (Vol_Target) Type (4).
+[2017.08.13-09.56.39:856][293]LogFbx: 		[Node Attribute Child 1] Vol_Target (Type Mesh).
+[2017.08.13-09.56.39:856][293]LogFbx: Dumping Node END [Vol_Target]
+[2017.08.13-09.56.39:856][293]LogFbx: =================================================
+[2017.08.13-09.56.39:856][293]LogFbx: Dumping Node START [Vol_Target] 
+[2017.08.13-09.56.39:856][293]LogFbx: 	Total Deformer Count 1337441216.
+[2017.08.13-09.56.39:856][293]LogFbx: 	Attribute (Vol_Target) Type (4).
+[2017.08.13-09.56.39:857][293]LogFbx: 		[Node Attribute Child 1] Vol_Target (Type Mesh).
+[2017.08.13-09.56.39:857][293]LogFbx: Dumping Node END [Vol_Target]
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(0) Root
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(1) Tail01
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(2) Tail02
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(3) Tail03
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(4) Tail04
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(5) Tail05
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(6) Tail06
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(7) TailTIP
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(8) Dummy01
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(9) SpineUp01
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(10) SpineUp02
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(11) SpineUp03
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(12) Neck01
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(13) Neck02
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(14) Head
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(15) Jaw
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(16) Unit_Zerg_Hydralisk_Jaw_03
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(17) Karapis_Bone02
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(18) Karapis_Bone01
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(19) Unit_Zerg_Hydralisk_Crest
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(20) Spikes
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(21) Ref_Head
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(22) HitTestFuzzy01
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(23) Ref_Weapon Right
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(24) Ref_Weapon Left
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(25) Ref_Weapon
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(26) Vol_Target_BoneRef
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(27) Vol_Target
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(28) ShoulderRt
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(29) ArmRT
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(30) ForeArmRt
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(31) HandRt
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(32) HitTestFuzzy02
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(33) ShoulderLft
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(34) ArmLft
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(35) ForeArmLft
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(36) HandLft
+[2017.08.13-09.56.39:857][293]LogFbx: SortedLinks :(37) HitTestFuzzy03
+[2017.08.13-09.56.39:865][293]LogFbx: Parsing AnimStack Take 001
+[2017.08.13-09.56.39:872][293]LogLinker: '/Game/Hydralisk_Anim' 파일을 찾을 수 없습니다.
+[2017.08.13-09.56.39:872][293]LogLinker: '/Game/Hydralisk_Anim' 파일을 찾을 수 없습니다.
+[2017.08.13-09.56.40:532][293]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.13-09.56.48:330][293]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Hydralisk_Anim.Hydralisk_Anim
+[2017.08.13-09.56.48:453][293]FBXImport:Warning: 경고 바인드 포즈에서 빠진 본은 다음과 같습니다:
+Unit_Zerg_Hydralisk_Jaw_03  
+Ref_Head  
+HitTestFuzzy01  
+Ref_Weapon Right  
+Ref_Weapon Left  
+Ref_Weapon  
+Vol_Target_BoneRef  
+Vol_Target  
+HitTestFuzzy02  
+HitTestFuzzy03  
+
+버텍스 웨이팅되지 않은 본에 대해 일어날 수 있습니다. 임포트 이후 오리엔테이션이 제대로 되어 있지 않은 경우,
+"Use T0 as ref pose" 옵션을 사용하거나, 바인드 포즈에 추가한 다음 스켈레탈 메시를 다시 임포트해 보세요. 
+[2017.08.13-09.56.48:453][293]FBXImport:Warning: 경고 'Vol_Target' 메시에 UV 세트가 없습니다. 기본 세트를 만듭니다. 
+[2017.08.13-09.57.00:868][747]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2017.08.13-09.57.01:007][747]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.13-09.57.01:033][747]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.08.13-09.57.01:516][747]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0018 seconds. Added 1 classes and 0 folders.
+[2017.08.13-09.57.01:523][747]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.08.13-10.05.36:000][444]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.13-10.05.44:997][511]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.008
+[2017.08.13-10.05.44:998][511]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MercCommander] ([1] browsable assets)...
+[2017.08.13-10.05.44:998][511]OBJ SavePackage: Finished generating thumbnails for package [/Game/MercCommander]
+[2017.08.13-10.05.44:998][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MercCommander" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/MercCommander_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.08.13-10.05.45:005][511]LogSavePackage: Save=4.27ms
+[2017.08.13-10.05.45:005][511]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/MercCommander_Auto192102FF844DE34EA8A7CD49BB3E57C3D.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/MercCommander_Auto1.uasset'
+[2017.08.13-10.05.45:006][511]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/MercCommander_Auto1.uasset
+[2017.08.13-10.05.45:006][511]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Standard_7] ([1] browsable assets)...
+[2017.08.13-10.05.45:017][511]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Standard_7.Standard_7]
+[2017.08.13-10.05.45:017][511]OBJ SavePackage: Finished generating thumbnails for package [/Game/Standard_7]
+[2017.08.13-10.05.45:017][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Standard_7" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Standard_7_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.08.13-10.05.45:031][511]LogSavePackage: Save=11.81ms
+[2017.08.13-10.05.45:031][511]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Standard_7_Auto107EB9F9E4F60B406D98A178FDE492AB7.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Standard_7_Auto1.uasset'
+[2017.08.13-10.05.45:031][511]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Standard_7_Auto1.uasset
+[2017.08.13-10.05.45:032][511]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Hydralisk] ([1] browsable assets)...
+[2017.08.13-10.05.45:041][511]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Hydralisk.Hydralisk]
+[2017.08.13-10.05.45:041][511]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hydralisk]
+[2017.08.13-10.05.45:041][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hydralisk" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Hydralisk_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.08.13-10.05.45:061][511]LogSavePackage: Save=17.97ms
+[2017.08.13-10.05.45:061][511]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Hydralisk_Auto1AF59043B4DD7E2B752E78884F8EFFF26.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Hydralisk_Auto1.uasset'
+[2017.08.13-10.05.45:064][511]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Hydralisk_Auto1.uasset
+[2017.08.13-10.05.45:064][511]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Standard_3] ([1] browsable assets)...
+[2017.08.13-10.05.45:074][511]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Standard_3.Standard_3]
+[2017.08.13-10.05.45:074][511]OBJ SavePackage: Finished generating thumbnails for package [/Game/Standard_3]
+[2017.08.13-10.05.45:074][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Standard_3" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Standard_3_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.08.13-10.05.45:088][511]LogSavePackage: Save=12.48ms
+[2017.08.13-10.05.45:088][511]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Standard_3_Auto1900FBDCA455BA918A50479BF06BA627C.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Standard_3_Auto1.uasset'
+[2017.08.13-10.05.45:089][511]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Standard_3_Auto1.uasset
+[2017.08.13-10.05.45:090][511]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Hydralisk_Skeleton] ([1] browsable assets)...
+[2017.08.13-10.05.45:090][511]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hydralisk_Skeleton]
+[2017.08.13-10.05.45:090][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hydralisk_Skeleton" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Hydralisk_Skeleton_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.08.13-10.05.45:096][511]LogSavePackage: Save=4.47ms
+[2017.08.13-10.05.45:096][511]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Hydralisk_Skeleton_Auto12604C2F944AB59755DFD6588F85F1F38.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Hydralisk_Skeleton_Auto1.uasset'
+[2017.08.13-10.05.45:097][511]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Hydralisk_Skeleton_Auto1.uasset
+[2017.08.13-10.05.45:098][511]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Hydralisk_PhysicsAsset] ([1] browsable assets)...
+[2017.08.13-10.05.45:098][511]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hydralisk_PhysicsAsset]
+[2017.08.13-10.05.45:116][511]LogSavePackage: Save=16.64ms
+[2017.08.13-10.05.45:116][511]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Hydralisk_PhysicsAsset_Auto1ADF21BDD4326A8FC86D319884415C9D3.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Hydralisk_PhysicsAsset_Auto1.uasset'
+[2017.08.13-10.05.45:117][511]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Hydralisk_PhysicsAsset_Auto1.uasset
+[2017.08.13-10.05.45:117][511]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Hydralisk_Anim] ([1] browsable assets)...
+[2017.08.13-10.05.45:127][511]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Hydralisk_Anim.Hydralisk_Anim]
+[2017.08.13-10.05.45:127][511]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hydralisk_Anim]
+[2017.08.13-10.05.45:127][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hydralisk_Anim" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Hydralisk_Anim_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.08.13-10.05.45:159][511]LogSavePackage: Save=30.66ms
+[2017.08.13-10.05.45:159][511]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Hydralisk_Anim_Auto1B683CC654C7B2A92118DACA023790B92.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Hydralisk_Anim_Auto1.uasset'
+[2017.08.13-10.05.45:160][511]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Autosaves/Game/Hydralisk_Anim_Auto1.uasset
+[2017.08.13-10.05.45:160][511]LogFileHelpers: Auto-saving content packages took 0.163
+[2017.08.13-10.12.58:723][460]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2017.08.13-10.12.58:754][460]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2017.08.13-10.12.59:099][460]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.13-10.13.06:337][288]LogMaterial: Missing cached shader map for material Standard_3, compiling. 
+[2017.08.13-10.13.06:419][288]LogMaterial: Missing cached shader map for material Standard_3, compiling. 
+[2017.08.13-10.13.06:467][288]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.13-10.13.06:481][288]LogSlate: Took 0.005340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.13-10.13.08:765][503]MaterialEditorStats: 정보 Base pass shader: 80 instructions
+[2017.08.13-10.13.08:765][503]MaterialEditorStats: 정보 Vertex shader: 29 instructions
+[2017.08.13-10.13.08:765][503]MaterialEditorStats: 정보 Texture samplers: 1/16
+[2017.08.13-10.14.20:150][ 20]LogMaterial: Missing cached shader map for material Standard_3, compiling. 
+[2017.08.13-10.14.20:226][ 21]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.08.13-10.14.22:469][253]MaterialEditorStats: 정보 Base pass shader: 80 instructions
+[2017.08.13-10.14.22:469][253]MaterialEditorStats: 정보 Vertex shader: 29 instructions
+[2017.08.13-10.14.22:469][253]MaterialEditorStats: 정보 Texture samplers: 1/16
+[2017.08.13-10.14.26:454][721]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.13-10.14.26:458][721]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.08.13-10.14.26:464][721]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.13-10.14.26:468][721]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.08.13-10.14.26:502][721]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_0, compiling. 
+[2017.08.13-10.14.26:506][721]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_0, compiling. 
+[2017.08.13-10.14.26:511][721]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2017.08.13-10.14.52:999][863]LogMaterial: Missing cached shader map for material Standard_3, compiling. 
+[2017.08.13-10.14.55:274][103]MaterialEditorStats: 정보 Base pass shader: 80 instructions
+[2017.08.13-10.14.55:275][103]MaterialEditorStats: 정보 Vertex shader: 29 instructions
+[2017.08.13-10.14.55:275][103]MaterialEditorStats: 정보 Texture samplers: 1/16
+[2017.08.13-10.15.18:464][876]LogMaterial: Missing cached shader map for material Standard_3, compiling. 
+[2017.08.13-10.15.18:484][876]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_0, compiling. 
+[2017.08.13-10.15.18:487][876]LogMaterial: Missing cached shader map for material Standard_3, compiling. 
+[2017.08.13-10.15.18:556][876]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.13-10.15.18:561][876]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_0, compiling. 
+[2017.08.13-10.15.20:820][104]MaterialEditorStats: 정보 Base pass shader: 80 instructions
+[2017.08.13-10.15.20:820][104]MaterialEditorStats: 정보 Vertex shader: 29 instructions
+[2017.08.13-10.15.20:820][104]MaterialEditorStats: 정보 Texture samplers: 1/16
+[2017.08.13-10.15.43:832][163]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/user/Desktop/sc2/texture/hydralisk_diffuse.dds)
+[2017.08.13-10.15.43:834][163]Error: DDS uses an unsupported format.
+[2017.08.13-10.15.43:834][163]Error: Texture import failed
+[2017.08.13-10.15.46:029][163]LogAssetTools:Warning: '../../../../../../Users/user/Desktop/sc2/texture/hydralisk_diffuse.dds' 임포트에 실패했습니다. '/Game/hydralisk_diffuse' 애셋 생성에 실패했습니다. 
+자세한 내용은 출력 로그를 참고하세요.
+[2017.08.13-10.15.46:033][163]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/user/Desktop/sc2/texture/hydralisk_normal.dds)
+[2017.08.13-10.15.46:035][163]Error: DDS uses an unsupported format.
+[2017.08.13-10.15.46:035][163]Error: Texture import failed
+[2017.08.13-10.15.47:205][163]LogAssetTools:Warning: '../../../../../../Users/user/Desktop/sc2/texture/hydralisk_normal.dds' 임포트에 실패했습니다. '/Game/hydralisk_normal' 애셋 생성에 실패했습니다. 
+자세한 내용은 출력 로그를 참고하세요.
+[2017.08.13-10.15.47:207][163]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/user/Desktop/sc2/texture/hydralisk_specular.dds)
+[2017.08.13-10.15.47:208][163]Error: DDS uses an unsupported format.
+[2017.08.13-10.15.47:208][163]Error: Texture import failed
+[2017.08.13-10.15.47:774][163]LogAssetTools:Warning: '../../../../../../Users/user/Desktop/sc2/texture/hydralisk_specular.dds' 임포트에 실패했습니다. '/Game/hydralisk_specular' 애셋 생성에 실패했습니다. 
+자세한 내용은 출력 로그를 참고하세요.
+[2017.08.13-10.18.16:806][258]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/user/Desktop/sc2/texture/hydralisk_diffuse.dds)
+[2017.08.13-10.18.16:808][258]Error: DDS uses an unsupported format.
+[2017.08.13-10.18.16:809][258]Error: Texture import failed
+[2017.08.13-10.18.22:824][258]LogAssetTools:Warning: '../../../../../../Users/user/Desktop/sc2/texture/hydralisk_diffuse.dds' 임포트에 실패했습니다. '/Game/hydralisk_diffuse' 애셋 생성에 실패했습니다. 
+자세한 내용은 출력 로그를 참고하세요.
+[2017.08.13-10.21.28:617][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hydralisk" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Hydralisk.uasset" SILENT=true
+[2017.08.13-10.21.28:635][240]LogSavePackage: Save=15.64ms
+[2017.08.13-10.21.28:635][240]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Hydralisk8702F01E4EE5C52FB373A8B2F20FD2FE.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Hydralisk.uasset'
+[2017.08.13-10.21.28:644][240]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Hydralisk.uasset
+[2017.08.13-10.21.28:665][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hydralisk_Anim" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Hydralisk_Anim.uasset" SILENT=true
+[2017.08.13-10.21.28:702][240]LogSavePackage: Save=34.44ms
+[2017.08.13-10.21.28:702][240]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Hydralisk_Anim236D93854EAEC46C8C5F9FA1F50D3214.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Hydralisk_Anim.uasset'
+[2017.08.13-10.21.28:709][240]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Hydralisk_Anim.uasset
+[2017.08.13-10.21.28:713][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hydralisk_PhysicsAsset" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Hydralisk_PhysicsAsset.uasset" SILENT=true
+[2017.08.13-10.21.28:732][240]LogSavePackage: Save=16.34ms
+[2017.08.13-10.21.28:732][240]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Hydralisk_PhysicsAsset74C049D54EB2AD84B3F3F7B3D9BBD6BE.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Hydralisk_PhysicsAsset.uasset'
+[2017.08.13-10.21.28:738][240]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Hydralisk_PhysicsAsset.uasset
+[2017.08.13-10.21.28:743][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hydralisk_Skeleton" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Hydralisk_Skeleton.uasset" SILENT=true
+[2017.08.13-10.21.28:749][240]LogSavePackage: Save=4.29ms
+[2017.08.13-10.21.28:749][240]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Hydralisk_Skeleton359DE1D947DAE042E56B249C4D2B19B5.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Hydralisk_Skeleton.uasset'
+[2017.08.13-10.21.28:754][240]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Hydralisk_Skeleton.uasset
+[2017.08.13-10.21.28:757][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MercCommander" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Content/MercCommander.uasset" SILENT=true
+[2017.08.13-10.21.28:762][240]LogSavePackage: Save=3.35ms
+[2017.08.13-10.21.28:762][240]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/MercCommanderB4ED8E394B1C7638AD13FDB8CF3AD3C1.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Content/MercCommander.uasset'
+[2017.08.13-10.21.28:767][240]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Content/MercCommander.uasset
+[2017.08.13-10.21.28:787][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Standard_3" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Standard_3.uasset" SILENT=true
+[2017.08.13-10.21.28:801][240]LogSavePackage: Save=11.37ms
+[2017.08.13-10.21.28:801][240]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Standard_3F4A82F7A4B3BDF6253AF80AEB7187071.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Standard_3.uasset'
+[2017.08.13-10.21.28:807][240]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Standard_3.uasset
+[2017.08.13-10.21.28:824][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Standard_7" FILE="../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Standard_7.uasset" SILENT=true
+[2017.08.13-10.21.28:838][240]LogSavePackage: Save=11.90ms
+[2017.08.13-10.21.28:838][240]LogSavePackage: Moving '../../../../../../Users/user/Documents/test/trunk/Project_F/Saved/Standard_7012F679745B8ED80611775B050182E9B.tmp' to '../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Standard_7.uasset'
+[2017.08.13-10.21.28:843][240]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/test/trunk/Project_F/Content/Standard_7.uasset
+[2017.08.13-10.21.29:117][240]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.08.13-10.21.29:280][241]Cmd: QUIT_EDITOR
+[2017.08.13-10.21.29:326][241]LogExit: Preparing to exit.
+[2017.08.13-10.21.29:863][241]LogDirectoryWatcher: A directory notification for 'C:/Users/user/Documents/test/trunk/Project_F/Content/' was aborted.
+[2017.08.13-10.21.29:881][241]LogExit: Editor shut down
+[2017.08.13-10.21.29:891][241]LogExit: Transaction tracking system shut down
+[2017.08.13-10.21.29:981][241]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.13-10.21.29:981][241]LogExit: Object subsystem successfully closed.
+[2017.08.13-10.21.30:001][241]LogD3D11RHI: Shutdown
+[2017.08.13-10.21.30:001][241]LogD3D11RHI: CleanupD3DDevice
+[2017.08.13-10.21.30:081][241]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.13-10.21.30:100][241]LogModuleManager: Shutting down and abandoning module MaterialEditor (536)
+[2017.08.13-10.21.30:100][241]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (534)
+[2017.08.13-10.21.30:100][241]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (532)
+[2017.08.13-10.21.30:100][241]LogModuleManager: Shutting down and abandoning module SkeletonEditor (530)
+[2017.08.13-10.21.30:100][241]LogModuleManager: Shutting down and abandoning module AnimationEditor (528)
+[2017.08.13-10.21.30:100][241]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
+[2017.08.13-10.21.30:100][241]LogModuleManager: Shutting down and abandoning module CrashTracker (524)
+[2017.08.13-10.21.30:100][241]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
+[2017.08.13-10.21.30:100][241]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
+[2017.08.13-10.21.30:100][241]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.08.13-10.21.30:101][241]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
+[2017.08.13-10.21.30:101][241]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
+[2017.08.13-10.21.30:101][241]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
+[2017.08.13-10.21.30:101][241]LogDirectoryWatcher: A directory notification for 'C:/Users/user/Documents/test/trunk/Project_F/Content/Collections/' was aborted.
+[2017.08.13-10.21.30:101][241]LogDirectoryWatcher: A directory notification for 'C:/Users/user/Documents/test/trunk/Project_F/Content/Developers/user/Collections/' was aborted.
+[2017.08.13-10.21.30:101][241]LogDirectoryWatcher: A directory notification for 'C:/Users/user/Documents/test/trunk/Project_F/Saved/Collections/' was aborted.
+[2017.08.13-10.21.30:101][241]LogModuleManager: Shutting down and abandoning module StatsViewer (512)
+[2017.08.13-10.21.30:101][241]LogModuleManager: Shutting down and abandoning module FoliageEdit (510)
+[2017.08.13-10.21.30:101][241]LogModuleManager: Shutting down and abandoning module LandscapeEditor (508)
+[2017.08.13-10.21.30:101][241]LogModuleManager: Shutting down and abandoning module MeshPaintMode (506)
+[2017.08.13-10.21.30:101][241]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (504)
+[2017.08.13-10.21.30:101][241]LogModuleManager: Shutting down and abandoning module ActorPickerMode (502)
+[2017.08.13-10.21.30:101][241]LogModuleManager: Shutting down and abandoning module GeometryMode (500)
+[2017.08.13-10.21.30:101][241]LogModuleManager: Shutting down and abandoning module TextureAlignMode (498)
+[2017.08.13-10.21.30:101][241]LogModuleManager: Shutting down and abandoning module BspMode (496)
+[2017.08.13-10.21.30:101][241]LogModuleManager: Shutting down and abandoning module HardwareSurvey (494)
+[2017.08.13-10.21.30:101][241]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (492)
+[2017.08.13-10.21.30:102][241]LogModuleManager: Shutting down and abandoning module AutomationWorker (490)
+[2017.08.13-10.21.30:102][241]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (488)
+[2017.08.13-10.21.30:102][241]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (486)
+[2017.08.13-10.21.30:102][241]LogModuleManager: Shutting down and abandoning module PlacementMode (485)
+[2017.08.13-10.21.30:102][241]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (482)
+[2017.08.13-10.21.30:102][241]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (480)
+[2017.08.13-10.21.30:102][241]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (478)
+[2017.08.13-10.21.30:102][241]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (476)
+[2017.08.13-10.21.30:102][241]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (474)
+[2017.08.13-10.21.30:102][241]LogModuleManager: Shutting down and abandoning module Media (473)
+[2017.08.13-10.21.30:102][241]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (470)
+[2017.08.13-10.21.30:102][241]LogModuleManager: Shutting down and abandoning module CharacterAI (468)
+[2017.08.13-10.21.30:102][241]LogModuleManager: Shutting down and abandoning module AudioCapture (466)
+[2017.08.13-10.21.30:102][241]LogModuleManager: Shutting down and abandoning module SequenceRecorder (465)
+[2017.08.13-10.21.30:102][241]LogModuleManager: Shutting down and abandoning module SmartSnapping (462)
+[2017.08.13-10.21.30:102][241]LogModuleManager: Shutting down and abandoning module SessionServices (460)
+[2017.08.13-10.21.30:102][241]LogModuleManager: Shutting down and abandoning module ViewportSnapping (458)
+[2017.08.13-10.21.30:102][241]LogModuleManager: Shutting down and abandoning module ViewportInteraction (456)
+[2017.08.13-10.21.30:102][241]LogModuleManager: Shutting down and abandoning module ClothPainter (454)
+[2017.08.13-10.21.30:102][241]LogModuleManager: Shutting down and abandoning module LogVisualizer (452)
+[2017.08.13-10.21.30:102][241]LogModuleManager: Shutting down and abandoning module IntroTutorials (450)
+[2017.08.13-10.21.30:102][241]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (449)
+[2017.08.13-10.21.30:102][241]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (446)
+[2017.08.13-10.21.30:102][241]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (444)
+[2017.08.13-10.21.30:102][241]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (442)
+[2017.08.13-10.21.30:102][241]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (440)
+[2017.08.13-10.21.30:102][241]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (439)
+[2017.08.13-10.21.30:819][241]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (436)
+[2017.08.13-10.21.30:819][241]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (434)
+[2017.08.13-10.21.30:819][241]LogModuleManager: Shutting down and abandoning module InputBindingEditor (432)
+[2017.08.13-10.21.30:819][241]LogModuleManager: Shutting down and abandoning module MergeActors (430)
+[2017.08.13-10.21.30:819][241]LogModuleManager: Shutting down and abandoning module SizeMap (428)
+[2017.08.13-10.21.30:819][241]LogModuleManager: Shutting down and abandoning module TreeMap (426)
+[2017.08.13-10.21.30:819][241]LogModuleManager: Shutting down and abandoning module ReferenceViewer (424)
+[2017.08.13-10.21.30:819][241]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (422)
+[2017.08.13-10.21.30:819][241]LogModuleManager: Shutting down and abandoning module LocalizationService (421)
+[2017.08.13-10.21.30:819][241]LogModuleManager: Shutting down and abandoning module HardwareTargeting (418)
+[2017.08.13-10.21.30:819][241]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (416)
+[2017.08.13-10.21.30:819][241]LogModuleManager: Shutting down and abandoning module UndoHistory (414)
+[2017.08.13-10.21.30:819][241]LogModuleManager: Shutting down and abandoning module UserFeedback (412)
+[2017.08.13-10.21.30:819][241]LogModuleManager: Shutting down and abandoning module XmlParser (410)
+[2017.08.13-10.21.30:819][241]LogModuleManager: Shutting down and abandoning module Blutility (408)
+[2017.08.13-10.21.30:819][241]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (406)
+[2017.08.13-10.21.30:819][241]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (405)
+[2017.08.13-10.21.30:819][241]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (402)
+[2017.08.13-10.21.30:819][241]LogModuleManager: Shutting down and abandoning module SettingsEditor (400)
+[2017.08.13-10.21.30:819][241]LogModuleManager: Shutting down and abandoning module ProjectLauncher (398)
+[2017.08.13-10.21.30:819][241]LogModuleManager: Shutting down and abandoning module SessionFrontend (396)
+[2017.08.13-10.21.30:820][241]LogModuleManager: Shutting down and abandoning module ProfilerClient (394)
+[2017.08.13-10.21.30:820][241]LogModuleManager: Shutting down and abandoning module DeviceManager (392)
+[2017.08.13-10.21.30:820][241]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (391)
+[2017.08.13-10.21.30:875][241]LogModuleManager: Shutting down and abandoning module AutomationController (388)
+[2017.08.13-10.21.30:875][241]LogModuleManager: Shutting down and abandoning module AutomationWindow (386)
+[2017.08.13-10.21.30:875][241]LogModuleManager: Shutting down and abandoning module Layers (384)
+[2017.08.13-10.21.30:875][241]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (382)
+[2017.08.13-10.21.30:875][241]LogModuleManager: Shutting down and abandoning module DetailCustomizations (380)
+[2017.08.13-10.21.30:875][241]LogModuleManager: Shutting down and abandoning module PackagesDialog (378)
+[2017.08.13-10.21.30:875][241]LogModuleManager: Shutting down and abandoning module Persona (376)
+[2017.08.13-10.21.30:875][241]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (375)
+[2017.08.13-10.21.30:875][241]LogModuleManager: Shutting down and abandoning module AnimGraph (373)
+[2017.08.13-10.21.30:875][241]LogModuleManager: Shutting down and abandoning module Kismet (370)
+[2017.08.13-10.21.30:875][241]LogModuleManager: Shutting down and abandoning module ClassViewer (368)
+[2017.08.13-10.21.30:875][241]LogModuleManager: Shutting down and abandoning module Toolbox (366)
+[2017.08.13-10.21.30:875][241]LogModuleManager: Shutting down and abandoning module ModuleUI (364)
+[2017.08.13-10.21.30:875][241]LogModuleManager: Shutting down and abandoning module MovieSceneTools (362)
+[2017.08.13-10.21.30:875][241]LogModuleManager: Shutting down and abandoning module OutputLog (360)
+[2017.08.13-10.21.30:875][241]LogModuleManager: Shutting down and abandoning module GammaUI (358)
+[2017.08.13-10.21.30:875][241]LogModuleManager: Shutting down and abandoning module Documentation (356)
+[2017.08.13-10.21.30:875][241]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (354)
+[2017.08.13-10.21.30:875][241]LogModuleManager: Shutting down and abandoning module MovieScene (352)
+[2017.08.13-10.21.30:875][241]LogModuleManager: Shutting down and abandoning module Niagara (350)
+[2017.08.13-10.21.30:875][241]LogModuleManager: Shutting down and abandoning module NiagaraEditor (349)
+[2017.08.13-10.21.30:875][241]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (346)
+[2017.08.13-10.21.30:875][241]LogModuleManager: Shutting down and abandoning module AnalyticsET (344)
+[2017.08.13-10.21.30:875][241]LogModuleManager: Shutting down and abandoning module PortalServices (342)
+[2017.08.13-10.21.30:875][241]LogModuleManager: Shutting down and abandoning module PortalRpc (340)
+[2017.08.13-10.21.30:875][241]LogModuleManager: Shutting down and abandoning module MessagingRpc (338)
+[2017.08.13-10.21.30:875][241]LogModuleManager: Shutting down and abandoning module AIModule (336)
+[2017.08.13-10.21.30:875][241]LogModuleManager: Shutting down and abandoning module GameplayDebugger (335)
+[2017.08.13-10.21.30:875][241]LogModuleManager: Shutting down and abandoning module AITestSuite (333)
+[2017.08.13-10.21.30:875][241]LogModuleManager: Shutting down and abandoning module ProfilerService (330)
+[2017.08.13-10.21.30:961][241]LogModuleManager: Shutting down and abandoning module TaskGraph (328)
+[2017.08.13-10.21.30:961][241]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
+[2017.08.13-10.21.30:961][241]LogModuleManager: Shutting down and abandoning module SteamVR (324)
+[2017.08.13-10.21.30:961][241]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
+[2017.08.13-10.21.30:961][241]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
+[2017.08.13-10.21.30:961][241]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
+[2017.08.13-10.21.30:961][241]LogModuleManager: Shutting down and abandoning module OculusInput (316)
+[2017.08.13-10.21.30:961][241]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
+[2017.08.13-10.21.30:961][241]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
+[2017.08.13-10.21.30:961][241]LogModuleManager: Shutting down and abandoning module CableComponent (310)
+[2017.08.13-10.21.30:961][241]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2017.08.13-10.21.30:961][241]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2017.08.13-10.21.30:961][241]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
+[2017.08.13-10.21.30:961][241]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
+[2017.08.13-10.21.30:962][241]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
+[2017.08.13-10.21.30:962][241]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
+[2017.08.13-10.21.30:962][241]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
+[2017.08.13-10.21.30:962][241]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
+[2017.08.13-10.21.30:962][241]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
+[2017.08.13-10.21.30:962][241]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
+[2017.08.13-10.21.30:962][241]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
+[2017.08.13-10.21.30:962][241]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
+[2017.08.13-10.21.30:962][241]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
+[2017.08.13-10.21.30:962][241]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
+[2017.08.13-10.21.30:962][241]LogModuleManager: Shutting down and abandoning module DesktopPlatform (279)
+[2017.08.13-10.21.30:962][241]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
+[2017.08.13-10.21.30:962][241]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
+[2017.08.13-10.21.30:962][241]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
+[2017.08.13-10.21.30:962][241]LogModuleManager: Shutting down and abandoning module GitSourceControl (270)
+[2017.08.13-10.21.30:962][241]LogModuleManager: Shutting down and abandoning module SourceControl (269)
+[2017.08.13-10.21.30:962][241]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
+[2017.08.13-10.21.30:962][241]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (264)
+[2017.08.13-10.21.30:962][241]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (262)
+[2017.08.13-10.21.30:962][241]LogModuleManager: Shutting down and abandoning module Paper2DEditor (260)
+[2017.08.13-10.21.30:962][241]LogModuleManager: Shutting down and abandoning module MeshPaint (259)
+[2017.08.13-10.21.30:962][241]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
+[2017.08.13-10.21.30:962][241]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
+[2017.08.13-10.21.30:962][241]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2017.08.13-10.21.30:962][241]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2017.08.13-10.21.30:962][241]LogDirectoryWatcher: A directory notification for 'C:/Users/user/Documents/test/trunk/Project_F/Binaries/Win64' was aborted.
+[2017.08.13-10.21.30:963][241]LogModuleManager: Shutting down and abandoning module Project_F (248)
+[2017.08.13-10.21.30:963][241]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.08.13-10.21.30:963][241]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.08.13-10.21.30:963][241]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.08.13-10.21.30:963][241]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.08.13-10.21.30:963][241]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.08.13-10.21.30:963][241]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.08.13-10.21.31:063][241]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.08.13-10.21.31:163][241]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.08.13-10.21.31:163][241]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.08.13-10.21.31:163][241]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.08.13-10.21.31:163][241]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.08.13-10.21.31:163][241]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.08.13-10.21.31:163][241]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.08.13-10.21.31:163][241]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.08.13-10.21.31:163][241]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.08.13-10.21.31:163][241]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.08.13-10.21.31:163][241]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.08.13-10.21.31:163][241]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.08.13-10.21.31:163][241]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.08.13-10.21.31:163][241]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.08.13-10.21.31:163][241]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.08.13-10.21.31:164][241]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.08.13-10.21.31:164][241]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.08.13-10.21.31:164][241]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.08.13-10.21.31:164][241]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.08.13-10.21.31:164][241]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.08.13-10.21.31:164][241]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.08.13-10.21.31:164][241]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.08.13-10.21.31:164][241]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.08.13-10.21.31:164][241]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.08.13-10.21.31:164][241]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.08.13-10.21.31:164][241]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.08.13-10.21.31:164][241]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.08.13-10.21.31:164][241]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.08.13-10.21.31:164][241]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.08.13-10.21.31:164][241]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.08.13-10.21.31:166][241]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.08.13-10.21.31:166][241]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.08.13-10.21.31:166][241]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.08.13-10.21.31:166][241]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.08.13-10.21.31:166][241]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.08.13-10.21.31:166][241]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.08.13-10.21.31:254][241]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.13-10.21.31:254][241]LogDirectoryWatcher: A directory notification for '../../../../../../Users/user/Documents/test/trunk/Project_F/Content/' was aborted.
+[2017.08.13-10.21.31:254][241]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.13-10.21.31:254][241]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.08.13-10.21.31:257][241]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.08.13-10.21.31:257][241]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.08.13-10.21.31:257][241]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.08.13-10.21.31:257][241]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.08.13-10.21.31:257][241]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.08.13-10.21.31:257][241]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.08.13-10.21.31:257][241]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.08.13-10.21.31:257][241]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.08.13-10.21.31:257][241]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.13-10.21.31:311][241]LogDerivedDataCache: Shutdown
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.13-10.21.31:311][241]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.13-10.21.31:312][241]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.13-10.21.31:312][241]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.08.13-10.21.31:312][241]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.08.13-10.21.31:312][241]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.08.13-10.21.31:312][241]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.13-10.21.31:312][241]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.13-10.21.31:312][241]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.13-10.21.31:312][241]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.13-10.21.31:312][241]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.13-10.21.31:312][241]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.13-10.21.31:312][241]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.13-10.21.31:312][241]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B74573C4A-4874-C69D-CFF1-6E8F8410F347%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=49cd7e2e4248701ef0a9cda2152fb122%7C6258b944f305450dab7634ff4e7cf87d%7Ceda2b18e-34b5-4952-9665-a50559ff9dd5&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.13-10.21.31:321][241]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.13-10.21.31:321][241]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.08.13-10.21.31:322][241]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.08.13-10.21.31:322][241]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.08.13-10.21.31:322][241]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.13-10.21.31:322][241]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.13-10.21.31:322][241]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.13-10.21.31:322][241]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.13-10.21.31:322][241]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.13-10.21.31:324][241]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.13-10.21.31:324][241]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.13-10.21.31:324][241]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.13-10.21.31:324][241]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.13-10.21.31:324][241]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.13-10.21.31:324][241]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.13-10.21.31:324][241]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.13-10.21.31:324][241]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.13-10.21.31:324][241]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.13-10.21.31:324][241]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.13-10.21.31:325][241]LogExit: Exiting.
+[2017.08.13-10.21.31:336][241]Log file closed, 08/13/17 19:21:31
